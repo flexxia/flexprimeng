@@ -1,0 +1,40 @@
+
+<div class="primeng-ptable clear-both">
+  <p-table #dt [columns]="eachtabcontent.tabData.middle.thead" [value]="eachtabcontent.tabData.middle.tabledata" [paginator]="true" [rows]="10" [rowsPerPageOptions]="[10,20,30]" sortField="{{eachtabcontent.tabData.middle.tSortField}}" sortOrder="-1">
+    <ng-template pTemplate="caption" class="primengapp-table-border">
+      <div class="row primengapp-table-features-wrapper text-align-left">
+        <div class="col-sm-12 col-md-6 col-lg-6 primengapp-table-keyword-search">
+          <input type="text" class="input-search width-auto" pInputText size="30" placeholder="Search" (input)="dt.filterGlobal($event.target.value, 'contains')">
+        </div>
+        <!--
+        <div class="col-sm-12 col-md-6 col-lg-3 primengapp-table-colum-multiselect">
+          <p-multiSelect [options]="eachtabcontent.tabData.middle.tfields" [(ngModel)]="eachtabcontent.tabData.middle.thead" optionLabel="header"
+            selectedItemsLabel="{0} columns selected" [style]="{minWidth: '200px'}" defaultLabel="Choose Columns"></p-multiSelect>
+        </div>
+        -->
+        <div class="ui-helper-clearfix table-copy-excel-button col-sm-12 col-md-12 col-lg-offset-3 col-lg-3 lg-text-align-right">
+          <div class="primengapp-button-copy">
+            <button id="copy-button-{{eachtabcontent.tabData.tableId}}" type="button" pButton iconPos="left" label="COPY" (click)="copyMessage(eachtabcontent.tabData.middle.tabledata)"></button>
+          </div>
+          <div class="primengapp-button-excel">
+            <button type="button" pButton iconPos="left" label="EXCEL" (click)="dt.exportCSV()"></button>
+          </div>
+        </div>
+      </div>
+    </ng-template>
+    <ng-template class="primengapp-table-header-wrapper" pTemplate="header" let-columns>
+      <tr>
+        <th *ngFor="let col of eachtabcontent.tabData.middle.thead" [pSortableColumn]="col.field">
+          {{col.header}}
+          <p-sortIcon [field]="col.field" ariaLabel="Activate to sort" ariaLabelDesc="Activate to sort in descending order" ariaLabelAsc="Activate to sort in ascending order"></p-sortIcon>
+        </th>
+      </tr>
+    </ng-template>
+    <ng-template class="primengapp-table-data-wrapper" pTemplate="body" let-car let-columns="eachtabcontent.tabData.middle.thead">
+      <tr>
+        <td *ngFor="let col of eachtabcontent.tabData.middle.thead" [innerHTML]="car[col.field] | safeHtml">
+        </td>
+      </tr>
+    </ng-template>
+  </p-table>
+</div>
