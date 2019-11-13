@@ -1,0 +1,7 @@
+{
+    "name": "root/flexprimeng",
+    "description": "Drupal 8 library with composer",
+    "type": "drupal-custom-library",
+    "license": "GPL-2.0+",
+    "require": {}
+}
