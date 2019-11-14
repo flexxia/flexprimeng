@@ -1,7 +1,7 @@
 {
     "name": "flexxia/flexprimeng",
     "description": "Drupal 8 library with composer",
-    "type": "drupal-custom-library",
+    "type": "drupal-library",
     "require": {
         "composer/installers": "^1.0"
     },
