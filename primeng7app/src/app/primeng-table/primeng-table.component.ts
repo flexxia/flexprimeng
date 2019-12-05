@@ -10,7 +10,7 @@ import { CopyComponent } from '../copy.component';
 })
 export class PrimengTableComponent implements OnInit {
 
-	@Input('tableInputData') eachtabcontent: any;
+	@Input('tableInputData') primengDataGeneral: any;
 
   constructor() { }
 

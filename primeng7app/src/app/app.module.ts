@@ -39,6 +39,17 @@ import { NGFormComponent } from './ngform/ngform.component';
 import { EditPasswordComponent } from './edit-password/edit-password.component';
 import { SafeHtmlPipe } from './ngapp.pipe';
 
+import { RouterModule, Routes } from '@angular/router';
+import { CustomeHtmlComponent } from './custome-html/custome-html.component';
+import { NavButtonComponent } from './nav-button/nav-button.component';
+import { LoadSpinnerComponent } from './load-spinner/load-spinner.component';
+
+const appRoutes: Routes = [
+  { path: 'form', component: NGFormComponent },
+  { path: 'charts', component: PrimengChartjsComponent },
+  { path: 'table', component: PrimengTableComponent },
+];
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -47,7 +58,10 @@ import { SafeHtmlPipe } from './ngapp.pipe';
     HcpTemplateComponent,
     NGFormComponent,
     EditPasswordComponent,
-    SafeHtmlPipe
+    SafeHtmlPipe,
+    CustomeHtmlComponent,
+    NavButtonComponent,
+    LoadSpinnerComponent
   ],
   imports: [
     BrowserModule,

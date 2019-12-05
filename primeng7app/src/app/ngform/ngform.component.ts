@@ -58,10 +58,12 @@ export class NGFormComponent implements OnInit {
       this.formBasicInfo.resultSubmit[eachResult.field_name] = eachResult;
     });
 
+    console.log(this.formBasicInfo.resultSubmit);
+
     // delete this.formBasicInfo.resultSubmit["meeting_tile"];
     // delete this.formBasicInfo.resultSubmit["meeting_topic"];
     // delete this.formBasicInfo.resultSubmit["undefined"];
-    console.log(this.formBasicInfo.resultSubmit);
+    // console.log(this.formBasicInfo.resultSubmit);
 
     // save json to node evaluation
     this.formBasicInfo.resultSubmit["field_evaluation_reactset"] = this.returnQuestionsResults;
@@ -254,40 +256,39 @@ export class NGFormComponent implements OnInit {
 
       this.totalResults[eachBlock.fieldId] = eachBlock.default;
 
-    if (eachBlock.displayType){
-      if (eachBlock.displayType == 'customtext' || eachBlock.displayType == "customhtml") {
+      if (eachBlock.displayType){
+        if (eachBlock.displayType == 'customtext' || eachBlock.displayType == "customhtml") {
 
-      }
-      else {
-        console.log(eachBlock.displayType);
-
-        if (eachBlock.isReactSet) {
-          temporaryQuestionData = {
-            "question_reactset_tid" : eachBlock.fieldId,
-            "question_tid" : eachBlock.question_tid,
-            "question_answer": ""
-          }
-
-          if (eachBlock.returnValue) {
-            blockReturnOtherValue = eachBlock.returnValue;
-            temporaryQuestionData = Object.assign(temporaryQuestionData, blockReturnOtherValue);
-          }
-
-          this.returnQuestionsResults.push(temporaryQuestionData);
         }
         else {
-          temporaryBlockData = {
-            "field_name": eachBlock.fieldId,
-            "field_value": []
-          };
+          console.log(eachBlock.displayType);
+          if (eachBlock.isReactSet) {
+            temporaryQuestionData = {
+              "question_reactset_tid" : eachBlock.fieldId,
+              "question_tid" : eachBlock.question_tid,
+              "question_answer": ""
+            }
 
-          if (eachBlock.returnValue) {
-            blockReturnOtherValue = eachBlock.returnValue;
-            temporaryBlockData = Object.assign(temporaryBlockData, blockReturnOtherValue);
+            if (eachBlock.returnValue) {
+              blockReturnOtherValue = eachBlock.returnValue;
+              temporaryQuestionData = Object.assign(temporaryQuestionData, blockReturnOtherValue);
+            }
+
+            this.returnQuestionsResults.push(temporaryQuestionData);
           }
+          else {
+            temporaryBlockData = {
+              "field_name": eachBlock.fieldId,
+              "field_value": []
+            };
 
-          this.returnFormResults.push(temporaryBlockData);
-        }
+            if (eachBlock.returnValue) {
+              blockReturnOtherValue = eachBlock.returnValue;
+              temporaryBlockData = Object.assign(temporaryBlockData, blockReturnOtherValue);
+            }
+
+            this.returnFormResults.push(temporaryBlockData);
+          }
       }
     }
 

@@ -3,9 +3,9 @@ body .primengapp-dev-wrapper .ui-tabview .ui-tabview-panels {
   padding: 0px;
 }
 
-.primengapp-dev-wrapper {
-  margin-left: 60px;
-  margin-right: 60px;
+body .primengapp-dev-wrapper {
+  margin-left: 30px;
+  margin-right: 30px;
 }
 
 .primengapp-block-class-wrapper .primengapp-tab-header-wrapper {
@@ -41,13 +41,13 @@ body .primengapp-dev-wrapper .ui-tabview .ui-tabview-panels {
   color: rgb(63, 81, 181);
 }
 
-body .primengapp-dev-wrapper .ui-tabview.ui-tabview-top .ui-tabview-nav li:not(.ui-state-active):not(.ui-state-disabled):hover a, 
-body .primengapp-dev-wrapper .ui-tabview.ui-tabview-bottom .ui-tabview-nav li:not(.ui-state-active):not(.ui-state-disabled):hover a, 
-body .primengapp-dev-wrapper .ui-tabview.ui-tabview-left .ui-tabview-nav li:not(.ui-state-active):not(.ui-state-disabled):hover a, 
-body .primengapp-dev-wrapper .ui-tabview.ui-tabview-right .ui-tabview-nav li:not(.ui-state-active):not(.ui-state-disabled):hover a, 
-body .primengapp-dev-wrapper .ui-tabview.ui-tabview-top .ui-tabview-nav li a, 
-body .primengapp-dev-wrapper .ui-tabview.ui-tabview-bottom .ui-tabview-nav li a, 
-body .primengapp-dev-wrapper .ui-tabview.ui-tabview-left .ui-tabview-nav li a, 
+body .primengapp-dev-wrapper .ui-tabview.ui-tabview-top .ui-tabview-nav li:not(.ui-state-active):not(.ui-state-disabled):hover a,
+body .primengapp-dev-wrapper .ui-tabview.ui-tabview-bottom .ui-tabview-nav li:not(.ui-state-active):not(.ui-state-disabled):hover a,
+body .primengapp-dev-wrapper .ui-tabview.ui-tabview-left .ui-tabview-nav li:not(.ui-state-active):not(.ui-state-disabled):hover a,
+body .primengapp-dev-wrapper .ui-tabview.ui-tabview-right .ui-tabview-nav li:not(.ui-state-active):not(.ui-state-disabled):hover a,
+body .primengapp-dev-wrapper .ui-tabview.ui-tabview-top .ui-tabview-nav li a,
+body .primengapp-dev-wrapper .ui-tabview.ui-tabview-bottom .ui-tabview-nav li a,
+body .primengapp-dev-wrapper .ui-tabview.ui-tabview-left .ui-tabview-nav li a,
 body .primengapp-dev-wrapper .ui-tabview.ui-tabview-right .ui-tabview-nav li a {
   color: #385048;
 }

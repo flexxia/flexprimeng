@@ -9,7 +9,7 @@ import { Component, OnInit, Input,ViewEncapsulation } from '@angular/core';
 })
 export class PrimengChartjsComponent implements OnInit {
 
-	@Input('chartInputData') eachtabcontent: any[];
+	@Input('chartInputData') primengDataGeneral: any[];
 
   constructor() { }
 

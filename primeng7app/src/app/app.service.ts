@@ -46,6 +46,9 @@ export class AppService {
     else if (section == 'sampleform') {
       return this.http.get(ngDrupalSettings.drupalSettings.path.baseUrl + 'libraries/primeng7app/src/assets/data/sample-form.json');
     }
+    else if (section == 'sampletable') {
+      return this.http.get(ngDrupalSettings.drupalSettings.path.baseUrl + 'libraries/primeng7app/src/assets/data/sample-table.json');
+    }
 
     return this.http.get(ngDrupalSettings.drupalSettings.path.baseUrl + 'ngjson/' + section + '/' + type + '/'  + entityId + '/start/end');
   }

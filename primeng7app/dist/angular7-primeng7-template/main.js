@@ -317,7 +317,7 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "body .primengapp-dev-wrapper .ui-tabview .ui-tabview-panels {\n  border: none;\n  padding: 0px;\n}\n\n.primengapp-dev-wrapper {\n  margin-left: 60px;\n  margin-right: 60px;\n}\n\n.primengapp-block-class-wrapper .primengapp-tab-header-wrapper {\n  line-height: 1.24;\n}\n\n.primengapp-dev-wrapper .form-control.ng-touched.ng-invalid {\n  border: 2px solid red;\n}\n\n.primengapp-dev-wrapper .legend-square {\n  float: left;\n  height: 12px;\n  width: 12px;\n  margin: 6px;\n  margin-right: 6px;\n}\n\n.primengapp-dev-wrapper .primengapp-tab-view-wrapper-hide .ui-tabview-nav {\n  display: none;\n  height: 0px;\n}\n\n.primengapp-dev-wrapper .ui-tabview.ui-tabview-top>.ui-tabview-nav {\n  border-bottom: solid 2px rgba(0, 0, 0, 0.12);\n}\n\n.primengapp-dev-wrapper .ui-tabview.ui-tabview-top>.ui-tabview-nav li {\n  border: 0;\n}\n\n.primengapp-dev-wrapper .primengapp-tab-view-wrapper-show .ui-tabview-nav li.ui-tabview-selected a {\n  border-bottom: solid 3px #d6006e;\n  color: rgb(63, 81, 181);\n}\n\nbody .primengapp-dev-wrapper .ui-tabview.ui-tabview-top .ui-tabview-nav li:not(.ui-state-active):not(.ui-state-disabled):hover a, \nbody .primengapp-dev-wrapper .ui-tabview.ui-tabview-bottom .ui-tabview-nav li:not(.ui-state-active):not(.ui-state-disabled):hover a, \nbody .primengapp-dev-wrapper .ui-tabview.ui-tabview-left .ui-tabview-nav li:not(.ui-state-active):not(.ui-state-disabled):hover a, \nbody .primengapp-dev-wrapper .ui-tabview.ui-tabview-right .ui-tabview-nav li:not(.ui-state-active):not(.ui-state-disabled):hover a, \nbody .primengapp-dev-wrapper .ui-tabview.ui-tabview-top .ui-tabview-nav li a, \nbody .primengapp-dev-wrapper .ui-tabview.ui-tabview-bottom .ui-tabview-nav li a, \nbody .primengapp-dev-wrapper .ui-tabview.ui-tabview-left .ui-tabview-nav li a, \nbody .primengapp-dev-wrapper .ui-tabview.ui-tabview-right .ui-tabview-nav li a {\n  color: #385048;\n}\n\n.primengapp-dev-wrapper .ui-tabview .ui-tabview-nav li a,\n.primengapp-dev-wrapper .ui-tabview.ui-tabview-collapsible .ui-tabview-nav li.ui-tabview-selected a {\n  background-color: white;\n  font-size: 14px;\n  padding: 12px 24px;\n}\n\n.primengapp-dev-wrapper .ui-state-default a {\n  color: rgba(0, 0, 0, 0.54);\n}\n\n.primengapp-dev-wrapper .even-clear-both {\n  clear: both;\n}\n\n.primengapp-dev-wrapper .ui-table-wrapper .ui-table-tbody td,\n.primengapp-dev-wrapper .ui-table-wrapper .ui-table-thead th {\n  height: 50px;\n}\n\n.primengapp-dev-wrapper .primeng-ptable .ui-table .ui-table-tbody > tr > td,\n.primengapp-dev-wrapper .primeng-ptable .ui-table th {\n  border: none;\n}\n\n.primengapp-dev-wrapper .primeng-ptable .ui-table .ui-table-wrapper .ui-table-tbody > tr:nth-child(odd) {\n  background: #f9f9f9;\n}\n\n.primengapp-dev-wrapper .primeng-ptable .ui-table .ui-table-wrapper .ui-table-tbody > tr:nth-child(odd) {\n  background: #ffffff;\n}\n\n.primengapp-dev-wrapper .primeng-ptable .ui-table {\n  margin: 14px;\n}\n\n.primengapp-dev-wrapper .border-right-2-fff-transparent {\n  border-right: 1px solid rgba(0, 0, 0, 0.3);\n}\n\n.primengapp-dev-wrapper .ui-widget-header .primengapp-button-excel,\n.primengapp-dev-wrapper .ui-widget-header .primengapp-button-copy{\n  display: inline-block;\n}\n\n.primengapp-dev-wrapper .ui-widget-header .primengapp-button-excel button,\n.primengapp-dev-wrapper .ui-widget-header .primengapp-button-copy button{\n  background: #f7f8f9;\n  color: #000;\n  font-weight: 400;\n  font-size: 12px;\n  line-height: 1.5;\n  border:1px solid #ccc;\n  min-width: 64px;\n  height: 32px;\n  border-radius: 4px;\n}\n\n.primengapp-dev-wrapper .ui-widget-header .primengapp-button-excel button {\n  margin-left: 8px;\n}\n\n.primengapp-dev-wrapper .primengapp-button-copy button:hover,\n.primengapp-dev-wrapper .primengapp-button-copy button:focus {\n  background: #eee;\n  color: #000;\n}\n\n.primengapp-dev-wrapper .primeng-ptable .primengapp-button-excel .ui-button:enabled:hover,\n.primengapp-dev-wrapper .primengapp-button-excel .ui-button:focus {\n  background: #eee;\n  color: #000;\n  border:1px solid #ccc;\n}\n\n.primengapp-dev-wrapper .primengapp-table-features-wrapper .primengapp-table-colum-multiselect,\n.primengapp-dev-wrapper .primengapp-table-features-wrapper .primengapp-table-keyword-search .input-search,\n.primengapp-dev-wrapper .primengapp-table-features-wrapper .table-copy-excel-button {\n  margin-top: 18px;\n  margin-bottom: 18px;\n  height: 32px;\n}\n\n.primengapp-dev-wrapper .primengapp-table-colum-multiselect .ui-multiselect-label-container {\n  height: 32px;\n}\n\n.primengapp-dev-wrapper .primengapp-table-features-wrapper .primengapp-table-keyword-search input::-webkit-input-placeholder {\n  color: #454545;\n}\n\n.primengapp-dev-wrapper .primengapp-table-features-wrapper .primengapp-table-keyword-search input::-ms-input-placeholder {\n  color: #454545;\n}\n\n.primengapp-dev-wrapper .primengapp-table-features-wrapper .primengapp-table-keyword-search input::placeholder {\n  color: #454545;\n}\n\n.primengapp-dev-wrapper .primengapp-table-features-wrapper .primengapp-table-keyword-search .input-search {\n  border:1px solid #ccc;\n  font-weight: normal;\n  padding-left: 8px;\n}\n\n.primengapp-dev-wrapper .primeng-ptable .ui-table .ui-paginator-bottom {\n  height: 60px;\n  padding-top: 10px;\n}\n\n.primengapp-dev-wrapper .primeng-ptable .primengapp-table-features-wrapper {\n  background-color: #ffffff;\n}\n\n.primengapp-dev-wrapper .primeng-ptable .ui-table .ui-sortable-column.ui-state-highlight,\n.primengapp-dev-wrapper .primeng-ptable .ui-paginator .ui-paginator-page.ui-state-active {\n  background-color: #009ddf;\n}\n\n.primengapp-block-class-wrapper .ui-tabview {\n  padding: 0;\n}\n\n.ui-tabview .primengapp-tab-panel-wrapper > .ui-tabview-panel {\n  padding: 0;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxZQUFZO0VBQ1osWUFBWTtBQUNkOztBQUVBO0VBQ0UsaUJBQWlCO0VBQ2pCLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLGlCQUFpQjtBQUNuQjs7QUFFQTtFQUNFLHFCQUFxQjtBQUN2Qjs7QUFFQTtFQUNFLFdBQVc7RUFDWCxZQUFZO0VBQ1osV0FBVztFQUNYLFdBQVc7RUFDWCxpQkFBaUI7QUFDbkI7O0FBRUE7RUFDRSxhQUFhO0VBQ2IsV0FBVztBQUNiOztBQUVBO0VBQ0UsNENBQTRDO0FBQzlDOztBQUNBO0VBQ0UsU0FBUztBQUNYOztBQUVBO0VBQ0UsZ0NBQWdDO0VBQ2hDLHVCQUF1QjtBQUN6Qjs7QUFFQTs7Ozs7Ozs7RUFRRSxjQUFjO0FBQ2hCOztBQUVBOztFQUVFLHVCQUF1QjtFQUN2QixlQUFlO0VBQ2Ysa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0UsMEJBQTBCO0FBQzVCOztBQUVBO0VBQ0UsV0FBVztBQUNiOztBQUVBOztFQUVFLFlBQVk7QUFDZDs7QUFFQTs7RUFFRSxZQUFZO0FBQ2Q7O0FBRUE7RUFDRSxtQkFBbUI7QUFDckI7O0FBRUE7RUFDRSxtQkFBbUI7QUFDckI7O0FBRUE7RUFDRSxZQUFZO0FBQ2Q7O0FBR0E7RUFDRSwwQ0FBMEM7QUFDNUM7O0FBRUE7O0VBRUUscUJBQXFCO0FBQ3ZCOztBQUNBOztFQUVFLG1CQUFtQjtFQUNuQixXQUFXO0VBQ1gsZ0JBQWdCO0VBQ2hCLGVBQWU7RUFDZixnQkFBZ0I7RUFDaEIscUJBQXFCO0VBQ3JCLGVBQWU7RUFDZixZQUFZO0VBQ1osa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0UsZ0JBQWdCO0FBQ2xCOztBQUVBOztFQUVFLGdCQUFnQjtFQUNoQixXQUFXO0FBQ2I7O0FBRUE7O0VBRUUsZ0JBQWdCO0VBQ2hCLFdBQVc7RUFDWCxxQkFBcUI7QUFDdkI7O0FBRUE7OztFQUdFLGdCQUFnQjtFQUNoQixtQkFBbUI7RUFDbkIsWUFBWTtBQUNkOztBQUVBO0VBQ0UsWUFBWTtBQUNkOztBQUVBO0VBQ0UsY0FBYztBQUNoQjs7QUFGQTtFQUNFLGNBQWM7QUFDaEI7O0FBRkE7RUFDRSxjQUFjO0FBQ2hCOztBQUVBO0VBQ0UscUJBQXFCO0VBQ3JCLG1CQUFtQjtFQUNuQixpQkFBaUI7QUFDbkI7O0FBRUE7RUFDRSxZQUFZO0VBQ1osaUJBQWlCO0FBQ25COztBQUVBO0VBQ0UseUJBQXlCO0FBQzNCOztBQUVBOztFQUVFLHlCQUF5QjtBQUMzQjs7QUFFQTtFQUNFLFVBQVU7QUFDWjs7QUFFQTtFQUNFLFVBQVU7QUFDWiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiYm9keSAucHJpbWVuZ2FwcC1kZXYtd3JhcHBlciAudWktdGFidmlldyAudWktdGFidmlldy1wYW5lbHMge1xuICBib3JkZXI6IG5vbmU7XG4gIHBhZGRpbmc6IDBweDtcbn1cblxuLnByaW1lbmdhcHAtZGV2LXdyYXBwZXIge1xuICBtYXJnaW4tbGVmdDogNjBweDtcbiAgbWFyZ2luLXJpZ2h0OiA2MHB4O1xufVxuXG4ucHJpbWVuZ2FwcC1ibG9jay1jbGFzcy13cmFwcGVyIC5wcmltZW5nYXBwLXRhYi1oZWFkZXItd3JhcHBlciB7XG4gIGxpbmUtaGVpZ2h0OiAxLjI0O1xufVxuXG4ucHJpbWVuZ2FwcC1kZXYtd3JhcHBlciAuZm9ybS1jb250cm9sLm5nLXRvdWNoZWQubmctaW52YWxpZCB7XG4gIGJvcmRlcjogMnB4IHNvbGlkIHJlZDtcbn1cblxuLnByaW1lbmdhcHAtZGV2LXdyYXBwZXIgLmxlZ2VuZC1zcXVhcmUge1xuICBmbG9hdDogbGVmdDtcbiAgaGVpZ2h0OiAxMnB4O1xuICB3aWR0aDogMTJweDtcbiAgbWFyZ2luOiA2cHg7XG4gIG1hcmdpbi1yaWdodDogNnB4O1xufVxuXG4ucHJpbWVuZ2FwcC1kZXYtd3JhcHBlciAucHJpbWVuZ2FwcC10YWItdmlldy13cmFwcGVyLWhpZGUgLnVpLXRhYnZpZXctbmF2IHtcbiAgZGlzcGxheTogbm9uZTtcbiAgaGVpZ2h0OiAwcHg7XG59XG5cbi5wcmltZW5nYXBwLWRldi13cmFwcGVyIC51aS10YWJ2aWV3LnVpLXRhYnZpZXctdG9wPi51aS10YWJ2aWV3LW5hdiB7XG4gIGJvcmRlci1ib3R0b206IHNvbGlkIDJweCByZ2JhKDAsIDAsIDAsIDAuMTIpO1xufVxuLnByaW1lbmdhcHAtZGV2LXdyYXBwZXIgLnVpLXRhYnZpZXcudWktdGFidmlldy10b3A+LnVpLXRhYnZpZXctbmF2IGxpIHtcbiAgYm9yZGVyOiAwO1xufVxuXG4ucHJpbWVuZ2FwcC1kZXYtd3JhcHBlciAucHJpbWVuZ2FwcC10YWItdmlldy13cmFwcGVyLXNob3cgLnVpLXRhYnZpZXctbmF2IGxpLnVpLXRhYnZpZXctc2VsZWN0ZWQgYSB7XG4gIGJvcmRlci1ib3R0b206IHNvbGlkIDNweCAjZDYwMDZlO1xuICBjb2xvcjogcmdiKDYzLCA4MSwgMTgxKTtcbn1cblxuYm9keSAucHJpbWVuZ2FwcC1kZXYtd3JhcHBlciAudWktdGFidmlldy51aS10YWJ2aWV3LXRvcCAudWktdGFidmlldy1uYXYgbGk6bm90KC51aS1zdGF0ZS1hY3RpdmUpOm5vdCgudWktc3RhdGUtZGlzYWJsZWQpOmhvdmVyIGEsIFxuYm9keSAucHJpbWVuZ2FwcC1kZXYtd3JhcHBlciAudWktdGFidmlldy51aS10YWJ2aWV3LWJvdHRvbSAudWktdGFidmlldy1uYXYgbGk6bm90KC51aS1zdGF0ZS1hY3RpdmUpOm5vdCgudWktc3RhdGUtZGlzYWJsZWQpOmhvdmVyIGEsIFxuYm9keSAucHJpbWVuZ2FwcC1kZXYtd3JhcHBlciAudWktdGFidmlldy51aS10YWJ2aWV3LWxlZnQgLnVpLXRhYnZpZXctbmF2IGxpOm5vdCgudWktc3RhdGUtYWN0aXZlKTpub3QoLnVpLXN0YXRlLWRpc2FibGVkKTpob3ZlciBhLCBcbmJvZHkgLnByaW1lbmdhcHAtZGV2LXdyYXBwZXIgLnVpLXRhYnZpZXcudWktdGFidmlldy1yaWdodCAudWktdGFidmlldy1uYXYgbGk6bm90KC51aS1zdGF0ZS1hY3RpdmUpOm5vdCgudWktc3RhdGUtZGlzYWJsZWQpOmhvdmVyIGEsIFxuYm9keSAucHJpbWVuZ2FwcC1kZXYtd3JhcHBlciAudWktdGFidmlldy51aS10YWJ2aWV3LXRvcCAudWktdGFidmlldy1uYXYgbGkgYSwgXG5ib2R5IC5wcmltZW5nYXBwLWRldi13cmFwcGVyIC51aS10YWJ2aWV3LnVpLXRhYnZpZXctYm90dG9tIC51aS10YWJ2aWV3LW5hdiBsaSBhLCBcbmJvZHkgLnByaW1lbmdhcHAtZGV2LXdyYXBwZXIgLnVpLXRhYnZpZXcudWktdGFidmlldy1sZWZ0IC51aS10YWJ2aWV3LW5hdiBsaSBhLCBcbmJvZHkgLnByaW1lbmdhcHAtZGV2LXdyYXBwZXIgLnVpLXRhYnZpZXcudWktdGFidmlldy1yaWdodCAudWktdGFidmlldy1uYXYgbGkgYSB7XG4gIGNvbG9yOiAjMzg1MDQ4O1xufVxuXG4ucHJpbWVuZ2FwcC1kZXYtd3JhcHBlciAudWktdGFidmlldyAudWktdGFidmlldy1uYXYgbGkgYSxcbi5wcmltZW5nYXBwLWRldi13cmFwcGVyIC51aS10YWJ2aWV3LnVpLXRhYnZpZXctY29sbGFwc2libGUgLnVpLXRhYnZpZXctbmF2IGxpLnVpLXRhYnZpZXctc2VsZWN0ZWQgYSB7XG4gIGJhY2tncm91bmQtY29sb3I6IHdoaXRlO1xuICBmb250LXNpemU6IDE0cHg7XG4gIHBhZGRpbmc6IDEycHggMjRweDtcbn1cblxuLnByaW1lbmdhcHAtZGV2LXdyYXBwZXIgLnVpLXN0YXRlLWRlZmF1bHQgYSB7XG4gIGNvbG9yOiByZ2JhKDAsIDAsIDAsIDAuNTQpO1xufVxuXG4ucHJpbWVuZ2FwcC1kZXYtd3JhcHBlciAuZXZlbi1jbGVhci1ib3RoIHtcbiAgY2xlYXI6IGJvdGg7XG59XG5cbi5wcmltZW5nYXBwLWRldi13cmFwcGVyIC51aS10YWJsZS13cmFwcGVyIC51aS10YWJsZS10Ym9keSB0ZCxcbi5wcmltZW5nYXBwLWRldi13cmFwcGVyIC51aS10YWJsZS13cmFwcGVyIC51aS10YWJsZS10aGVhZCB0aCB7XG4gIGhlaWdodDogNTBweDtcbn1cblxuLnByaW1lbmdhcHAtZGV2LXdyYXBwZXIgLnByaW1lbmctcHRhYmxlIC51aS10YWJsZSAudWktdGFibGUtdGJvZHkgPiB0ciA+IHRkLFxuLnByaW1lbmdhcHAtZGV2LXdyYXBwZXIgLnByaW1lbmctcHRhYmxlIC51aS10YWJsZSB0aCB7XG4gIGJvcmRlcjogbm9uZTtcbn1cblxuLnByaW1lbmdhcHAtZGV2LXdyYXBwZXIgLnByaW1lbmctcHRhYmxlIC51aS10YWJsZSAudWktdGFibGUtd3JhcHBlciAudWktdGFibGUtdGJvZHkgPiB0cjpudGgtY2hpbGQob2RkKSB7XG4gIGJhY2tncm91bmQ6ICNmOWY5Zjk7XG59XG5cbi5wcmltZW5nYXBwLWRldi13cmFwcGVyIC5wcmltZW5nLXB0YWJsZSAudWktdGFibGUgLnVpLXRhYmxlLXdyYXBwZXIgLnVpLXRhYmxlLXRib2R5ID4gdHI6bnRoLWNoaWxkKG9kZCkge1xuICBiYWNrZ3JvdW5kOiAjZmZmZmZmO1xufVxuXG4ucHJpbWVuZ2FwcC1kZXYtd3JhcHBlciAucHJpbWVuZy1wdGFibGUgLnVpLXRhYmxlIHtcbiAgbWFyZ2luOiAxNHB4O1xufVxuXG5cbi5wcmltZW5nYXBwLWRldi13cmFwcGVyIC5ib3JkZXItcmlnaHQtMi1mZmYtdHJhbnNwYXJlbnQge1xuICBib3JkZXItcmlnaHQ6IDFweCBzb2xpZCByZ2JhKDAsIDAsIDAsIDAuMyk7XG59XG5cbi5wcmltZW5nYXBwLWRldi13cmFwcGVyIC51aS13aWRnZXQtaGVhZGVyIC5wcmltZW5nYXBwLWJ1dHRvbi1leGNlbCxcbi5wcmltZW5nYXBwLWRldi13cmFwcGVyIC51aS13aWRnZXQtaGVhZGVyIC5wcmltZW5nYXBwLWJ1dHRvbi1jb3B5e1xuICBkaXNwbGF5OiBpbmxpbmUtYmxvY2s7XG59XG4ucHJpbWVuZ2FwcC1kZXYtd3JhcHBlciAudWktd2lkZ2V0LWhlYWRlciAucHJpbWVuZ2FwcC1idXR0b24tZXhjZWwgYnV0dG9uLFxuLnByaW1lbmdhcHAtZGV2LXdyYXBwZXIgLnVpLXdpZGdldC1oZWFkZXIgLnByaW1lbmdhcHAtYnV0dG9uLWNvcHkgYnV0dG9ue1xuICBiYWNrZ3JvdW5kOiAjZjdmOGY5O1xuICBjb2xvcjogIzAwMDtcbiAgZm9udC13ZWlnaHQ6IDQwMDtcbiAgZm9udC1zaXplOiAxMnB4O1xuICBsaW5lLWhlaWdodDogMS41O1xuICBib3JkZXI6MXB4IHNvbGlkICNjY2M7XG4gIG1pbi13aWR0aDogNjRweDtcbiAgaGVpZ2h0OiAzMnB4O1xuICBib3JkZXItcmFkaXVzOiA0cHg7XG59XG5cbi5wcmltZW5nYXBwLWRldi13cmFwcGVyIC51aS13aWRnZXQtaGVhZGVyIC5wcmltZW5nYXBwLWJ1dHRvbi1leGNlbCBidXR0b24ge1xuICBtYXJnaW4tbGVmdDogOHB4O1xufVxuXG4ucHJpbWVuZ2FwcC1kZXYtd3JhcHBlciAucHJpbWVuZ2FwcC1idXR0b24tY29weSBidXR0b246aG92ZXIsXG4ucHJpbWVuZ2FwcC1kZXYtd3JhcHBlciAucHJpbWVuZ2FwcC1idXR0b24tY29weSBidXR0b246Zm9jdXMge1xuICBiYWNrZ3JvdW5kOiAjZWVlO1xuICBjb2xvcjogIzAwMDtcbn1cblxuLnByaW1lbmdhcHAtZGV2LXdyYXBwZXIgLnByaW1lbmctcHRhYmxlIC5wcmltZW5nYXBwLWJ1dHRvbi1leGNlbCAudWktYnV0dG9uOmVuYWJsZWQ6aG92ZXIsXG4ucHJpbWVuZ2FwcC1kZXYtd3JhcHBlciAucHJpbWVuZ2FwcC1idXR0b24tZXhjZWwgLnVpLWJ1dHRvbjpmb2N1cyB7XG4gIGJhY2tncm91bmQ6ICNlZWU7XG4gIGNvbG9yOiAjMDAwO1xuICBib3JkZXI6MXB4IHNvbGlkICNjY2M7XG59XG5cbi5wcmltZW5nYXBwLWRldi13cmFwcGVyIC5wcmltZW5nYXBwLXRhYmxlLWZlYXR1cmVzLXdyYXBwZXIgLnByaW1lbmdhcHAtdGFibGUtY29sdW0tbXVsdGlzZWxlY3QsXG4ucHJpbWVuZ2FwcC1kZXYtd3JhcHBlciAucHJpbWVuZ2FwcC10YWJsZS1mZWF0dXJlcy13cmFwcGVyIC5wcmltZW5nYXBwLXRhYmxlLWtleXdvcmQtc2VhcmNoIC5pbnB1dC1zZWFyY2gsXG4ucHJpbWVuZ2FwcC1kZXYtd3JhcHBlciAucHJpbWVuZ2FwcC10YWJsZS1mZWF0dXJlcy13cmFwcGVyIC50YWJsZS1jb3B5LWV4Y2VsLWJ1dHRvbiB7XG4gIG1hcmdpbi10b3A6IDE4cHg7XG4gIG1hcmdpbi1ib3R0b206IDE4cHg7XG4gIGhlaWdodDogMzJweDtcbn1cblxuLnByaW1lbmdhcHAtZGV2LXdyYXBwZXIgLnByaW1lbmdhcHAtdGFibGUtY29sdW0tbXVsdGlzZWxlY3QgLnVpLW11bHRpc2VsZWN0LWxhYmVsLWNvbnRhaW5lciB7XG4gIGhlaWdodDogMzJweDtcbn1cblxuLnByaW1lbmdhcHAtZGV2LXdyYXBwZXIgLnByaW1lbmdhcHAtdGFibGUtZmVhdHVyZXMtd3JhcHBlciAucHJpbWVuZ2FwcC10YWJsZS1rZXl3b3JkLXNlYXJjaCBpbnB1dDo6cGxhY2Vob2xkZXIge1xuICBjb2xvcjogIzQ1NDU0NTtcbn1cblxuLnByaW1lbmdhcHAtZGV2LXdyYXBwZXIgLnByaW1lbmdhcHAtdGFibGUtZmVhdHVyZXMtd3JhcHBlciAucHJpbWVuZ2FwcC10YWJsZS1rZXl3b3JkLXNlYXJjaCAuaW5wdXQtc2VhcmNoIHtcbiAgYm9yZGVyOjFweCBzb2xpZCAjY2NjO1xuICBmb250LXdlaWdodDogbm9ybWFsO1xuICBwYWRkaW5nLWxlZnQ6IDhweDtcbn1cblxuLnByaW1lbmdhcHAtZGV2LXdyYXBwZXIgLnByaW1lbmctcHRhYmxlIC51aS10YWJsZSAudWktcGFnaW5hdG9yLWJvdHRvbSB7XG4gIGhlaWdodDogNjBweDtcbiAgcGFkZGluZy10b3A6IDEwcHg7XG59XG5cbi5wcmltZW5nYXBwLWRldi13cmFwcGVyIC5wcmltZW5nLXB0YWJsZSAucHJpbWVuZ2FwcC10YWJsZS1mZWF0dXJlcy13cmFwcGVyIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZmZmZjtcbn1cblxuLnByaW1lbmdhcHAtZGV2LXdyYXBwZXIgLnByaW1lbmctcHRhYmxlIC51aS10YWJsZSAudWktc29ydGFibGUtY29sdW1uLnVpLXN0YXRlLWhpZ2hsaWdodCxcbi5wcmltZW5nYXBwLWRldi13cmFwcGVyIC5wcmltZW5nLXB0YWJsZSAudWktcGFnaW5hdG9yIC51aS1wYWdpbmF0b3ItcGFnZS51aS1zdGF0ZS1hY3RpdmUge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiAjMDA5ZGRmO1xufVxuXG4ucHJpbWVuZ2FwcC1ibG9jay1jbGFzcy13cmFwcGVyIC51aS10YWJ2aWV3IHtcbiAgcGFkZGluZzogMDtcbn1cblxuLnVpLXRhYnZpZXcgLnByaW1lbmdhcHAtdGFiLXBhbmVsLXdyYXBwZXIgPiAudWktdGFidmlldy1wYW5lbCB7XG4gIHBhZGRpbmc6IDA7XG59XG4iXX0= */"
+module.exports = "body .primengapp-dev-wrapper .ui-tabview .ui-tabview-panels {\n  border: none;\n  padding: 0px;\n}\n\nbody .primengapp-dev-wrapper {\n  margin-left: 30px;\n  margin-right: 30px;\n}\n\n.primengapp-block-class-wrapper .primengapp-tab-header-wrapper {\n  line-height: 1.24;\n}\n\n.primengapp-dev-wrapper .form-control.ng-touched.ng-invalid {\n  border: 2px solid red;\n}\n\n.primengapp-dev-wrapper .legend-square {\n  float: left;\n  height: 12px;\n  width: 12px;\n  margin: 6px;\n  margin-right: 6px;\n}\n\n.primengapp-dev-wrapper .primengapp-tab-view-wrapper-hide .ui-tabview-nav {\n  display: none;\n  height: 0px;\n}\n\n.primengapp-dev-wrapper .ui-tabview.ui-tabview-top>.ui-tabview-nav {\n  border-bottom: solid 2px rgba(0, 0, 0, 0.12);\n}\n\n.primengapp-dev-wrapper .ui-tabview.ui-tabview-top>.ui-tabview-nav li {\n  border: 0;\n}\n\n.primengapp-dev-wrapper .primengapp-tab-view-wrapper-show .ui-tabview-nav li.ui-tabview-selected a {\n  border-bottom: solid 3px #d6006e;\n  color: rgb(63, 81, 181);\n}\n\nbody .primengapp-dev-wrapper .ui-tabview.ui-tabview-top .ui-tabview-nav li:not(.ui-state-active):not(.ui-state-disabled):hover a,\nbody .primengapp-dev-wrapper .ui-tabview.ui-tabview-bottom .ui-tabview-nav li:not(.ui-state-active):not(.ui-state-disabled):hover a,\nbody .primengapp-dev-wrapper .ui-tabview.ui-tabview-left .ui-tabview-nav li:not(.ui-state-active):not(.ui-state-disabled):hover a,\nbody .primengapp-dev-wrapper .ui-tabview.ui-tabview-right .ui-tabview-nav li:not(.ui-state-active):not(.ui-state-disabled):hover a,\nbody .primengapp-dev-wrapper .ui-tabview.ui-tabview-top .ui-tabview-nav li a,\nbody .primengapp-dev-wrapper .ui-tabview.ui-tabview-bottom .ui-tabview-nav li a,\nbody .primengapp-dev-wrapper .ui-tabview.ui-tabview-left .ui-tabview-nav li a,\nbody .primengapp-dev-wrapper .ui-tabview.ui-tabview-right .ui-tabview-nav li a {\n  color: #385048;\n}\n\n.primengapp-dev-wrapper .ui-tabview .ui-tabview-nav li a,\n.primengapp-dev-wrapper .ui-tabview.ui-tabview-collapsible .ui-tabview-nav li.ui-tabview-selected a {\n  background-color: white;\n  font-size: 14px;\n  padding: 12px 24px;\n}\n\n.primengapp-dev-wrapper .ui-state-default a {\n  color: rgba(0, 0, 0, 0.54);\n}\n\n.primengapp-dev-wrapper .even-clear-both {\n  clear: both;\n}\n\n.primengapp-dev-wrapper .ui-table-wrapper .ui-table-tbody td,\n.primengapp-dev-wrapper .ui-table-wrapper .ui-table-thead th {\n  height: 50px;\n}\n\n.primengapp-dev-wrapper .primeng-ptable .ui-table .ui-table-tbody > tr > td,\n.primengapp-dev-wrapper .primeng-ptable .ui-table th {\n  border: none;\n}\n\n.primengapp-dev-wrapper .primeng-ptable .ui-table .ui-table-wrapper .ui-table-tbody > tr:nth-child(odd) {\n  background: #f9f9f9;\n}\n\n.primengapp-dev-wrapper .primeng-ptable .ui-table .ui-table-wrapper .ui-table-tbody > tr:nth-child(odd) {\n  background: #ffffff;\n}\n\n.primengapp-dev-wrapper .primeng-ptable .ui-table {\n  margin: 14px;\n}\n\n.primengapp-dev-wrapper .border-right-2-fff-transparent {\n  border-right: 1px solid rgba(0, 0, 0, 0.3);\n}\n\n.primengapp-dev-wrapper .ui-widget-header .primengapp-button-excel,\n.primengapp-dev-wrapper .ui-widget-header .primengapp-button-copy{\n  display: inline-block;\n}\n\n.primengapp-dev-wrapper .ui-widget-header .primengapp-button-excel button,\n.primengapp-dev-wrapper .ui-widget-header .primengapp-button-copy button{\n  background: #f7f8f9;\n  color: #000;\n  font-weight: 400;\n  font-size: 12px;\n  line-height: 1.5;\n  border:1px solid #ccc;\n  min-width: 64px;\n  height: 32px;\n  border-radius: 4px;\n}\n\n.primengapp-dev-wrapper .ui-widget-header .primengapp-button-excel button {\n  margin-left: 8px;\n}\n\n.primengapp-dev-wrapper .primengapp-button-copy button:hover,\n.primengapp-dev-wrapper .primengapp-button-copy button:focus {\n  background: #eee;\n  color: #000;\n}\n\n.primengapp-dev-wrapper .primeng-ptable .primengapp-button-excel .ui-button:enabled:hover,\n.primengapp-dev-wrapper .primengapp-button-excel .ui-button:focus {\n  background: #eee;\n  color: #000;\n  border:1px solid #ccc;\n}\n\n.primengapp-dev-wrapper .primengapp-table-features-wrapper .primengapp-table-colum-multiselect,\n.primengapp-dev-wrapper .primengapp-table-features-wrapper .primengapp-table-keyword-search .input-search,\n.primengapp-dev-wrapper .primengapp-table-features-wrapper .table-copy-excel-button {\n  margin-top: 18px;\n  margin-bottom: 18px;\n  height: 32px;\n}\n\n.primengapp-dev-wrapper .primengapp-table-colum-multiselect .ui-multiselect-label-container {\n  height: 32px;\n}\n\n.primengapp-dev-wrapper .primengapp-table-features-wrapper .primengapp-table-keyword-search input::-webkit-input-placeholder {\n  color: #454545;\n}\n\n.primengapp-dev-wrapper .primengapp-table-features-wrapper .primengapp-table-keyword-search input::-ms-input-placeholder {\n  color: #454545;\n}\n\n.primengapp-dev-wrapper .primengapp-table-features-wrapper .primengapp-table-keyword-search input::placeholder {\n  color: #454545;\n}\n\n.primengapp-dev-wrapper .primengapp-table-features-wrapper .primengapp-table-keyword-search .input-search {\n  border:1px solid #ccc;\n  font-weight: normal;\n  padding-left: 8px;\n}\n\n.primengapp-dev-wrapper .primeng-ptable .ui-table .ui-paginator-bottom {\n  height: 60px;\n  padding-top: 10px;\n}\n\n.primengapp-dev-wrapper .primeng-ptable .primengapp-table-features-wrapper {\n  background-color: #ffffff;\n}\n\n.primengapp-dev-wrapper .primeng-ptable .ui-table .ui-sortable-column.ui-state-highlight,\n.primengapp-dev-wrapper .primeng-ptable .ui-paginator .ui-paginator-page.ui-state-active {\n  background-color: #009ddf;\n}\n\n.primengapp-block-class-wrapper .ui-tabview {\n  padding: 0;\n}\n\n.ui-tabview .primengapp-tab-panel-wrapper > .ui-tabview-panel {\n  padding: 0;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7RUFDRSxZQUFZO0VBQ1osWUFBWTtBQUNkOztBQUVBO0VBQ0UsaUJBQWlCO0VBQ2pCLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLGlCQUFpQjtBQUNuQjs7QUFFQTtFQUNFLHFCQUFxQjtBQUN2Qjs7QUFFQTtFQUNFLFdBQVc7RUFDWCxZQUFZO0VBQ1osV0FBVztFQUNYLFdBQVc7RUFDWCxpQkFBaUI7QUFDbkI7O0FBRUE7RUFDRSxhQUFhO0VBQ2IsV0FBVztBQUNiOztBQUVBO0VBQ0UsNENBQTRDO0FBQzlDOztBQUNBO0VBQ0UsU0FBUztBQUNYOztBQUVBO0VBQ0UsZ0NBQWdDO0VBQ2hDLHVCQUF1QjtBQUN6Qjs7QUFFQTs7Ozs7Ozs7RUFRRSxjQUFjO0FBQ2hCOztBQUVBOztFQUVFLHVCQUF1QjtFQUN2QixlQUFlO0VBQ2Ysa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0UsMEJBQTBCO0FBQzVCOztBQUVBO0VBQ0UsV0FBVztBQUNiOztBQUVBOztFQUVFLFlBQVk7QUFDZDs7QUFFQTs7RUFFRSxZQUFZO0FBQ2Q7O0FBRUE7RUFDRSxtQkFBbUI7QUFDckI7O0FBRUE7RUFDRSxtQkFBbUI7QUFDckI7O0FBRUE7RUFDRSxZQUFZO0FBQ2Q7O0FBR0E7RUFDRSwwQ0FBMEM7QUFDNUM7O0FBRUE7O0VBRUUscUJBQXFCO0FBQ3ZCOztBQUNBOztFQUVFLG1CQUFtQjtFQUNuQixXQUFXO0VBQ1gsZ0JBQWdCO0VBQ2hCLGVBQWU7RUFDZixnQkFBZ0I7RUFDaEIscUJBQXFCO0VBQ3JCLGVBQWU7RUFDZixZQUFZO0VBQ1osa0JBQWtCO0FBQ3BCOztBQUVBO0VBQ0UsZ0JBQWdCO0FBQ2xCOztBQUVBOztFQUVFLGdCQUFnQjtFQUNoQixXQUFXO0FBQ2I7O0FBRUE7O0VBRUUsZ0JBQWdCO0VBQ2hCLFdBQVc7RUFDWCxxQkFBcUI7QUFDdkI7O0FBRUE7OztFQUdFLGdCQUFnQjtFQUNoQixtQkFBbUI7RUFDbkIsWUFBWTtBQUNkOztBQUVBO0VBQ0UsWUFBWTtBQUNkOztBQUVBO0VBQ0UsY0FBYztBQUNoQjs7QUFGQTtFQUNFLGNBQWM7QUFDaEI7O0FBRkE7RUFDRSxjQUFjO0FBQ2hCOztBQUVBO0VBQ0UscUJBQXFCO0VBQ3JCLG1CQUFtQjtFQUNuQixpQkFBaUI7QUFDbkI7O0FBRUE7RUFDRSxZQUFZO0VBQ1osaUJBQWlCO0FBQ25COztBQUVBO0VBQ0UseUJBQXlCO0FBQzNCOztBQUVBOztFQUVFLHlCQUF5QjtBQUMzQjs7QUFFQTtFQUNFLFVBQVU7QUFDWjs7QUFFQTtFQUNFLFVBQVU7QUFDWiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiYm9keSAucHJpbWVuZ2FwcC1kZXYtd3JhcHBlciAudWktdGFidmlldyAudWktdGFidmlldy1wYW5lbHMge1xuICBib3JkZXI6IG5vbmU7XG4gIHBhZGRpbmc6IDBweDtcbn1cblxuYm9keSAucHJpbWVuZ2FwcC1kZXYtd3JhcHBlciB7XG4gIG1hcmdpbi1sZWZ0OiAzMHB4O1xuICBtYXJnaW4tcmlnaHQ6IDMwcHg7XG59XG5cbi5wcmltZW5nYXBwLWJsb2NrLWNsYXNzLXdyYXBwZXIgLnByaW1lbmdhcHAtdGFiLWhlYWRlci13cmFwcGVyIHtcbiAgbGluZS1oZWlnaHQ6IDEuMjQ7XG59XG5cbi5wcmltZW5nYXBwLWRldi13cmFwcGVyIC5mb3JtLWNvbnRyb2wubmctdG91Y2hlZC5uZy1pbnZhbGlkIHtcbiAgYm9yZGVyOiAycHggc29saWQgcmVkO1xufVxuXG4ucHJpbWVuZ2FwcC1kZXYtd3JhcHBlciAubGVnZW5kLXNxdWFyZSB7XG4gIGZsb2F0OiBsZWZ0O1xuICBoZWlnaHQ6IDEycHg7XG4gIHdpZHRoOiAxMnB4O1xuICBtYXJnaW46IDZweDtcbiAgbWFyZ2luLXJpZ2h0OiA2cHg7XG59XG5cbi5wcmltZW5nYXBwLWRldi13cmFwcGVyIC5wcmltZW5nYXBwLXRhYi12aWV3LXdyYXBwZXItaGlkZSAudWktdGFidmlldy1uYXYge1xuICBkaXNwbGF5OiBub25lO1xuICBoZWlnaHQ6IDBweDtcbn1cblxuLnByaW1lbmdhcHAtZGV2LXdyYXBwZXIgLnVpLXRhYnZpZXcudWktdGFidmlldy10b3A+LnVpLXRhYnZpZXctbmF2IHtcbiAgYm9yZGVyLWJvdHRvbTogc29saWQgMnB4IHJnYmEoMCwgMCwgMCwgMC4xMik7XG59XG4ucHJpbWVuZ2FwcC1kZXYtd3JhcHBlciAudWktdGFidmlldy51aS10YWJ2aWV3LXRvcD4udWktdGFidmlldy1uYXYgbGkge1xuICBib3JkZXI6IDA7XG59XG5cbi5wcmltZW5nYXBwLWRldi13cmFwcGVyIC5wcmltZW5nYXBwLXRhYi12aWV3LXdyYXBwZXItc2hvdyAudWktdGFidmlldy1uYXYgbGkudWktdGFidmlldy1zZWxlY3RlZCBhIHtcbiAgYm9yZGVyLWJvdHRvbTogc29saWQgM3B4ICNkNjAwNmU7XG4gIGNvbG9yOiByZ2IoNjMsIDgxLCAxODEpO1xufVxuXG5ib2R5IC5wcmltZW5nYXBwLWRldi13cmFwcGVyIC51aS10YWJ2aWV3LnVpLXRhYnZpZXctdG9wIC51aS10YWJ2aWV3LW5hdiBsaTpub3QoLnVpLXN0YXRlLWFjdGl2ZSk6bm90KC51aS1zdGF0ZS1kaXNhYmxlZCk6aG92ZXIgYSxcbmJvZHkgLnByaW1lbmdhcHAtZGV2LXdyYXBwZXIgLnVpLXRhYnZpZXcudWktdGFidmlldy1ib3R0b20gLnVpLXRhYnZpZXctbmF2IGxpOm5vdCgudWktc3RhdGUtYWN0aXZlKTpub3QoLnVpLXN0YXRlLWRpc2FibGVkKTpob3ZlciBhLFxuYm9keSAucHJpbWVuZ2FwcC1kZXYtd3JhcHBlciAudWktdGFidmlldy51aS10YWJ2aWV3LWxlZnQgLnVpLXRhYnZpZXctbmF2IGxpOm5vdCgudWktc3RhdGUtYWN0aXZlKTpub3QoLnVpLXN0YXRlLWRpc2FibGVkKTpob3ZlciBhLFxuYm9keSAucHJpbWVuZ2FwcC1kZXYtd3JhcHBlciAudWktdGFidmlldy51aS10YWJ2aWV3LXJpZ2h0IC51aS10YWJ2aWV3LW5hdiBsaTpub3QoLnVpLXN0YXRlLWFjdGl2ZSk6bm90KC51aS1zdGF0ZS1kaXNhYmxlZCk6aG92ZXIgYSxcbmJvZHkgLnByaW1lbmdhcHAtZGV2LXdyYXBwZXIgLnVpLXRhYnZpZXcudWktdGFidmlldy10b3AgLnVpLXRhYnZpZXctbmF2IGxpIGEsXG5ib2R5IC5wcmltZW5nYXBwLWRldi13cmFwcGVyIC51aS10YWJ2aWV3LnVpLXRhYnZpZXctYm90dG9tIC51aS10YWJ2aWV3LW5hdiBsaSBhLFxuYm9keSAucHJpbWVuZ2FwcC1kZXYtd3JhcHBlciAudWktdGFidmlldy51aS10YWJ2aWV3LWxlZnQgLnVpLXRhYnZpZXctbmF2IGxpIGEsXG5ib2R5IC5wcmltZW5nYXBwLWRldi13cmFwcGVyIC51aS10YWJ2aWV3LnVpLXRhYnZpZXctcmlnaHQgLnVpLXRhYnZpZXctbmF2IGxpIGEge1xuICBjb2xvcjogIzM4NTA0ODtcbn1cblxuLnByaW1lbmdhcHAtZGV2LXdyYXBwZXIgLnVpLXRhYnZpZXcgLnVpLXRhYnZpZXctbmF2IGxpIGEsXG4ucHJpbWVuZ2FwcC1kZXYtd3JhcHBlciAudWktdGFidmlldy51aS10YWJ2aWV3LWNvbGxhcHNpYmxlIC51aS10YWJ2aWV3LW5hdiBsaS51aS10YWJ2aWV3LXNlbGVjdGVkIGEge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZTtcbiAgZm9udC1zaXplOiAxNHB4O1xuICBwYWRkaW5nOiAxMnB4IDI0cHg7XG59XG5cbi5wcmltZW5nYXBwLWRldi13cmFwcGVyIC51aS1zdGF0ZS1kZWZhdWx0IGEge1xuICBjb2xvcjogcmdiYSgwLCAwLCAwLCAwLjU0KTtcbn1cblxuLnByaW1lbmdhcHAtZGV2LXdyYXBwZXIgLmV2ZW4tY2xlYXItYm90aCB7XG4gIGNsZWFyOiBib3RoO1xufVxuXG4ucHJpbWVuZ2FwcC1kZXYtd3JhcHBlciAudWktdGFibGUtd3JhcHBlciAudWktdGFibGUtdGJvZHkgdGQsXG4ucHJpbWVuZ2FwcC1kZXYtd3JhcHBlciAudWktdGFibGUtd3JhcHBlciAudWktdGFibGUtdGhlYWQgdGgge1xuICBoZWlnaHQ6IDUwcHg7XG59XG5cbi5wcmltZW5nYXBwLWRldi13cmFwcGVyIC5wcmltZW5nLXB0YWJsZSAudWktdGFibGUgLnVpLXRhYmxlLXRib2R5ID4gdHIgPiB0ZCxcbi5wcmltZW5nYXBwLWRldi13cmFwcGVyIC5wcmltZW5nLXB0YWJsZSAudWktdGFibGUgdGgge1xuICBib3JkZXI6IG5vbmU7XG59XG5cbi5wcmltZW5nYXBwLWRldi13cmFwcGVyIC5wcmltZW5nLXB0YWJsZSAudWktdGFibGUgLnVpLXRhYmxlLXdyYXBwZXIgLnVpLXRhYmxlLXRib2R5ID4gdHI6bnRoLWNoaWxkKG9kZCkge1xuICBiYWNrZ3JvdW5kOiAjZjlmOWY5O1xufVxuXG4ucHJpbWVuZ2FwcC1kZXYtd3JhcHBlciAucHJpbWVuZy1wdGFibGUgLnVpLXRhYmxlIC51aS10YWJsZS13cmFwcGVyIC51aS10YWJsZS10Ym9keSA+IHRyOm50aC1jaGlsZChvZGQpIHtcbiAgYmFja2dyb3VuZDogI2ZmZmZmZjtcbn1cblxuLnByaW1lbmdhcHAtZGV2LXdyYXBwZXIgLnByaW1lbmctcHRhYmxlIC51aS10YWJsZSB7XG4gIG1hcmdpbjogMTRweDtcbn1cblxuXG4ucHJpbWVuZ2FwcC1kZXYtd3JhcHBlciAuYm9yZGVyLXJpZ2h0LTItZmZmLXRyYW5zcGFyZW50IHtcbiAgYm9yZGVyLXJpZ2h0OiAxcHggc29saWQgcmdiYSgwLCAwLCAwLCAwLjMpO1xufVxuXG4ucHJpbWVuZ2FwcC1kZXYtd3JhcHBlciAudWktd2lkZ2V0LWhlYWRlciAucHJpbWVuZ2FwcC1idXR0b24tZXhjZWwsXG4ucHJpbWVuZ2FwcC1kZXYtd3JhcHBlciAudWktd2lkZ2V0LWhlYWRlciAucHJpbWVuZ2FwcC1idXR0b24tY29weXtcbiAgZGlzcGxheTogaW5saW5lLWJsb2NrO1xufVxuLnByaW1lbmdhcHAtZGV2LXdyYXBwZXIgLnVpLXdpZGdldC1oZWFkZXIgLnByaW1lbmdhcHAtYnV0dG9uLWV4Y2VsIGJ1dHRvbixcbi5wcmltZW5nYXBwLWRldi13cmFwcGVyIC51aS13aWRnZXQtaGVhZGVyIC5wcmltZW5nYXBwLWJ1dHRvbi1jb3B5IGJ1dHRvbntcbiAgYmFja2dyb3VuZDogI2Y3ZjhmOTtcbiAgY29sb3I6ICMwMDA7XG4gIGZvbnQtd2VpZ2h0OiA0MDA7XG4gIGZvbnQtc2l6ZTogMTJweDtcbiAgbGluZS1oZWlnaHQ6IDEuNTtcbiAgYm9yZGVyOjFweCBzb2xpZCAjY2NjO1xuICBtaW4td2lkdGg6IDY0cHg7XG4gIGhlaWdodDogMzJweDtcbiAgYm9yZGVyLXJhZGl1czogNHB4O1xufVxuXG4ucHJpbWVuZ2FwcC1kZXYtd3JhcHBlciAudWktd2lkZ2V0LWhlYWRlciAucHJpbWVuZ2FwcC1idXR0b24tZXhjZWwgYnV0dG9uIHtcbiAgbWFyZ2luLWxlZnQ6IDhweDtcbn1cblxuLnByaW1lbmdhcHAtZGV2LXdyYXBwZXIgLnByaW1lbmdhcHAtYnV0dG9uLWNvcHkgYnV0dG9uOmhvdmVyLFxuLnByaW1lbmdhcHAtZGV2LXdyYXBwZXIgLnByaW1lbmdhcHAtYnV0dG9uLWNvcHkgYnV0dG9uOmZvY3VzIHtcbiAgYmFja2dyb3VuZDogI2VlZTtcbiAgY29sb3I6ICMwMDA7XG59XG5cbi5wcmltZW5nYXBwLWRldi13cmFwcGVyIC5wcmltZW5nLXB0YWJsZSAucHJpbWVuZ2FwcC1idXR0b24tZXhjZWwgLnVpLWJ1dHRvbjplbmFibGVkOmhvdmVyLFxuLnByaW1lbmdhcHAtZGV2LXdyYXBwZXIgLnByaW1lbmdhcHAtYnV0dG9uLWV4Y2VsIC51aS1idXR0b246Zm9jdXMge1xuICBiYWNrZ3JvdW5kOiAjZWVlO1xuICBjb2xvcjogIzAwMDtcbiAgYm9yZGVyOjFweCBzb2xpZCAjY2NjO1xufVxuXG4ucHJpbWVuZ2FwcC1kZXYtd3JhcHBlciAucHJpbWVuZ2FwcC10YWJsZS1mZWF0dXJlcy13cmFwcGVyIC5wcmltZW5nYXBwLXRhYmxlLWNvbHVtLW11bHRpc2VsZWN0LFxuLnByaW1lbmdhcHAtZGV2LXdyYXBwZXIgLnByaW1lbmdhcHAtdGFibGUtZmVhdHVyZXMtd3JhcHBlciAucHJpbWVuZ2FwcC10YWJsZS1rZXl3b3JkLXNlYXJjaCAuaW5wdXQtc2VhcmNoLFxuLnByaW1lbmdhcHAtZGV2LXdyYXBwZXIgLnByaW1lbmdhcHAtdGFibGUtZmVhdHVyZXMtd3JhcHBlciAudGFibGUtY29weS1leGNlbC1idXR0b24ge1xuICBtYXJnaW4tdG9wOiAxOHB4O1xuICBtYXJnaW4tYm90dG9tOiAxOHB4O1xuICBoZWlnaHQ6IDMycHg7XG59XG5cbi5wcmltZW5nYXBwLWRldi13cmFwcGVyIC5wcmltZW5nYXBwLXRhYmxlLWNvbHVtLW11bHRpc2VsZWN0IC51aS1tdWx0aXNlbGVjdC1sYWJlbC1jb250YWluZXIge1xuICBoZWlnaHQ6IDMycHg7XG59XG5cbi5wcmltZW5nYXBwLWRldi13cmFwcGVyIC5wcmltZW5nYXBwLXRhYmxlLWZlYXR1cmVzLXdyYXBwZXIgLnByaW1lbmdhcHAtdGFibGUta2V5d29yZC1zZWFyY2ggaW5wdXQ6OnBsYWNlaG9sZGVyIHtcbiAgY29sb3I6ICM0NTQ1NDU7XG59XG5cbi5wcmltZW5nYXBwLWRldi13cmFwcGVyIC5wcmltZW5nYXBwLXRhYmxlLWZlYXR1cmVzLXdyYXBwZXIgLnByaW1lbmdhcHAtdGFibGUta2V5d29yZC1zZWFyY2ggLmlucHV0LXNlYXJjaCB7XG4gIGJvcmRlcjoxcHggc29saWQgI2NjYztcbiAgZm9udC13ZWlnaHQ6IG5vcm1hbDtcbiAgcGFkZGluZy1sZWZ0OiA4cHg7XG59XG5cbi5wcmltZW5nYXBwLWRldi13cmFwcGVyIC5wcmltZW5nLXB0YWJsZSAudWktdGFibGUgLnVpLXBhZ2luYXRvci1ib3R0b20ge1xuICBoZWlnaHQ6IDYwcHg7XG4gIHBhZGRpbmctdG9wOiAxMHB4O1xufVxuXG4ucHJpbWVuZ2FwcC1kZXYtd3JhcHBlciAucHJpbWVuZy1wdGFibGUgLnByaW1lbmdhcHAtdGFibGUtZmVhdHVyZXMtd3JhcHBlciB7XG4gIGJhY2tncm91bmQtY29sb3I6ICNmZmZmZmY7XG59XG5cbi5wcmltZW5nYXBwLWRldi13cmFwcGVyIC5wcmltZW5nLXB0YWJsZSAudWktdGFibGUgLnVpLXNvcnRhYmxlLWNvbHVtbi51aS1zdGF0ZS1oaWdobGlnaHQsXG4ucHJpbWVuZ2FwcC1kZXYtd3JhcHBlciAucHJpbWVuZy1wdGFibGUgLnVpLXBhZ2luYXRvciAudWktcGFnaW5hdG9yLXBhZ2UudWktc3RhdGUtYWN0aXZlIHtcbiAgYmFja2dyb3VuZC1jb2xvcjogIzAwOWRkZjtcbn1cblxuLnByaW1lbmdhcHAtYmxvY2stY2xhc3Mtd3JhcHBlciAudWktdGFidmlldyB7XG4gIHBhZGRpbmc6IDA7XG59XG5cbi51aS10YWJ2aWV3IC5wcmltZW5nYXBwLXRhYi1wYW5lbC13cmFwcGVyID4gLnVpLXRhYnZpZXctcGFuZWwge1xuICBwYWRkaW5nOiAwO1xufVxuIl19 */"
 
 /***/ }),
 
@@ -328,7 +328,7 @@ module.exports = "body .primengapp-dev-wrapper .ui-tabview .ui-tabview-panels {\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"primengapp-dev-wrapper\">\n  <!-- meeting event form -->\n  <div *ngFor=\"let eachcomponent of sectionContent\">\n    <div *ngIf=\"eachcomponent.componentname == 'primengforms'; else elseBlock\">\n      <app-ngform [name]=\"eachcomponent\"></app-ngform>\n    </div>\n  </div>\n\n  <!-- chart -->\n  <div class=\"row\" for=\"primengDataGeneral\">\n    <div *ngFor=\"let blockData of primengDataGeneral\" class=\"primengapp-block-wrapper\">\n      <div for=\"blockData.blockContent\">\n        <div class=\"{{blockData.blockClass}} primengapp-block-class-wrapper\" >\n          <div class=\"{{blockData.blockClassSub}} block-sub-class-wrapper\">\n            <div class=\"primengapp-block-save-pg-icon-wrapper\" [innerHTML]=\"blockData.blockIcon | safeHtml\"></div>\n            <div id=\"{{blockData.blockId}}\" class=\"primengapp-block-first-wrapper\">\n              <div class=\"primengapp-block-header-wrapper\" [innerHTML]=\"blockData.blockHeader | safeHtml\"></div>\n              <p-tabView class=\"primengapp-tab-view-wrapper-{{blockData.tabShow}}\">\n                <div *ngFor=\"let eachtabcontent of blockData.blockContent; let i = index\">\n                  <p-tabPanel header=\"{{eachtabcontent.tabTitle}}\" class=\"primengapp-tab-panel-wrapper\" [selected]=\"i == 0\">\n                    <div class=\"{{eachtabcontent.tabData.class}} primengapp-tab-panel-content-wrapper\">\n                      <div class=\"primengapp-block-top-wrapper\" [innerHTML]=\"eachtabcontent.tabData.top.value | safeHtml\">\n                      </div>\n\n                      <!-- chartjs -->\n                      <div *ngIf=\"eachtabcontent.tabData.type == 'chart'; else elseBlock\">\n                        <app-primeng-chartjs [chartInputData]=\"eachtabcontent\"></app-primeng-chartjs>    \n                      </div>\n\n                      <!-- table -->\n                      <div *ngIf=\"eachtabcontent.tabData.type == 'table'; else elseBlock\">\n                        <app-primeng-table [tableInputData]=\"eachtabcontent\"></app-primeng-table>\n                      </div>\n\n                      <div class=\"primengapp-block-bottom-wrapper clear-both\" [innerHTML]=\"eachtabcontent.tabData.bottom.value\">\n                      </div>\n                    </div>\n                  </p-tabPanel>\n                </div>\n              </p-tabView>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n\n\n\n\n\n\n"
+module.exports = "\n<!-- <router-outlet></router-outlet> -->\n\n<div class=\"primengapp-dev-wrapper\">\n  <!-- meeting event form -->\n  <div *ngFor=\"let eachcomponent of sectionContent\">\n    <div *ngIf=\"eachcomponent.componentname == 'primengforms'; else elseBlock\">\n      <app-ngform [name]=\"eachcomponent\"></app-ngform>\n    </div>\n\n    <div *ngIf=\"eachcomponent.componentname == 'primengchartjs'; else elseBlock\">\n      <app-primeng-chartjs [chartInputData]=\"eachcomponent\"></app-primeng-chartjs>\n    </div>\n\n    <div *ngIf=\"eachcomponent.componentname == 'primengtable'; else elseBlock\">\n      <app-primeng-table [tableInputData]=\"eachcomponent\"></app-primeng-table>\n    </div>\n\n    <div *ngIf=\"eachcomponent.componentname == 'customhtml'; else elseBlock\">\n      <app-custome-html [htmlInputData]=\"eachcomponent\"></app-custome-html>\n    </div>\n\n    <div *ngIf=\"eachcomponent.componentname == 'navbuttons'; else elseBlock\">\n      <app-nav-button [displayNavButton]=\"eachcomponent.componentcontent\"></app-nav-button>\n    </div>\n\n    <div *ngIf=\"eachcomponent.componentname == 'loadspinner'; else elseBlock\">\n      <app-load-spinner [displayloadspinner]=\"eachcomponent.componentcontent\"></app-load-spinner>\n    </div>\n  </div>\n\n  <!-- <div *ngFor=\"let eachcomponent of sectionContent\">\n\n  </div>\n\n  <div *ngFor=\"let eachcomponent of sectionContent\">\n\n  </div> -->\n\n\n</div>\n\n\n\n\n\n\n"
 
 /***/ }),
 
@@ -543,7 +543,7 @@ var AppComponent = /** @class */ (function () {
             selector: 'app-root',
             template: __webpack_require__(/*! ./app.component.html */ "./src/app/app.component.html"),
             encapsulation: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewEncapsulation"].None,
-            styles: [__webpack_require__(/*! ./app.component.css */ "./src/app/app.component.css"), __webpack_require__(/*! ../css/plugin.css */ "./src/css/plugin.css")]
+            styles: [__webpack_require__(/*! ./app.component.css */ "./src/app/app.component.css"), __webpack_require__(/*! ../css/plugin.css */ "./src/css/plugin.css"), __webpack_require__(/*! ../css/customstyle.css */ "./src/css/customstyle.css")]
         }),
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [_app_service__WEBPACK_IMPORTED_MODULE_2__["AppService"]])
     ], AppComponent);
@@ -607,6 +607,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ngform_ngform_component__WEBPACK_IMPORTED_MODULE_25__ = __webpack_require__(/*! ./ngform/ngform.component */ "./src/app/ngform/ngform.component.ts");
 /* harmony import */ var _edit_password_edit_password_component__WEBPACK_IMPORTED_MODULE_26__ = __webpack_require__(/*! ./edit-password/edit-password.component */ "./src/app/edit-password/edit-password.component.ts");
 /* harmony import */ var _ngapp_pipe__WEBPACK_IMPORTED_MODULE_27__ = __webpack_require__(/*! ./ngapp.pipe */ "./src/app/ngapp.pipe.ts");
+/* harmony import */ var _custome_html_custome_html_component__WEBPACK_IMPORTED_MODULE_28__ = __webpack_require__(/*! ./custome-html/custome-html.component */ "./src/app/custome-html/custome-html.component.ts");
+/* harmony import */ var _nav_button_nav_button_component__WEBPACK_IMPORTED_MODULE_29__ = __webpack_require__(/*! ./nav-button/nav-button.component */ "./src/app/nav-button/nav-button.component.ts");
+/* harmony import */ var _load_spinner_load_spinner_component__WEBPACK_IMPORTED_MODULE_30__ = __webpack_require__(/*! ./load-spinner/load-spinner.component */ "./src/app/load-spinner/load-spinner.component.ts");
 
 
 
@@ -635,6 +638,14 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
+
+
+
+var appRoutes = [
+    { path: 'form', component: _ngform_ngform_component__WEBPACK_IMPORTED_MODULE_25__["NGFormComponent"] },
+    { path: 'charts', component: _primeng_chartjs_primeng_chartjs_component__WEBPACK_IMPORTED_MODULE_5__["PrimengChartjsComponent"] },
+    { path: 'table', component: _primeng_table_primeng_table_component__WEBPACK_IMPORTED_MODULE_4__["PrimengTableComponent"] },
+];
 var AppModule = /** @class */ (function () {
     function AppModule() {
     }
@@ -647,7 +658,10 @@ var AppModule = /** @class */ (function () {
                 _hcp_template_hcp_template_component__WEBPACK_IMPORTED_MODULE_6__["HcpTemplateComponent"],
                 _ngform_ngform_component__WEBPACK_IMPORTED_MODULE_25__["NGFormComponent"],
                 _edit_password_edit_password_component__WEBPACK_IMPORTED_MODULE_26__["EditPasswordComponent"],
-                _ngapp_pipe__WEBPACK_IMPORTED_MODULE_27__["SafeHtmlPipe"]
+                _ngapp_pipe__WEBPACK_IMPORTED_MODULE_27__["SafeHtmlPipe"],
+                _custome_html_custome_html_component__WEBPACK_IMPORTED_MODULE_28__["CustomeHtmlComponent"],
+                _nav_button_nav_button_component__WEBPACK_IMPORTED_MODULE_29__["NavButtonComponent"],
+                _load_spinner_load_spinner_component__WEBPACK_IMPORTED_MODULE_30__["LoadSpinnerComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_1__["BrowserModule"],
@@ -755,6 +769,9 @@ var AppService = /** @class */ (function () {
         else if (section == 'sampleform') {
             return this.http.get(ngDrupalSettings.drupalSettings.path.baseUrl + 'libraries/primeng7app/src/assets/data/sample-form.json');
         }
+        else if (section == 'sampletable') {
+            return this.http.get(ngDrupalSettings.drupalSettings.path.baseUrl + 'libraries/primeng7app/src/assets/data/sample-table.json');
+        }
         return this.http.get(ngDrupalSettings.drupalSettings.path.baseUrl + 'ngjson/' + section + '/' + type + '/' + entityId + '/start/end');
     };
     /**
@@ -832,6 +849,67 @@ var CopyComponent = /** @class */ (function () {
         // console.log(a);
     };
     return CopyComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/custome-html/custome-html.component.css":
+/*!*********************************************************!*\
+  !*** ./src/app/custome-html/custome-html.component.css ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL2N1c3RvbWUtaHRtbC9jdXN0b21lLWh0bWwuY29tcG9uZW50LmNzcyJ9 */"
+
+/***/ }),
+
+/***/ "./src/app/custome-html/custome-html.component.html":
+/*!**********************************************************!*\
+  !*** ./src/app/custome-html/custome-html.component.html ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div>\n  <div *ngFor=\"let eachHtmlBlock of htmlDataGeneral.primengcontentdata\">\n  \t<div [innerHTML]=\"eachHtmlBlock.fieldContent | safeHtml\"></div>\n  </div>\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/custome-html/custome-html.component.ts":
+/*!********************************************************!*\
+  !*** ./src/app/custome-html/custome-html.component.ts ***!
+  \********************************************************/
+/*! exports provided: CustomeHtmlComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "CustomeHtmlComponent", function() { return CustomeHtmlComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+var CustomeHtmlComponent = /** @class */ (function () {
+    function CustomeHtmlComponent() {
+    }
+    CustomeHtmlComponent.prototype.ngOnInit = function () {
+    };
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])('htmlInputData'),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", Array)
+    ], CustomeHtmlComponent.prototype, "htmlDataGeneral", void 0);
+    CustomeHtmlComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-custome-html',
+            template: __webpack_require__(/*! ./custome-html.component.html */ "./src/app/custome-html/custome-html.component.html"),
+            encapsulation: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewEncapsulation"].None,
+            styles: [__webpack_require__(/*! ./custome-html.component.css */ "./src/app/custome-html/custome-html.component.css")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+    ], CustomeHtmlComponent);
+    return CustomeHtmlComponent;
 }());
 
 
@@ -1013,6 +1091,145 @@ var HcpTemplateComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/load-spinner/load-spinner.component.css":
+/*!*********************************************************!*\
+  !*** ./src/app/load-spinner/load-spinner.component.css ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "#spinner {\n  margin: auto;\n  margin-top: 20%;\n  border: 16px dotted #f3f3f3;\n  border-radius: 50%;\n  border-top: 16px solid #9e9e9e;\n  width: 120px;\n  height: 120px;\n  -webkit-animation: spin 2s linear infinite; /* Safari */\n  animation: spin 2s linear infinite;\n}\n\n/* Safari */\n\n@-webkit-keyframes spin {\n  0% { -webkit-transform: rotate(0deg); }\n  100% { -webkit-transform: rotate(360deg); }\n}\n\n/*IE*/\n\n/*firefox*/\n\n@keyframes spin {\n  0% { -webkit-transform: rotate(0deg); transform: rotate(0deg); }\n  100% { -webkit-transform: rotate(360deg); transform: rotate(360deg); }\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbG9hZC1zcGlubmVyL2xvYWQtc3Bpbm5lci5jb21wb25lbnQuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsWUFBWTtFQUNaLGVBQWU7RUFDZiwyQkFBMkI7RUFDM0Isa0JBQWtCO0VBQ2xCLDhCQUE4QjtFQUM5QixZQUFZO0VBQ1osYUFBYTtFQUNiLDBDQUEwQyxFQUFFLFdBQVc7RUFDdkQsa0NBQWtDO0FBQ3BDOztBQUVBLFdBQVc7O0FBQ1g7RUFDRSxLQUFLLCtCQUErQixFQUFFO0VBQ3RDLE9BQU8saUNBQWlDLEVBQUU7QUFDNUM7O0FBRUEsS0FBSzs7QUFNTCxVQUFVOztBQU1WO0VBQ0UsS0FBSywrQkFBdUIsRUFBdkIsdUJBQXVCLEVBQUU7RUFDOUIsT0FBTyxpQ0FBeUIsRUFBekIseUJBQXlCLEVBQUU7QUFDcEMiLCJmaWxlIjoic3JjL2FwcC9sb2FkLXNwaW5uZXIvbG9hZC1zcGlubmVyLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIjc3Bpbm5lciB7XG4gIG1hcmdpbjogYXV0bztcbiAgbWFyZ2luLXRvcDogMjAlO1xuICBib3JkZXI6IDE2cHggZG90dGVkICNmM2YzZjM7XG4gIGJvcmRlci1yYWRpdXM6IDUwJTtcbiAgYm9yZGVyLXRvcDogMTZweCBzb2xpZCAjOWU5ZTllO1xuICB3aWR0aDogMTIwcHg7XG4gIGhlaWdodDogMTIwcHg7XG4gIC13ZWJraXQtYW5pbWF0aW9uOiBzcGluIDJzIGxpbmVhciBpbmZpbml0ZTsgLyogU2FmYXJpICovXG4gIGFuaW1hdGlvbjogc3BpbiAycyBsaW5lYXIgaW5maW5pdGU7XG59XG5cbi8qIFNhZmFyaSAqL1xuQC13ZWJraXQta2V5ZnJhbWVzIHNwaW4ge1xuICAwJSB7IC13ZWJraXQtdHJhbnNmb3JtOiByb3RhdGUoMGRlZyk7IH1cbiAgMTAwJSB7IC13ZWJraXQtdHJhbnNmb3JtOiByb3RhdGUoMzYwZGVnKTsgfVxufVxuXG4vKklFKi9cbkAtbW96LWtleWZyYW1lcyBzcGluIHtcbiAgMCUgeyAtd2Via2l0LXRyYW5zZm9ybTogcm90YXRlKDBkZWcpOyB9XG4gIDEwMCUgeyAtd2Via2l0LXRyYW5zZm9ybTogcm90YXRlKDM2MGRlZyk7IH1cbn1cblxuLypmaXJlZm94Ki9cbkAtbW96LWtleWZyYW1lcyBzcGluIHtcbiAgMCUgeyAtd2Via2l0LXRyYW5zZm9ybTogcm90YXRlKDBkZWcpOyB9XG4gIDEwMCUgeyAtd2Via2l0LXRyYW5zZm9ybTogcm90YXRlKDM2MGRlZyk7IH1cbn1cblxuQGtleWZyYW1lcyBzcGluIHtcbiAgMCUgeyB0cmFuc2Zvcm06IHJvdGF0ZSgwZGVnKTsgfVxuICAxMDAlIHsgdHJhbnNmb3JtOiByb3RhdGUoMzYwZGVnKTsgfVxufSJdfQ== */"
+
+/***/ }),
+
+/***/ "./src/app/load-spinner/load-spinner.component.html":
+/*!**********************************************************!*\
+  !*** ./src/app/load-spinner/load-spinner.component.html ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div *ngIf=\"displayloadspinner\">\n\t<div id=\"spinner\"></div>\n</div>"
+
+/***/ }),
+
+/***/ "./src/app/load-spinner/load-spinner.component.ts":
+/*!********************************************************!*\
+  !*** ./src/app/load-spinner/load-spinner.component.ts ***!
+  \********************************************************/
+/*! exports provided: LoadSpinnerComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "LoadSpinnerComponent", function() { return LoadSpinnerComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+
+
+var LoadSpinnerComponent = /** @class */ (function () {
+    function LoadSpinnerComponent() {
+    }
+    LoadSpinnerComponent.prototype.ngAfterViewInit = function () {
+        this.displayloadspinner = false;
+        console.log("displayloadspinner");
+        console.log(this.displayloadspinner);
+    };
+    LoadSpinnerComponent.prototype.ngOnInit = function () {
+    };
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])('displayloadspinner'),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", Boolean)
+    ], LoadSpinnerComponent.prototype, "displayloadspinner", void 0);
+    LoadSpinnerComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-load-spinner',
+            template: __webpack_require__(/*! ./load-spinner.component.html */ "./src/app/load-spinner/load-spinner.component.html"),
+            encapsulation: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewEncapsulation"].None,
+            styles: [__webpack_require__(/*! ./load-spinner.component.css */ "./src/app/load-spinner/load-spinner.component.css")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+    ], LoadSpinnerComponent);
+    return LoadSpinnerComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/nav-button/nav-button.component.css":
+/*!*****************************************************!*\
+  !*** ./src/app/nav-button/nav-button.component.css ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL25hdi1idXR0b24vbmF2LWJ1dHRvbi5jb21wb25lbnQuY3NzIn0= */"
+
+/***/ }),
+
+/***/ "./src/app/nav-button/nav-button.component.html":
+/*!******************************************************!*\
+  !*** ./src/app/nav-button/nav-button.component.html ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<div *ngIf=\"displayNavButton\">\n  <p-button type=\"button\" label=\"ng form\" class=\"margin-24\" (onClick)=\"replaceurl('/sampleform')\"></p-button>\n  <p-button type=\"button\" label=\"ng chart\" class=\"margin-24\" (onClick)=\"replaceurl('/samplepage')\"></p-button>\n  <p-button type=\"button\" label=\"ng table\" class=\"margin-24\" (onClick)=\"replaceurl('/sampletable')\"></p-button>\n</div>\n"
+
+/***/ }),
+
+/***/ "./src/app/nav-button/nav-button.component.ts":
+/*!****************************************************!*\
+  !*** ./src/app/nav-button/nav-button.component.ts ***!
+  \****************************************************/
+/*! exports provided: NavButtonComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "NavButtonComponent", function() { return NavButtonComponent; });
+/* harmony import */ var tslib__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! tslib */ "./node_modules/tslib/tslib.es6.js");
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _app_ngdrupalsettings__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./../app.ngdrupalsettings */ "./src/app/app.ngdrupalsettings.js");
+
+
+
+var NavButtonComponent = /** @class */ (function () {
+    function NavButtonComponent() {
+    }
+    NavButtonComponent.prototype.replaceurl = function (redirectUrl) {
+        var ngDrupalSettings = new _app_ngdrupalsettings__WEBPACK_IMPORTED_MODULE_2__["NgDrupalSettings"]();
+        var current = ngDrupalSettings.drupalSettings.path.currentPath;
+        console.log("redirectUrl");
+        console.log(ngDrupalSettings.drupalSettings.path.baseUrl);
+        var resulturl = ngDrupalSettings.drupalSettings.path.baseUrl + 'ngpage' + redirectUrl + '/page/all/';
+        console.log(resulturl);
+        location.replace(resulturl);
+        // window.location = resulturl;
+    };
+    NavButtonComponent.prototype.ngOnInit = function () {
+    };
+    tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])('displayNavButton'),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", Boolean)
+    ], NavButtonComponent.prototype, "displayNavButton", void 0);
+    NavButtonComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
+            selector: 'app-nav-button',
+            template: __webpack_require__(/*! ./nav-button.component.html */ "./src/app/nav-button/nav-button.component.html"),
+            encapsulation: _angular_core__WEBPACK_IMPORTED_MODULE_1__["ViewEncapsulation"].None,
+            styles: [__webpack_require__(/*! ./nav-button.component.css */ "./src/app/nav-button/nav-button.component.css")]
+        }),
+        tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:paramtypes", [])
+    ], NavButtonComponent);
+    return NavButtonComponent;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/ngapp.pipe.ts":
 /*!*******************************!*\
   !*** ./src/app/ngapp.pipe.ts ***!
@@ -1121,10 +1338,11 @@ var NGFormComponent = /** @class */ (function () {
         this.returnFormResults.forEach(function (eachResult) {
             _this.formBasicInfo.resultSubmit[eachResult.field_name] = eachResult;
         });
+        console.log(this.formBasicInfo.resultSubmit);
         // delete this.formBasicInfo.resultSubmit["meeting_tile"];
         // delete this.formBasicInfo.resultSubmit["meeting_topic"];
         // delete this.formBasicInfo.resultSubmit["undefined"];
-        console.log(this.formBasicInfo.resultSubmit);
+        // console.log(this.formBasicInfo.resultSubmit);
         // save json to node evaluation
         this.formBasicInfo.resultSubmit["field_evaluation_reactset"] = this.returnQuestionsResults;
         if (typeof this.formBasicInfo.formSubmitTag !== 'undefined') {
@@ -1351,7 +1569,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"{{eachtabcontent.tabData.middle.class}} primengapp-chart-block-class-wrapper\">\n  <div class=\"{{eachtabcontent.tabData.middle.middleMiddle.styleClass}} primengapp-chart-style-class-wrapper\">\n    <p-chart type=\"{{eachtabcontent.tabData.middle.middleMiddle.type}}\" height=\"300px\" [data]=\"eachtabcontent.tabData.middle.middleMiddle.data\" [options]=\"eachtabcontent.tabData.middle.middleMiddle.options\">\n    </p-chart>\n  </div>\n  <div class=\"{{eachtabcontent.tabData.middle.middleRight.styleClass}} primengapp-chart-middleright-class-wrapper\">\n    <div [innerHTML]=\"eachtabcontent.tabData.middle.middleRight.value | safeHtml\"></div>\n  </div>\n</div>\n"
+module.exports = "\n\n<div class=\"primengapp-dev-wrapper\">\n\n  <!-- chart -->\n  <div class=\"row\" for=\"primengDataGeneral\">\n    <div *ngFor=\"let blockData of primengDataGeneral.primengcontentdata\" class=\"primengapp-block-wrapper\">\n      <div for=\"blockData.blockContent\">\n        <div class=\"{{blockData.blockClass}} primengapp-block-class-wrapper\" >\n          <div class=\"{{blockData.blockClassSub}} block-sub-class-wrapper\">\n            <div class=\"primengapp-block-save-pg-icon-wrapper\" [innerHTML]=\"blockData.blockIcon | safeHtml\"></div>\n            <div id=\"{{blockData.blockId}}\" class=\"primengapp-block-first-wrapper\">\n              <div class=\"primengapp-block-header-wrapper\" [innerHTML]=\"blockData.blockHeader | safeHtml\"></div>\n              <p-tabView class=\"primengapp-tab-view-wrapper-{{blockData.tabShow}}\">\n                <div *ngFor=\"let eachtabcontent of blockData.blockContent; let i = index\">\n                  <p-tabPanel header=\"{{eachtabcontent.tabTitle}}\" class=\"primengapp-tab-panel-wrapper\" [selected]=\"i == 0\">\n                    <div class=\"{{eachtabcontent.tabData.class}} primengapp-tab-panel-content-wrapper\">\n                      <div class=\"primengapp-block-top-wrapper\" [innerHTML]=\"eachtabcontent.tabData.top.value | safeHtml\">\n                      </div>\n\n                      <!-- chartjs -->\n                      <div *ngIf=\"eachtabcontent.tabData.type == 'chart'; else elseBlock\">\n\n                        <div class=\"{{eachtabcontent.tabData.middle.class}} primengapp-chart-block-class-wrapper\">\n                          <div class=\"{{eachtabcontent.tabData.middle.middleMiddle.styleClass}} primengapp-chart-style-class-wrapper\">\n                            <p-chart type=\"{{eachtabcontent.tabData.middle.middleMiddle.type}}\" height=\"300px\" [data]=\"eachtabcontent.tabData.middle.middleMiddle.data\" [options]=\"eachtabcontent.tabData.middle.middleMiddle.options\">\n                            </p-chart>\n                          </div>\n                          <div class=\"{{eachtabcontent.tabData.middle.middleRight.styleClass}} primengapp-chart-middleright-class-wrapper\">\n                            <div [innerHTML]=\"eachtabcontent.tabData.middle.middleRight.value | safeHtml\"></div>\n                          </div>\n                        </div>\n\n                      </div>\n\n                      <div class=\"primengapp-block-bottom-wrapper clear-both\" [innerHTML]=\"eachtabcontent.tabData.bottom.value\">\n                      </div>\n                    </div>\n                  </p-tabPanel>\n                </div>\n              </p-tabView>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n\n"
 
 /***/ }),
 
@@ -1377,7 +1595,7 @@ var PrimengChartjsComponent = /** @class */ (function () {
     tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])('chartInputData'),
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", Array)
-    ], PrimengChartjsComponent.prototype, "eachtabcontent", void 0);
+    ], PrimengChartjsComponent.prototype, "primengDataGeneral", void 0);
     PrimengChartjsComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'app-primeng-chartjs',
@@ -1412,7 +1630,7 @@ module.exports = ".primengapp-dev-wrapper .primeng-ptable .ui-table .ui-sortable
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n<div class=\"primeng-ptable clear-both\">\n  <p-table #dt [columns]=\"eachtabcontent.tabData.middle.thead\" [value]=\"eachtabcontent.tabData.middle.tabledata\" [paginator]=\"true\" [rows]=\"10\" [rowsPerPageOptions]=\"[10,20,30]\" sortField=\"{{eachtabcontent.tabData.middle.tSortField}}\" sortOrder=\"-1\">\n    <ng-template pTemplate=\"caption\" class=\"primengapp-table-border\">\n      <div class=\"row primengapp-table-features-wrapper text-align-left\">\n        <div class=\"col-sm-12 col-md-6 col-lg-6 primengapp-table-keyword-search\">\n          <input type=\"text\" class=\"input-search width-auto\" pInputText size=\"30\" placeholder=\"Search\" (input)=\"dt.filterGlobal($event.target.value, 'contains')\">\n        </div>\n        <!--\n        <div class=\"col-sm-12 col-md-6 col-lg-3 primengapp-table-colum-multiselect\">\n          <p-multiSelect [options]=\"eachtabcontent.tabData.middle.tfields\" [(ngModel)]=\"eachtabcontent.tabData.middle.thead\" optionLabel=\"header\"\n            selectedItemsLabel=\"{0} columns selected\" [style]=\"{minWidth: '200px'}\" defaultLabel=\"Choose Columns\"></p-multiSelect>\n        </div>\n        -->\n        <div class=\"ui-helper-clearfix table-copy-excel-button col-sm-12 col-md-12 col-lg-offset-3 col-lg-3 lg-text-align-right\">\n          <div class=\"primengapp-button-copy\">\n            <button id=\"copy-button-{{eachtabcontent.tabData.tableId}}\" type=\"button\" pButton iconPos=\"left\" label=\"COPY\" (click)=\"copyMessage(eachtabcontent.tabData.middle.tabledata)\"></button>\n          </div>\n          <div class=\"primengapp-button-excel\">\n            <button type=\"button\" pButton iconPos=\"left\" label=\"EXCEL\" (click)=\"dt.exportCSV()\"></button>\n          </div>\n        </div>\n      </div>\n    </ng-template>\n    <ng-template class=\"primengapp-table-header-wrapper\" pTemplate=\"header\" let-columns>\n      <tr>\n        <th *ngFor=\"let col of eachtabcontent.tabData.middle.thead\" [pSortableColumn]=\"col.field\">\n          {{col.header}}\n          <p-sortIcon [field]=\"col.field\" ariaLabel=\"Activate to sort\" ariaLabelDesc=\"Activate to sort in descending order\" ariaLabelAsc=\"Activate to sort in ascending order\"></p-sortIcon>\n        </th>\n      </tr>\n    </ng-template>\n    <ng-template class=\"primengapp-table-data-wrapper\" pTemplate=\"body\" let-car let-columns=\"eachtabcontent.tabData.middle.thead\">\n      <tr>\n        <td *ngFor=\"let col of eachtabcontent.tabData.middle.thead\" [innerHTML]=\"car[col.field] | safeHtml\">\n        </td>\n      </tr>\n    </ng-template>\n  </p-table>\n</div>\n"
+module.exports = "<div class=\"primengapp-dev-wrapper\">\n\n  <!-- table -->\n  <div class=\"row\" for=\"primengDataGeneral\">\n    <div *ngFor=\"let blockData of primengDataGeneral.primengcontentdata\" class=\"primengapp-block-wrapper\">\n      <div for=\"blockData.blockContent\">\n        <div class=\"{{blockData.blockClass}} primengapp-block-class-wrapper\" >\n          <div class=\"{{blockData.blockClassSub}} block-sub-class-wrapper\">\n            <div class=\"primengapp-block-save-pg-icon-wrapper\" [innerHTML]=\"blockData.blockIcon | safeHtml\"></div>\n            <div id=\"{{blockData.blockId}}\" class=\"primengapp-block-first-wrapper\">\n              <div class=\"primengapp-block-header-wrapper\" [innerHTML]=\"blockData.blockHeader | safeHtml\"></div>\n              <p-tabView class=\"primengapp-tab-view-wrapper-{{blockData.tabShow}}\">\n                <div *ngFor=\"let eachtabcontent of blockData.blockContent; let i = index\">\n                  <p-tabPanel header=\"{{eachtabcontent.tabTitle}}\" class=\"primengapp-tab-panel-wrapper\" [selected]=\"i == 0\">\n                    <div class=\"{{eachtabcontent.tabData.class}} primengapp-tab-panel-content-wrapper\">\n                      <div class=\"primengapp-block-top-wrapper\" [innerHTML]=\"eachtabcontent.tabData.top.value | safeHtml\">\n                      </div>\n\n                      <!-- table -->\n                      <div *ngIf=\"eachtabcontent.tabData.type == 'table'; else elseBlock\">\n\n                        <div class=\"primeng-ptable clear-both\">\n                          <p-table #dt [columns]=\"eachtabcontent.tabData.middle.thead\" [value]=\"eachtabcontent.tabData.middle.tabledata\" [paginator]=\"true\" [rows]=\"10\" [rowsPerPageOptions]=\"[10,20,30]\" sortField=\"{{eachtabcontent.tabData.middle.tSortField}}\" sortOrder=\"-1\">\n                            <ng-template pTemplate=\"caption\" class=\"primengapp-table-border\">\n                              <div class=\"row primengapp-table-features-wrapper text-align-left\">\n                                <div class=\"col-sm-12 col-md-6 col-lg-6 primengapp-table-keyword-search\">\n                                  <input type=\"text\" class=\"input-search width-auto\" pInputText size=\"30\" placeholder=\"Search\" (input)=\"dt.filterGlobal($event.target.value, 'contains')\">\n                                </div>\n                                <!--\n                                <div class=\"col-sm-12 col-md-6 col-lg-3 primengapp-table-colum-multiselect\">\n                                  <p-multiSelect [options]=\"eachtabcontent.tabData.middle.tfields\" [(ngModel)]=\"eachtabcontent.tabData.middle.thead\" optionLabel=\"header\"\n                                    selectedItemsLabel=\"{0} columns selected\" [style]=\"{minWidth: '200px'}\" defaultLabel=\"Choose Columns\"></p-multiSelect>\n                                </div>\n                                -->\n                                <div class=\"ui-helper-clearfix table-copy-excel-button col-sm-12 col-md-12 col-lg-offset-3 col-lg-3 lg-text-align-right\">\n                                  <div class=\"primengapp-button-copy\">\n                                    <button id=\"copy-button-{{eachtabcontent.tabData.tableId}}\" type=\"button\" pButton iconPos=\"left\" label=\"COPY\" (click)=\"copyMessage(eachtabcontent.tabData.middle.tabledata)\"></button>\n                                  </div>\n                                  <div class=\"primengapp-button-excel\">\n                                    <button type=\"button\" pButton iconPos=\"left\" label=\"EXCEL\" (click)=\"dt.exportCSV()\"></button>\n                                  </div>\n                                </div>\n                              </div>\n                            </ng-template>\n                            <ng-template class=\"primengapp-table-header-wrapper\" pTemplate=\"header\" let-columns>\n                              <tr>\n                                <th *ngFor=\"let col of eachtabcontent.tabData.middle.thead\" [pSortableColumn]=\"col.field\">\n                                  {{col.header}}\n                                  <p-sortIcon [field]=\"col.field\" ariaLabel=\"Activate to sort\" ariaLabelDesc=\"Activate to sort in descending order\" ariaLabelAsc=\"Activate to sort in ascending order\"></p-sortIcon>\n                                </th>\n                              </tr>\n                            </ng-template>\n                            <ng-template class=\"primengapp-table-data-wrapper\" pTemplate=\"body\" let-car let-columns=\"eachtabcontent.tabData.middle.thead\">\n                              <tr>\n                                <td *ngFor=\"let col of eachtabcontent.tabData.middle.thead\" [innerHTML]=\"car[col.field] | safeHtml\">\n                                </td>\n                              </tr>\n                            </ng-template>\n                          </p-table>\n                        </div>\n                      </div>\n\n                      <div class=\"primengapp-block-bottom-wrapper clear-both\" [innerHTML]=\"eachtabcontent.tabData.bottom.value\">\n                      </div>\n                    </div>\n                  </p-tabPanel>\n                </div>\n              </p-tabView>\n            </div>\n          </div>\n        </div>\n      </div>\n    </div>\n  </div>\n</div>\n\n\n"
 
 /***/ }),
 
@@ -1444,7 +1662,7 @@ var PrimengTableComponent = /** @class */ (function () {
     tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])('tableInputData'),
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", Object)
-    ], PrimengTableComponent.prototype, "eachtabcontent", void 0);
+    ], PrimengTableComponent.prototype, "primengDataGeneral", void 0);
     PrimengTableComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
             selector: 'app-primeng-table',
@@ -1458,6 +1676,17 @@ var PrimengTableComponent = /** @class */ (function () {
 }());
 
 
+
+/***/ }),
+
+/***/ "./src/css/customstyle.css":
+/*!*********************************!*\
+  !*** ./src/css/customstyle.css ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/**\n *\n */\nbody .region .ui-widget-content {\n  border: none;\n}\n/**\n *\n */\nbody .region .ui-widget-header {\n  border: none;\n  background-color: #fff;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9jc3MvY3VzdG9tc3R5bGUuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOztFQUVFO0FBQ0Y7RUFDRSxZQUFZO0FBQ2Q7QUFFQTs7RUFFRTtBQUNGO0VBQ0UsWUFBWTtFQUNaLHNCQUFzQjtBQUN4QiIsImZpbGUiOiJzcmMvY3NzL2N1c3RvbXN0eWxlLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qKlxuICpcbiAqL1xuYm9keSAucmVnaW9uIC51aS13aWRnZXQtY29udGVudCB7XG4gIGJvcmRlcjogbm9uZTtcbn1cblxuLyoqXG4gKlxuICovXG5ib2R5IC5yZWdpb24gLnVpLXdpZGdldC1oZWFkZXIge1xuICBib3JkZXI6IG5vbmU7XG4gIGJhY2tncm91bmQtY29sb3I6ICNmZmY7XG59Il19 */"
 
 /***/ }),
 

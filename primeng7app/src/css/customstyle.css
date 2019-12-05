@@ -1,0 +1,14 @@
+/**
+ *
+ */
+body .region .ui-widget-content {
+  border: none;
+}
+
+/**
+ *
+ */
+body .region .ui-widget-header {
+  border: none;
+  background-color: #fff;
+}

@@ -10,6 +10,8 @@ import 'chartjs-plugin-labels';
 
 import 'chartjs-plugin-stacked100';
 
+import { NgDrupalSettings } from './app.ngdrupalsettings';
+
 
 interface DropDownDataFormat {
   name: string
@@ -18,7 +20,7 @@ interface DropDownDataFormat {
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css', '../css/plugin.css'],
+  styleUrls: ['./app.component.css', '../css/plugin.css', '../css/customstyle.css'],
   encapsulation: ViewEncapsulation.None
 })
 
@@ -251,6 +253,7 @@ export class AppComponent implements OnInit {
       console.log('error: ', err);
     });
   }
+
 
   // @ViewChild('divClick') divClick: ElementRef;
 

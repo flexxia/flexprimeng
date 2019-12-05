@@ -1,49 +1,43 @@
+
+<!-- <router-outlet></router-outlet> -->
+
 <div class="primengapp-dev-wrapper">
   <!-- meeting event form -->
   <div *ngFor="let eachcomponent of sectionContent">
     <div *ngIf="eachcomponent.componentname == 'primengforms'; else elseBlock">
       <app-ngform [name]="eachcomponent"></app-ngform>
     </div>
-  </div>
 
-  <!-- chart -->
-  <div class="row" for="primengDataGeneral">
-    <div *ngFor="let blockData of primengDataGeneral" class="primengapp-block-wrapper">
-      <div for="blockData.blockContent">
-        <div class="{{blockData.blockClass}} primengapp-block-class-wrapper" >
-          <div class="{{blockData.blockClassSub}} block-sub-class-wrapper">
-            <div class="primengapp-block-save-pg-icon-wrapper" [innerHTML]="blockData.blockIcon | safeHtml"></div>
-            <div id="{{blockData.blockId}}" class="primengapp-block-first-wrapper">
-              <div class="primengapp-block-header-wrapper" [innerHTML]="blockData.blockHeader | safeHtml"></div>
-              <p-tabView class="primengapp-tab-view-wrapper-{{blockData.tabShow}}">
-                <div *ngFor="let eachtabcontent of blockData.blockContent; let i = index">
-                  <p-tabPanel header="{{eachtabcontent.tabTitle}}" class="primengapp-tab-panel-wrapper" [selected]="i == 0">
-                    <div class="{{eachtabcontent.tabData.class}} primengapp-tab-panel-content-wrapper">
-                      <div class="primengapp-block-top-wrapper" [innerHTML]="eachtabcontent.tabData.top.value | safeHtml">
-                      </div>
+    <div *ngIf="eachcomponent.componentname == 'primengchartjs'; else elseBlock">
+      <app-primeng-chartjs [chartInputData]="eachcomponent"></app-primeng-chartjs>
+    </div>
 
-                      <!-- chartjs -->
-                      <div *ngIf="eachtabcontent.tabData.type == 'chart'; else elseBlock">
-                        <app-primeng-chartjs [chartInputData]="eachtabcontent"></app-primeng-chartjs>    
-                      </div>
+    <div *ngIf="eachcomponent.componentname == 'primengtable'; else elseBlock">
+      <app-primeng-table [tableInputData]="eachcomponent"></app-primeng-table>
+    </div>
 
-                      <!-- table -->
-                      <div *ngIf="eachtabcontent.tabData.type == 'table'; else elseBlock">
-                        <app-primeng-table [tableInputData]="eachtabcontent"></app-primeng-table>
-                      </div>
+    <div *ngIf="eachcomponent.componentname == 'customhtml'; else elseBlock">
+      <app-custome-html [htmlInputData]="eachcomponent"></app-custome-html>
+    </div>
 
-                      <div class="primengapp-block-bottom-wrapper clear-both" [innerHTML]="eachtabcontent.tabData.bottom.value">
-                      </div>
-                    </div>
-                  </p-tabPanel>
-                </div>
-              </p-tabView>
-            </div>
-          </div>
-        </div>
-      </div>
+    <div *ngIf="eachcomponent.componentname == 'navbuttons'; else elseBlock">
+      <app-nav-button [displayNavButton]="eachcomponent.componentcontent"></app-nav-button>
+    </div>
+
+    <div *ngIf="eachcomponent.componentname == 'loadspinner'; else elseBlock">
+      <app-load-spinner [displayloadspinner]="eachcomponent.componentcontent"></app-load-spinner>
     </div>
   </div>
+
+  <!-- <div *ngFor="let eachcomponent of sectionContent">
+
+  </div>
+
+  <div *ngFor="let eachcomponent of sectionContent">
+
+  </div> -->
+
+
 </div>
 
 

@@ -1,6 +1,32 @@
 [
   {
+    "componentname": "navbuttons",
+    "componentcontent": true
+  },
+  {
+    "componentname": "loadspinner",
+    "componentcontent": true
+  },
+  {
     "componentname":"primengforms",
+    "formsBasicInfo": {
+      "postUrl": "node",
+      "redirectUrl": "manageinfo/node/evaluation/add/form/805",
+      "deleteRedirectUrl": "nodeinfo/redirect/meetinginsert",
+      "formType": "add",
+      "resultSubmit": {
+        "type": {
+          "target_id": "evaluation"
+        },
+        "field_evaluation_meetingnid": {
+          "target_id": "805",
+          "target_type": "node"
+        },
+        "field_evaluation_comments": {
+          "value": "some comment from user"
+        }
+      }
+    },
     "primengforms":[
       {
         "fieldValue": "field_evaluation_title",
@@ -33,6 +59,248 @@
         "displayType": "calendar",
         "default": "",
         "data": ""
+      },
+      {
+        "fieldId": "field_evaluation_html",
+        "fieldLabel":"Custom Text Field",
+        "inputType": "text",
+        "displayType": "customtext",
+        "default": "",
+        "options": []
+      },
+      {
+        "fieldId": "field_evaluation_title",
+        "fieldLabel":"<div class=\"col-sm-5 col-md-12 bg-4a245e color-fff padding-15 height-40\">Custome HTML Field</div>",
+        "inputType": "text",
+        "displayType": "customhtml",
+        "default": "",
+        "options": []
+      },
+      {
+        "fieldId": "field_meeting_title",
+        "fieldLabel":"Text field with default value, not submit",
+        "inputType": "textfield",
+        "displayType": "textfield",
+        "default":"Text field with default value, not submit",
+        "options":[]
+      },
+      {
+        "fieldId": "field_evaluation_user",
+        "fieldLabel":"Text field without default value, submit input value",
+        "inputType": "textfield",
+        "displayType": "textfield",
+        "default":"",
+        "options":[]
+      },
+      {
+        "fieldId": "field_type",
+        "fieldLabel":"Dropdown Field, single select, without default value, submit input value",
+        "inputType": "radio",
+        "displayType": "dropdown",
+        "default": null,
+        "options":[
+          {
+            "value": 1000,
+            "label": "NONE"
+          },
+          {
+            "value": 1111,
+            "label": "Pre"
+          },
+          {
+            "value": 222,
+            "label": "Post"
+          }
+        ]
+      },
+      {
+        "isReactSet": true,
+        "fieldId": "field_reactset_rate",
+        "fieldLabel":"Dropdown Field, single select, with default value, submit input value",
+        "inputType": "radio",
+        "displayType": "dropdown",
+        "default": 1111,
+        "returnValue":{
+          "refer_tid":"880",
+          "refer_uid":"",
+          "city":"london",
+          "refer_other":"lilkly"
+        },
+        "options":[
+          {
+            "value": 1000,
+            "label": "NONE"
+          },
+          {
+            "value": 1111,
+            "label": "1"
+          },
+          {
+            "value": 222,
+            "label": "2"
+          },
+          {
+            "value": 333,
+            "label": "3"
+          },
+          {
+            "value": 444,
+            "label": "4"
+          },
+          {
+            "value": 555,
+            "label": "5"
+          }
+        ]
+      },
+      {
+        "fieldId": "field_practitioner",
+        "fieldLabel":"multiselect Field, multiselect, without default value, submit input value",
+        "inputType": "multiselect",
+        "displayType": "multiselect",
+        "default":[],
+        "options":[
+          {
+            "value": 1111,
+            "label": "Specialist"
+          },
+          {
+            "value": 2222,
+            "label": "PCP"
+          },
+          {
+            "value": 3333,
+            "label": "Nurse"
+          },
+          {
+            "value": 4444,
+            "label": "Other"
+          },
+          {
+            "value": 5555,
+            "label": "GI"
+          },
+          {
+            "value": 6666,
+            "label": "NP/PA"
+          }
+        ]
+      },
+      {
+        "isReactSet": true,
+        "fieldId": "field_speakers",
+        "fieldLabel":"multiselect Field, multiselect, with default value, submit input value",
+        "inputType": "multiselect",
+        "displayType": "multiselect",
+        "default":[1111, 2222],
+        "options":[
+          {
+            "value": 1111,
+            "label": "Marie-Claude Racine"
+          },
+          {
+            "value": 2222,
+            "label": "Larry Dian"
+          },
+          {
+            "value": 3333,
+            "label": "Shereen Metias"
+          },
+          {
+            "value": 4444,
+            "label": "Marie-Hélène Robert"
+          },
+          {
+            "value": 5555,
+            "label": "Patrice Gosselin"
+          },
+          {
+            "value": 6666,
+            "label": "Danielle Houde"
+          }
+        ]
+      },
+      {
+        "fieldId": "field_thinking",
+        "fieldLabel":"Thinking of other educational programs you have attended, what specific recommendations do you have to it?Thinking of other educational programs you have attended, what specific recommendations do you have to it?",
+        "inputType": "textfield",
+        "displayType": "textfield",
+        "default":"",
+        "options":[]
+      },
+      {
+        "fieldId": "field_speakers2",
+        "fieldLabel":"multiselect, display type check box, without default value, submit input",
+        "inputType": "multiselect",
+        "displayType": "generalCheckbox",
+        "default":[],
+        "options":[
+          {
+            "value": 1111,
+            "label": "Marie-Claude Racine"
+          },
+          {
+            "value": 2222,
+            "label": "Larry Dian"
+          },
+          {
+            "value": 3333,
+            "label": "Shereen Metias"
+          },
+          {
+            "value": 4444,
+            "label": "Marie-Hélène Robert"
+          },
+          {
+            "value": 5555,
+            "label": "Patrice Gosselin"
+          },
+          {
+            "value": 6666,
+            "label": "Danielle Houde"
+          }
+        ]
+      },
+      {
+        "fieldId": "field_ctchest",
+        "fieldLabel":"single select, display type radioButton, without default value, submit input",
+        "inputType": "radio",
+        "displayType": "radioButton",
+        "default":[],
+        "options":[
+          {
+            "value": 101,
+            "label": "UIP"
+          },
+          {
+            "value": 202,
+            "label": "Probable UIP"
+          },
+          {
+            "value": 303,
+            "label": "Indeterminate for UIP"
+          },
+          {
+            "value": 404,
+            "label": "Alternative diagnosis"
+          }
+        ]
+      },
+      {
+        "fieldId": "field_evaluation_summary",
+        "fieldLabel":"single select, display type boolean Checkbox, without default value, submit input",
+        "inputType": "booleanCheckbox",
+        "displayType": "booleanCheckbox",
+        "default": false,
+        "options": []
+      },
+      {
+        "fieldId": "field_evaluation_date",
+        "fieldLabel":"calendar, submit input value",
+        "inputType": "calendar",
+        "displayType": "calendar",
+        "default": "",
+        "options": []
       }
     ]
   }

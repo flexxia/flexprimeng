@@ -1,5 +1,21 @@
 [
   {
+    "componentname": "customhtml",
+    "primengcontentdata": [
+      {
+        "fieldContent":"<div class=\"col-sm-5 col-md-12 bg-4a245e color-fff padding-15 height-40\">Custome HTML Field</div>"
+      }
+    ]
+  },
+  {
+    "componentname": "navbuttons",
+    "componentcontent": true
+  },
+  {
+    "componentname": "loadspinner",
+    "componentcontent": true
+  },
+  {
     "componentname": "primengchartjs",
     "primengcontentdata": [
       {
@@ -20,7 +36,7 @@
             "tabTitle": ""
           }
         ],
-        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-d6006e\"><div class=\"font-size-28 margin-top-10\">123</div><div class=\"font-size-16 margin-top-10\">Total Events</div></div>",
+        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-d6006e\"><div class=\"font-size-28 margin-top-10\">1231</div><div class=\"font-size-16 margin-top-10\">Total Events</div></div>",
         "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('2409317775d5ca9088d697')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
         "blockId": "2409317775d5ca9088d697",
         "tabShow": "hide"
