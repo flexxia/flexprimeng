@@ -44,7 +44,7 @@
                             </ng-template>
                             <ng-template class="primengapp-table-header-wrapper" pTemplate="header" let-columns>
                               <tr>
-                                <th *ngFor="let col of eachtabcontent.tabData.middle.thead" [pSortableColumn]="col.field">
+                                <th *ngFor="let col of eachtabcontent.tabData.middle.thead" [pSortableColumn]="col.field" [ngStyle]="{'width': col.width}">
                                   {{col.header}}
                                   <p-sortIcon [field]="col.field" ariaLabel="Activate to sort" ariaLabelDesc="Activate to sort in descending order" ariaLabelAsc="Activate to sort in ascending order"></p-sortIcon>
                                 </th>
