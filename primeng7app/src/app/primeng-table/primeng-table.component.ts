@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, ViewEncapsulation } from '@angular/core';
+import { Component, OnInit, Input, AfterViewInit, ViewEncapsulation } from '@angular/core';
 import { CopyComponent } from '../copy.component';
 
 @Component({
@@ -8,13 +8,19 @@ import { CopyComponent } from '../copy.component';
   encapsulation: ViewEncapsulation.None
 
 })
-export class PrimengTableComponent implements OnInit {
+export class PrimengTableComponent implements OnInit, AfterViewInit {
 
 	@Input('tableInputData') primengDataGeneral: any;
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit() {
+  }
+
+  ngAfterViewInit() {
+    console.log("angular table page loaded");
+    document.getElementById('spinner').style.display = 'none';
   }
 
   copyMessage(val: any) {

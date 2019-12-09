@@ -1,4 +1,4 @@
-import { Component, OnInit, AfterViewInit, Input, ViewEncapsulation } from '@angular/core';
+import { Component, OnInit, Input, ViewEncapsulation } from '@angular/core';
 
 
 @Component({
@@ -8,16 +8,11 @@ import { Component, OnInit, AfterViewInit, Input, ViewEncapsulation } from '@ang
   encapsulation: ViewEncapsulation.None
 
 })
-export class LoadSpinnerComponent implements OnInit, AfterViewInit {
+export class LoadSpinnerComponent implements OnInit {
 
 	@Input('displayloadspinner') displayloadspinner: boolean;
 
-  constructor() { }
-
-  ngAfterViewInit() {
-    this.displayloadspinner = false;
-    console.log("displayloadspinner");
-    console.log(this.displayloadspinner);
+  constructor() {
   }
 
   ngOnInit() {

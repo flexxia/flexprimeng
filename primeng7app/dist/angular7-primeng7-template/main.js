@@ -1130,11 +1130,6 @@ __webpack_require__.r(__webpack_exports__);
 var LoadSpinnerComponent = /** @class */ (function () {
     function LoadSpinnerComponent() {
     }
-    LoadSpinnerComponent.prototype.ngAfterViewInit = function () {
-        this.displayloadspinner = false;
-        console.log("displayloadspinner");
-        console.log(this.displayloadspinner);
-    };
     LoadSpinnerComponent.prototype.ngOnInit = function () {
     };
     tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
@@ -1592,6 +1587,10 @@ var PrimengChartjsComponent = /** @class */ (function () {
     }
     PrimengChartjsComponent.prototype.ngOnInit = function () {
     };
+    PrimengChartjsComponent.prototype.ngAfterViewInit = function () {
+        console.log("angular chart page loaded");
+        document.getElementById('spinner').style.display = 'none';
+    };
     tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])('chartInputData'),
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", Array)
@@ -1654,6 +1653,10 @@ var PrimengTableComponent = /** @class */ (function () {
     function PrimengTableComponent() {
     }
     PrimengTableComponent.prototype.ngOnInit = function () {
+    };
+    PrimengTableComponent.prototype.ngAfterViewInit = function () {
+        console.log("angular table page loaded");
+        document.getElementById('spinner').style.display = 'none';
     };
     PrimengTableComponent.prototype.copyMessage = function (val) {
         var copyButton = new _copy_component__WEBPACK_IMPORTED_MODULE_2__["CopyComponent"]();
