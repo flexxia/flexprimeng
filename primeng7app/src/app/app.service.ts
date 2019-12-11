@@ -41,13 +41,13 @@ export class AppService {
      http://localhost:8888/emd/web/ngpage/sampleform/page/all/1546318800/1573489660
      */
     if (section == 'samplepage') {
-      return this.http.get(ngDrupalSettings.drupalSettings.path.baseUrl + 'libraries/primeng7app/src/assets/data/sample-page.json');
+      return this.http.get(ngDrupalSettings.drupalSettings.path.baseUrl + 'libraries/flexprimeng/primeng7app/src/assets/data/sample-page.json');
     }
     else if (section == 'sampleform') {
-      return this.http.get(ngDrupalSettings.drupalSettings.path.baseUrl + 'libraries/primeng7app/src/assets/data/sample-form.json');
+      return this.http.get(ngDrupalSettings.drupalSettings.path.baseUrl + 'libraries/flexprimeng/primeng7app/src/assets/data/sample-form.json');
     }
     else if (section == 'sampletable') {
-      return this.http.get(ngDrupalSettings.drupalSettings.path.baseUrl + 'libraries/primeng7app/src/assets/data/sample-table.json');
+      return this.http.get(ngDrupalSettings.drupalSettings.path.baseUrl + 'libraries/flexprimeng/primeng7app/src/assets/data/sample-table.json');
     }
 
     return this.http.get(ngDrupalSettings.drupalSettings.path.baseUrl + 'ngjson/' + section + '/' + type + '/'  + entityId + '/start/end');
