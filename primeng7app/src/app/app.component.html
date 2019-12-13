@@ -24,10 +24,12 @@
       <app-nav-button [displayNavButton]="eachcomponent.componentcontent"></app-nav-button>
     </div>
 
-    <div *ngIf="eachcomponent.componentname == 'loadspinner'; else elseBlock">
+    <!-- <div *ngIf="eachcomponent.componentname == 'loadspinner'; else elseBlock">
       <app-load-spinner [displayloadspinner]="eachcomponent.componentcontent"></app-load-spinner>
-    </div>
+    </div> -->
   </div>
+
+  <app-load-spinner [displayloadspinner]="true"></app-load-spinner>
 
   <!-- <div *ngFor="let eachcomponent of sectionContent">
 
