@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, ViewEncapsulation } from '@angular/core';
+import { Component, OnInit, Input, AfterViewInit, ViewEncapsulation } from '@angular/core';
 
 import { AppService } from '../app.service';
 import { NgDrupalSettings } from '../app.ngdrupalsettings';
@@ -11,7 +11,7 @@ import * as jQuery from 'jquery';
   styleUrls: ['./ngform.component.css'],
   encapsulation: ViewEncapsulation.None
 })
-export class NGFormComponent implements OnInit {
+export class NGFormComponent implements OnInit, AfterViewInit {
 
   @Input('name') ngFormcomponentData: any;
 
@@ -293,6 +293,14 @@ export class NGFormComponent implements OnInit {
     }
 
     });
+  }
+
+  /**
+   *
+   */
+  ngAfterViewInit() {
+    console.log("angular form page loaded");
+    document.getElementById('spinner').style.display = 'none';
   }
 
 }

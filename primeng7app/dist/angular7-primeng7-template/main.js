@@ -896,6 +896,10 @@ var CustomeHtmlComponent = /** @class */ (function () {
     }
     CustomeHtmlComponent.prototype.ngOnInit = function () {
     };
+    CustomeHtmlComponent.prototype.ngAfterViewInit = function () {
+        console.log("angular html page loaded");
+        document.getElementById('spinner').style.display = 'none';
+    };
     tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])('htmlInputData'),
         tslib__WEBPACK_IMPORTED_MODULE_0__["__metadata"]("design:type", Array)
@@ -1525,6 +1529,13 @@ var NGFormComponent = /** @class */ (function () {
                 }
             }
         });
+    };
+    /**
+     *
+     */
+    NGFormComponent.prototype.ngAfterViewInit = function () {
+        console.log("angular form page loaded");
+        document.getElementById('spinner').style.display = 'none';
     };
     tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Input"])('name'),
