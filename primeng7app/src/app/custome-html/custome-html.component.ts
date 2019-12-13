@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, ViewEncapsulation } from '@angular/core';
+import { Component, OnInit, Input, AfterViewInit , ViewEncapsulation } from '@angular/core';
 
 @Component({
   selector: 'app-custome-html',
@@ -6,12 +6,17 @@ import { Component, OnInit, Input, ViewEncapsulation } from '@angular/core';
   styleUrls: ['./custome-html.component.css'],
   encapsulation: ViewEncapsulation.None
 })
-export class CustomeHtmlComponent implements OnInit {
+export class CustomeHtmlComponent implements OnInit, AfterViewInit {
 	@Input('htmlInputData') htmlDataGeneral: any[];
 
   constructor() { }
 
   ngOnInit() {
+  }
+
+  ngAfterViewInit() {
+    console.log("angular html page loaded");
+    document.getElementById('spinner').style.display = 'none';
   }
 
 }
