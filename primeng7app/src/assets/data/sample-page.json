@@ -36,7 +36,7 @@
             "tabTitle": ""
           }
         ],
-        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-d6006e\"><div class=\"font-size-28 margin-top-10\">1231</div><div class=\"font-size-16 margin-top-10\">Total Events</div></div>",
+        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-d6006e\"><div class=\"font-size-28 margin-top-10\">1231</div><div class=\"font-size-16 margin-top-10\">backgroundColor-d6006e</div></div>",
         "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('2409317775d5ca9088d697')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
         "blockId": "2409317775d5ca9088d697",
         "tabShow": "hide"
@@ -59,7 +59,7 @@
             "tabTitle": ""
           }
         ],
-        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-7dba00\"><div class=\"font-size-28 margin-top-10\">36015</div><div class=\"font-size-16 margin-top-10\">HCP Reached</div></div>",
+        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-7dba00\"><div class=\"font-size-28 margin-top-10\">36015</div><div class=\"font-size-16 margin-top-10\">backgroundColor-7dba00</div></div>",
         "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('12737463225d5ca9088d6bb')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
         "blockId": "12737463225d5ca9088d6bb",
         "tabShow": "hide"
@@ -82,7 +82,7 @@
             "tabTitle": ""
           }
         ],
-        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-0093d0\"><div class=\"font-size-28 margin-top-10\">661</div><div class=\"font-size-16 margin-top-10\">Evaluations Received</div></div>",
+        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-0093d0\"><div class=\"font-size-28 margin-top-10\">661</div><div class=\"font-size-16 margin-top-10\">backgroundColor-0093d0</div></div>",
         "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('2505000005d5ca9088d6cb')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
         "blockId": "2505000005d5ca9088d6cb",
         "tabShow": "hide"
@@ -105,7 +105,329 @@
             "tabTitle": ""
           }
         ],
-        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-4a245e\"><div class=\"font-size-28 margin-top-10\">18%</div><div class=\"font-size-16 margin-top-10\">HCP Response</div></div>",
+        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-4a245e\"><div class=\"font-size-28 margin-top-10\">18%</div><div class=\"font-size-16 margin-top-10\">backgroundColor-4a245e</div></div>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('7602481715d5ca9088d6d9')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "7602481715d5ca9088d6d9",
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "block-html-clear-both-wrapper",
+        "blockClassSub": null,
+        "blockContent": [
+          {
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "",
+              "top": {
+                "value": ""
+              },
+              "type": "htmlSnippt"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<span style=\"height:1px;\"></span>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('12707913125d5ca9088d71d')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "12707913125d5ca9088d71d",
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "col-xs-12 col-sm-6 col-md-3 margin-top-24 height-100 color-fff",
+        "blockClassSub": null,
+        "blockContent": [
+          {
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "",
+              "top": {
+                "value": ""
+              },
+              "type": "htmlSnippt"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-c6c6c6\"><div class=\"font-size-28 margin-top-10\">color palette</div><div class=\"font-size-16 margin-top-10\">backgroundColor-c6c6c6</div></div>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('7602481715d5ca9088d6d9')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "7602481715d5ca9088d6d9",
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "col-xs-12 col-sm-6 col-md-3 margin-top-24 height-100 color-fff",
+        "blockClassSub": null,
+        "blockContent": [
+          {
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "",
+              "top": {
+                "value": ""
+              },
+              "type": "htmlSnippt"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-75d1e0\"><div class=\"font-size-28 margin-top-10\">color palette</div><div class=\"font-size-16 margin-top-10\">backgroundColor-75d1e0</div></div>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('7602481715d5ca9088d6d9')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "7602481715d5ca9088d6d9",
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "col-xs-12 col-sm-6 col-md-3 margin-top-24 height-100 color-fff",
+        "blockClassSub": null,
+        "blockContent": [
+          {
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "",
+              "top": {
+                "value": ""
+              },
+              "type": "htmlSnippt"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-f24b99\"><div class=\"font-size-28 margin-top-10\">color palette</div><div class=\"font-size-16 margin-top-10\">backgroundColor-f24b99</div></div>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('7602481715d5ca9088d6d9')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "7602481715d5ca9088d6d9",
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "col-xs-12 col-sm-6 col-md-3 margin-top-24 height-100 color-fff",
+        "blockClassSub": null,
+        "blockContent": [
+          {
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "",
+              "top": {
+                "value": ""
+              },
+              "type": "htmlSnippt"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-ff9933\"><div class=\"font-size-28 margin-top-10\">color palette</div><div class=\"font-size-16 margin-top-10\">backgroundColor-ff9933</div></div>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('7602481715d5ca9088d6d9')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "7602481715d5ca9088d6d9",
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "block-html-clear-both-wrapper",
+        "blockClassSub": null,
+        "blockContent": [
+          {
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "",
+              "top": {
+                "value": ""
+              },
+              "type": "htmlSnippt"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<span style=\"height:1px;\"></span>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('12707913125d5ca9088d71d')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "12707913125d5ca9088d71d",
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "col-xs-12 col-sm-6 col-md-3 margin-top-24 height-100 color-fff",
+        "blockClassSub": null,
+        "blockContent": [
+          {
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "",
+              "top": {
+                "value": ""
+              },
+              "type": "htmlSnippt"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-c2b59b\"><div class=\"font-size-28 margin-top-10\">color palette</div><div class=\"font-size-16 margin-top-10\">backgroundColor-c2b59b</div></div>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('7602481715d5ca9088d6d9')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "7602481715d5ca9088d6d9",
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "col-xs-12 col-sm-6 col-md-3 margin-top-24 height-100 color-fff",
+        "blockClassSub": null,
+        "blockContent": [
+          {
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "",
+              "top": {
+                "value": ""
+              },
+              "type": "htmlSnippt"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-589098\"><div class=\"font-size-28 margin-top-10\">color palette</div><div class=\"font-size-16 margin-top-10\">backgroundColor-589098</div></div>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('7602481715d5ca9088d6d9')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "7602481715d5ca9088d6d9",
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "col-xs-12 col-sm-6 col-md-3 margin-top-24 height-100 color-fff",
+        "blockClassSub": null,
+        "blockContent": [
+          {
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "",
+              "top": {
+                "value": ""
+              },
+              "type": "htmlSnippt"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-fdbe58\"><div class=\"font-size-28 margin-top-10\">color palette</div><div class=\"font-size-16 margin-top-10\">backgroundColor-fdbe58</div></div>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('7602481715d5ca9088d6d9')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "7602481715d5ca9088d6d9",
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "col-xs-12 col-sm-6 col-md-3 margin-top-24 height-100 color-fff",
+        "blockClassSub": null,
+        "blockContent": [
+          {
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "",
+              "top": {
+                "value": ""
+              },
+              "type": "htmlSnippt"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-427136\"><div class=\"font-size-28 margin-top-10\">color palette</div><div class=\"font-size-16 margin-top-10\">backgroundColor-427136</div></div>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('7602481715d5ca9088d6d9')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "7602481715d5ca9088d6d9",
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "col-xs-12 col-sm-6 col-md-3 margin-top-24 height-100 color-fff",
+        "blockClassSub": null,
+        "blockContent": [
+          {
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "",
+              "top": {
+                "value": ""
+              },
+              "type": "htmlSnippt"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-38FF92\"><div class=\"font-size-28 margin-top-10\">color palette</div><div class=\"font-size-16 margin-top-10\">backgroundColor-38FF92</div></div>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('7602481715d5ca9088d6d9')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "7602481715d5ca9088d6d9",
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "col-xs-12 col-sm-6 col-md-3 margin-top-24 height-100 color-fff",
+        "blockClassSub": null,
+        "blockContent": [
+          {
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "",
+              "top": {
+                "value": ""
+              },
+              "type": "htmlSnippt"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-525252\"><div class=\"font-size-28 margin-top-10\">color palette</div><div class=\"font-size-16 margin-top-10\">backgroundColor-525252</div></div>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('7602481715d5ca9088d6d9')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "7602481715d5ca9088d6d9",
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "col-xs-12 col-sm-6 col-md-3 margin-top-24 height-100 color-fff",
+        "blockClassSub": null,
+        "blockContent": [
+          {
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "",
+              "top": {
+                "value": ""
+              },
+              "type": "htmlSnippt"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-292929\"><div class=\"font-size-28 margin-top-10\">color palette</div><div class=\"font-size-16 margin-top-10\">backgroundColor-292929</div></div>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('7602481715d5ca9088d6d9')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "7602481715d5ca9088d6d9",
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "col-xs-12 col-sm-6 col-md-3 margin-top-24 height-100 color-fff",
+        "blockClassSub": null,
+        "blockContent": [
+          {
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "",
+              "top": {
+                "value": ""
+              },
+              "type": "htmlSnippt"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-1f70af\"><div class=\"font-size-28 margin-top-10\">color palette</div><div class=\"font-size-16 margin-top-10\">backgroundColor-1f70af</div></div>",
         "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('7602481715d5ca9088d6d9')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
         "blockId": "7602481715d5ca9088d6d9",
         "tabShow": "hide"
@@ -366,7 +688,7 @@
             "tabTitle": ""
           }
         ],
-        "blockHeader": "<div class=\"bg-009ddf color-fff padding-15 height-60\"><span class=\"margin-top-6 line-height-1-2 margin-left-14 display-block\">pie chart display Percentage, hover number. Show less than 5% Percentage.</span></div>",
+        "blockHeader": "<div class=\"bg-009ddf color-fff padding-15 min-height-42\"><span class=\"margin-top-6 line-height-1-2 margin-left-14 display-block\">pie chart display Percentage, hover number. Show less than 5% Percentage.</span></div>",
         "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('11901737725d5ca9088d72b')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
         "blockId": "11901737725d5ca9088d72b",
         "isChartjs": true,
@@ -529,7 +851,7 @@
             "tabTitle": ""
           }
         ],
-        "blockHeader": "<div class=\"bg-009ddf color-fff padding-15 height-60\"><span class=\"margin-top-6 line-height-1-2 margin-left-14 display-block\">doughnut chart. show percentage, hide less than 5%. hover value--percentage. no bottom.</span></div>",
+        "blockHeader": "<div class=\"bg-009ddf color-fff padding-15 min-height-42\"><span class=\"margin-top-6 line-height-1-2 margin-left-14 display-block\">doughnut chart. show percentage, hide less than 5%. hover value--percentage. no bottom.</span></div>",
         "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('11901737725d5ca9088d72b')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
         "blockId": "11901737725d5ca9088d72b",
         "isChartjs": true,
@@ -1964,7 +2286,7 @@
             "tabTitle": ""
           }
         ],
-        "blockHeader": "<div class=\"bg-009ddf color-fff padding-15 height-60\"><span class=\"margin-top-6 line-height-1-2 margin-left-14 display-block\">vertical 100% stacked bar chart. default hover color + legend + number + percentage.</span></div>",
+        "blockHeader": "<div class=\"bg-009ddf color-fff padding-15 min-height-42\"><span class=\"margin-top-6 line-height-1-2 margin-left-14 display-block\">vertical 100% stacked bar chart. default hover color + legend + number + percentage.</span></div>",
         "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('28552345d5ca90924319')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
         "blockId": "28552345d5ca90924319",
         "isChartjs": true,
