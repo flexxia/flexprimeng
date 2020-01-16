@@ -36,7 +36,7 @@
             "tabTitle": ""
           }
         ],
-        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-d6006e\"><div class=\"font-size-28 margin-top-10\">1231</div><div class=\"font-size-16 margin-top-10\">Total Events</div></div>",
+        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-d6006e\"><div class=\"font-size-28 margin-top-10\">1231</div><div class=\"font-size-16 margin-top-10\">backgroundColor-d6006e</div></div>",
         "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('2409317775d5ca9088d697')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
         "blockId": "2409317775d5ca9088d697",
         "tabShow": "hide"
@@ -59,7 +59,7 @@
             "tabTitle": ""
           }
         ],
-        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-7dba00\"><div class=\"font-size-28 margin-top-10\">36015</div><div class=\"font-size-16 margin-top-10\">HCP Reached</div></div>",
+        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-7dba00\"><div class=\"font-size-28 margin-top-10\">36015</div><div class=\"font-size-16 margin-top-10\">backgroundColor-7dba00</div></div>",
         "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('12737463225d5ca9088d6bb')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
         "blockId": "12737463225d5ca9088d6bb",
         "tabShow": "hide"
@@ -82,7 +82,7 @@
             "tabTitle": ""
           }
         ],
-        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-0093d0\"><div class=\"font-size-28 margin-top-10\">661</div><div class=\"font-size-16 margin-top-10\">Evaluations Received</div></div>",
+        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-0093d0\"><div class=\"font-size-28 margin-top-10\">661</div><div class=\"font-size-16 margin-top-10\">backgroundColor-0093d0</div></div>",
         "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('2505000005d5ca9088d6cb')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
         "blockId": "2505000005d5ca9088d6cb",
         "tabShow": "hide"
@@ -105,7 +105,53 @@
             "tabTitle": ""
           }
         ],
-        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-4a245e\"><div class=\"font-size-28 margin-top-10\">18%</div><div class=\"font-size-16 margin-top-10\">HCP Response</div></div>",
+        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-4a245e\"><div class=\"font-size-28 margin-top-10\">18%</div><div class=\"font-size-16 margin-top-10\">backgroundColor-4a245e</div></div>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('7602481715d5ca9088d6d9')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "7602481715d5ca9088d6d9",
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "block-html-clear-both-wrapper",
+        "blockClassSub": null,
+        "blockContent": [
+          {
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "",
+              "top": {
+                "value": ""
+              },
+              "type": "htmlSnippt"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<span style=\"height:1px;\"></span>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('12707913125d5ca9088d71d')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "12707913125d5ca9088d71d",
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "col-xs-12 col-sm-6 col-md-3 margin-top-24 height-100 color-fff",
+        "blockClassSub": null,
+        "blockContent": [
+          {
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "",
+              "top": {
+                "value": ""
+              },
+              "type": "htmlSnippt"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-c6c6c6\"><div class=\"font-size-28 margin-top-10\">color palette</div><div class=\"font-size-16 margin-top-10\">backgroundColor-c6c6c6</div></div>",
         "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('7602481715d5ca9088d6d9')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
         "blockId": "7602481715d5ca9088d6d9",
         "tabShow": "hide"
@@ -128,9 +174,9 @@
             "tabTitle": ""
           }
         ],
-        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-69d0ff\"><div class=\"font-size-28 margin-top-10\">8.7</div><div class=\"font-size-16 margin-top-10\">Overall program QUALITY</div></div>",
-        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('3629821405d5ca9088d6e6')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
-        "blockId": "3629821405d5ca9088d6e6",
+        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-75d1e0\"><div class=\"font-size-28 margin-top-10\">color palette</div><div class=\"font-size-16 margin-top-10\">backgroundColor-75d1e0</div></div>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('7602481715d5ca9088d6d9')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "7602481715d5ca9088d6d9",
         "tabShow": "hide"
       },
       {
@@ -151,9 +197,9 @@
             "tabTitle": ""
           }
         ],
-        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-336699\"><div class=\"font-size-28 margin-top-10\">4.2</div><div class=\"font-size-16 margin-top-10\">Overall General Satisfaction</div></div>",
-        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('9087930115d5ca9088d6f3')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
-        "blockId": "9087930115d5ca9088d6f3",
+        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-f24b99\"><div class=\"font-size-28 margin-top-10\">color palette</div><div class=\"font-size-16 margin-top-10\">backgroundColor-f24b99</div></div>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('7602481715d5ca9088d6d9')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "7602481715d5ca9088d6d9",
         "tabShow": "hide"
       },
       {
@@ -174,9 +220,32 @@
             "tabTitle": ""
           }
         ],
-        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-ff9933\"><div class=\"font-size-28 margin-top-10\">4.5</div><div class=\"font-size-16 margin-top-10\"> Speaker Rating</div></div>",
-        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('166865485d5ca9088d701')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
-        "blockId": "166865485d5ca9088d701",
+        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-ff9933\"><div class=\"font-size-28 margin-top-10\">color palette</div><div class=\"font-size-16 margin-top-10\">backgroundColor-ff9933</div></div>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('7602481715d5ca9088d6d9')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "7602481715d5ca9088d6d9",
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "block-html-clear-both-wrapper",
+        "blockClassSub": null,
+        "blockContent": [
+          {
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "",
+              "top": {
+                "value": ""
+              },
+              "type": "htmlSnippt"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<span style=\"height:1px;\"></span>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('12707913125d5ca9088d71d')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "12707913125d5ca9088d71d",
         "tabShow": "hide"
       },
       {
@@ -197,9 +266,170 @@
             "tabTitle": ""
           }
         ],
-        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-339966\"><div class=\"font-size-28 margin-top-10\">4.4</div><div class=\"font-size-16 margin-top-10\">Hospitality - Venue, Accommodation, Restoration</div></div>",
-        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('8059418035d5ca9088d70e')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
-        "blockId": "8059418035d5ca9088d70e",
+        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-c2b59b\"><div class=\"font-size-28 margin-top-10\">color palette</div><div class=\"font-size-16 margin-top-10\">backgroundColor-c2b59b</div></div>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('7602481715d5ca9088d6d9')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "7602481715d5ca9088d6d9",
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "col-xs-12 col-sm-6 col-md-3 margin-top-24 height-100 color-fff",
+        "blockClassSub": null,
+        "blockContent": [
+          {
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "",
+              "top": {
+                "value": ""
+              },
+              "type": "htmlSnippt"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-589098\"><div class=\"font-size-28 margin-top-10\">color palette</div><div class=\"font-size-16 margin-top-10\">backgroundColor-589098</div></div>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('7602481715d5ca9088d6d9')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "7602481715d5ca9088d6d9",
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "col-xs-12 col-sm-6 col-md-3 margin-top-24 height-100 color-fff",
+        "blockClassSub": null,
+        "blockContent": [
+          {
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "",
+              "top": {
+                "value": ""
+              },
+              "type": "htmlSnippt"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-fdbe58\"><div class=\"font-size-28 margin-top-10\">color palette</div><div class=\"font-size-16 margin-top-10\">backgroundColor-fdbe58</div></div>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('7602481715d5ca9088d6d9')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "7602481715d5ca9088d6d9",
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "col-xs-12 col-sm-6 col-md-3 margin-top-24 height-100 color-fff",
+        "blockClassSub": null,
+        "blockContent": [
+          {
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "",
+              "top": {
+                "value": ""
+              },
+              "type": "htmlSnippt"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-427136\"><div class=\"font-size-28 margin-top-10\">color palette</div><div class=\"font-size-16 margin-top-10\">backgroundColor-427136</div></div>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('7602481715d5ca9088d6d9')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "7602481715d5ca9088d6d9",
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "col-xs-12 col-sm-6 col-md-3 margin-top-24 height-100 color-fff",
+        "blockClassSub": null,
+        "blockContent": [
+          {
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "",
+              "top": {
+                "value": ""
+              },
+              "type": "htmlSnippt"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-38FF92\"><div class=\"font-size-28 margin-top-10\">color palette</div><div class=\"font-size-16 margin-top-10\">backgroundColor-38FF92</div></div>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('7602481715d5ca9088d6d9')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "7602481715d5ca9088d6d9",
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "col-xs-12 col-sm-6 col-md-3 margin-top-24 height-100 color-fff",
+        "blockClassSub": null,
+        "blockContent": [
+          {
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "",
+              "top": {
+                "value": ""
+              },
+              "type": "htmlSnippt"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-525252\"><div class=\"font-size-28 margin-top-10\">color palette</div><div class=\"font-size-16 margin-top-10\">backgroundColor-525252</div></div>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('7602481715d5ca9088d6d9')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "7602481715d5ca9088d6d9",
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "col-xs-12 col-sm-6 col-md-3 margin-top-24 height-100 color-fff",
+        "blockClassSub": null,
+        "blockContent": [
+          {
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "",
+              "top": {
+                "value": ""
+              },
+              "type": "htmlSnippt"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-292929\"><div class=\"font-size-28 margin-top-10\">color palette</div><div class=\"font-size-16 margin-top-10\">backgroundColor-292929</div></div>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('7602481715d5ca9088d6d9')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "7602481715d5ca9088d6d9",
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "col-xs-12 col-sm-6 col-md-3 margin-top-24 height-100 color-fff",
+        "blockClassSub": null,
+        "blockContent": [
+          {
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "",
+              "top": {
+                "value": ""
+              },
+              "type": "htmlSnippt"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<div class=\"line-height-1 height-100 padding-12 bg-1f70af\"><div class=\"font-size-28 margin-top-10\">color palette</div><div class=\"font-size-16 margin-top-10\">backgroundColor-1f70af</div></div>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('7602481715d5ca9088d6d9')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "7602481715d5ca9088d6d9",
         "tabShow": "hide"
       },
       {
@@ -241,6 +471,167 @@
                   "value": ""
                 },
                 "middleMiddle": {
+                  "value": "<div class=\"height-400\"><p-chart type=\"pie\" [data]=\"primeData\"></p-chart>hello this is bar chart</div>",
+                  "type": "pie",
+                  "styleClass": "col-md-6 margin-top-24",
+                  "data": {
+                    "labels": ["langues d'oïl", "le français", "Yellow", "Green", "Purple", "Orange"],
+                    "datasets": [{
+                      "label": "",
+                      "data": [49, 10, 10, 8, 84, 3],
+                      "backgroundColor": [
+                        "#0093d0",
+                        "#002596",
+                        "#cc292b",
+                        "#00aeef",
+                        "#7dba00",
+                        "#c6c6c6"
+                      ]
+                    }]
+                  },
+                  "options": {
+                    "legend": {
+                      "display": false
+                    },
+                    "plugins": {
+                      "labels": {
+                        "render": "value",
+                        "fontColor": "#000",
+                        "fontSize": 10
+                      }
+                    }
+                  }
+                },
+                "middleRight": {
+                  "styleClass": "col-sm-12 col-md-5 margin-top-12",
+                  "value": "<div style=\"margin-top:110px;\" class=\"legend-square-wrapper margin-left-12 font-size-12 width-pt-100\"><div class=\"clear-both height-32 text-center\"><span class=\"legend-square bg-0093d0\"></span><span class=\"float-left legend-text\">Immunology(10)</span></div><div class=\"clear-both height-32 text-center\"><span class=\"legend-square bg-002596\"></span><span class=\"float-left legend-text\">Oncology(2)</span></div><div class=\"clear-both height-32 text-center\"><span class=\"legend-square bg-ff9933\"></span><span class=\"float-left legend-text\">Specialty(10)</span></div></div>"
+                }
+              },
+              "top": {
+                "styleClass": "color-fff height-60 padding-15 padding-left-14 bg-009ddf",
+                "value": ""
+              },
+              "type": "chart"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<div class=\"bg-009ddf color-fff padding-15 height-60\"><span class=\"margin-top-6 line-height-1-2 margin-left-14 display-block\">Pie chart. show number, hover number.</span></div>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('11901737725d5ca9088d72b')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "11901737725d5ca9088d72b",
+        "isChartjs": true,
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "col-md-6 margin-top-24",
+        "blockClassSub": "col-md-12 block-box-shadow padding-left-0 padding-right-0",
+        "blockContent": [
+          {
+            "chartjsPluginsOptions": {
+              "calculateTooltip": true,
+              "calculateLabel": false
+            },
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "padding-left-0 padding-right-0",
+              "middle": {
+                "class": "min-height-340",
+                "middleLeft": {
+                  "value": ""
+                },
+                "middleMiddle": {
+                  "value": "<div class=\"height-400\"><p-chart type=\"pie\" [data]=\"primeData\"></p-chart>hello this is bar chart</div>",
+                  "type": "pie",
+                  "styleClass": "col-md-6 margin-top-24",
+                  "data": {
+                    "labels": ["langues d'oïl", "le français", "Yellow", "Green", "Purple", "Orange"],
+                    "datasets": [{
+                      "label": "",
+                      "data": [49, 10, 10, 8, 84, 3],
+                      "backgroundColor": [
+                        "#0093d0",
+                        "#002596",
+                        "#cc292b",
+                        "#00aeef",
+                        "#7dba00",
+                        "#c6c6c6"
+                      ]
+                    }]
+                  },
+                  "options": {
+                    "legend": {
+                      "display": false
+                    },
+                    "plugins": {
+                      "labels": {
+                        "render": "value",
+                        "fontColor": "#000",
+                        "fontSize": 10
+                      }
+                    }
+                  }
+                },
+                "middleRight": {
+                  "styleClass": "col-sm-12 col-md-5 margin-top-12",
+                  "value": "<div style=\"margin-top:110px;\" class=\"legend-square-wrapper margin-left-12 font-size-12 width-pt-100\"><div class=\"clear-both height-32 text-center\"><span class=\"legend-square bg-0093d0\"></span><span class=\"float-left legend-text\">Immunology(10)</span></div><div class=\"clear-both height-32 text-center\"><span class=\"legend-square bg-002596\"></span><span class=\"float-left legend-text\">Oncology(2)</span></div><div class=\"clear-both height-32 text-center\"><span class=\"legend-square bg-c6c6c6\"></span><span class=\"float-left legend-text\">Specialty(10)</span></div></div>"
+                }
+              },
+              "top": {
+                "styleClass": "color-fff height-60 padding-15 padding-left-14 bg-009ddf",
+                "value": ""
+              },
+              "type": "chart"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<div class=\"bg-009ddf color-fff padding-15 height-60\"><span class=\"margin-top-6 line-height-1-2 margin-left-14 display-block\">Pie chart. show number, hover number + percentage.</span></div>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('11901737725d5ca9088d72b')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "11901737725d5ca9088d72b",
+        "isChartjs": true,
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "block-html-clear-both-wrapper",
+        "blockClassSub": null,
+        "blockContent": [
+          {
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "",
+              "top": {
+                "value": ""
+              },
+              "type": "htmlSnippt"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<span style=\"height:1px;\"></span>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('3468003585d5ca9095346e')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "3468003585d5ca9095346e",
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "col-md-6 margin-top-24",
+        "blockClassSub": "col-md-12 block-box-shadow padding-left-0 padding-right-0",
+        "blockContent": [
+          {
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "padding-left-0 padding-right-0",
+              "middle": {
+                "class": "min-height-340",
+                "middleLeft": {
+                  "value": ""
+                },
+                "middleMiddle": {
                   "data": {
                     "datasets": [
                       {
@@ -255,7 +646,7 @@
                           "#"
                         ],
                         "data": [
-                          10,
+                          50,
                           2,
                           10
                         ]
@@ -274,7 +665,7 @@
                     "plugins": {
                       "labels": {
                         "fontColor": "#fff",
-                        "fontSize": 13,
+                        "fontSize": 10,
                         "position": "border"
                       }
                     }
@@ -297,10 +688,267 @@
             "tabTitle": ""
           }
         ],
-        "blockHeader": "<div class=\"bg-009ddf color-fff padding-15 height-60\"><span class=\"margin-top-6 line-height-1-2 margin-left-14 display-block\">Total Events by Business Unit</span></div>",
+        "blockHeader": "<div class=\"bg-009ddf color-fff padding-15 min-height-42\"><span class=\"margin-top-6 line-height-1-2 margin-left-14 display-block\">pie chart display Percentage, hover number. Show less than 5% Percentage.</span></div>",
         "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('11901737725d5ca9088d72b')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
         "blockId": "11901737725d5ca9088d72b",
         "isChartjs": true,
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "col-md-6 margin-top-24",
+        "blockClassSub": "col-md-12 block-box-shadow padding-left-0 padding-right-0",
+        "blockContent": [
+          {
+            "chartjsPluginsOptions": {
+              "calculateTooltip": true,
+              "calculateLabel": true
+            },
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "padding-left-0 padding-right-0",
+              "middle": {
+                "class": "min-height-340",
+                "middleLeft": {
+                  "value": ""
+                },
+                "middleMiddle": {
+                  "renderLabel": "percentage",
+                  "value": "<div class=\"height-400\"><p-chart type=\"pie\" [data]=\"primeData\"></p-chart>hello this is bar chart</div>",
+                  "type": "pie",
+                  "styleClass": "col-md-6 margin-top-24",
+                  "data": {
+                    "labels": ["langues d'oïl", "le français", "Yellow", "Green", "Purple", "Orange"],
+                    "datasets": [{
+                      "label": "",
+                      "data": [49, 10, 10, 8, 84, 3],
+                      "backgroundColor": [
+                        "#0093d0",
+                        "#002596",
+                        "#cc292b",
+                        "#00aeef",
+                        "#7dba00",
+                        "#c6c6c6"
+                      ]
+                    }]
+                  },
+                  "options": {
+                    "legend": {
+                      "display": false
+                    },
+                    "plugins": {
+                      "labels": {
+                        "render": "percentage",
+                        "fontColor": "#000",
+                        "fontSize": 10
+                      }
+                    }
+                  }
+                },
+                "middleRight": {
+                  "styleClass": "col-sm-12 col-md-5 margin-top-12",
+                  "value": "<div style=\"margin-top:110px;\" class=\"legend-square-wrapper margin-left-12 font-size-12 width-pt-100\"><div class=\"clear-both height-32 text-center\"><span class=\"legend-square bg-0093d0\"></span><span class=\"float-left legend-text\">Immunology(10)</span></div><div class=\"clear-both height-32 text-center\"><span class=\"legend-square bg-002596\"></span><span class=\"float-left legend-text\">Oncology(2)</span></div><div class=\"clear-both height-32 text-center\"><span class=\"legend-square bg-ff9933\"></span><span class=\"float-left legend-text\">Specialty(10)</span></div></div>"
+                }
+              },
+              "top": {
+                "styleClass": "color-fff height-60 padding-15 padding-left-14 bg-009ddf",
+                "value": ""
+              },
+              "type": "chart"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<div class=\"bg-009ddf color-fff padding-15 height-60\"><span class=\"margin-top-6 line-height-1-2 margin-left-14 display-block\">Pie chart. show percentage, hover number--percentage. Hide less than 5%</span></div>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('11901737725d5ca9088d72b')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "11901737725d5ca9088d72b",
+        "isChartjs": true,
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "block-html-clear-both-wrapper",
+        "blockClassSub": null,
+        "blockContent": [
+          {
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "",
+              "top": {
+                "value": ""
+              },
+              "type": "htmlSnippt"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<span style=\"height:1px;\"></span>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('3468003585d5ca9095346e')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "3468003585d5ca9095346e",
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "col-md-6 margin-top-24",
+        "blockClassSub": "col-md-12 block-box-shadow padding-left-0 padding-right-0",
+        "blockContent": [
+          {
+            "chartjsPluginsOptions": {
+              "calculateTooltip": true,
+              "calculateLabel": true
+            },
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "padding-left-0 padding-right-0",
+              "middle": {
+                "class": "min-height-340",
+                "middleLeft": {
+                  "value": ""
+                },
+                "middleMiddle": {
+                  "value": "",
+                  "renderLabel": "percentage",
+                  "type": "doughnut",
+                  "styleClass": "col-md-6 margin-top-24",
+                  "data": {
+                    "labels": ["OLA", "Head Office"],
+                    "datasets": [{
+                      "label": "",
+                      "data": [4, 138],
+                      "backgroundColor": [
+                        "#0093d0",
+                        "#75d1e0"
+                      ]
+                    }]
+                  },
+                  "options": {
+                    "legend": {
+                      "display": false
+                    },
+                    "plugins": {
+                      "labels": {
+                        "render": "value",
+                        "fontColor": "#000",
+                        "fontSize": 10
+                      }
+                    }
+                  }
+                },
+                "middleRight": {
+                  "styleClass": "col-sm-12 col-md-5 margin-top-12",
+                  "value": "<div style=\"margin-top:110px;\" class=\"legend-square-wrapper margin-left-12 font-size-12 width-pt-100\"><div class=\"clear-both height-32 text-center\"><span class=\"legend-square bg-0093d0\"></span><span class=\"float-left legend-text\">Immunology(10)</span></div><div class=\"clear-both height-32 text-center\"><span class=\"legend-square bg-002596\"></span><span class=\"float-left legend-text\">Oncology(2)</span></div><div class=\"clear-both height-32 text-center\"><span class=\"legend-square bg-ff9933\"></span><span class=\"float-left legend-text\">Specialty(10)</span></div></div>"
+                }
+              },
+              "top": {
+                "styleClass": "color-fff height-60 padding-15 padding-left-14 bg-009ddf",
+                "value": ""
+              },
+              "type": "chart"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<div class=\"bg-009ddf color-fff padding-15 min-height-42\"><span class=\"margin-top-6 line-height-1-2 margin-left-14 display-block\">doughnut chart. show percentage, hide less than 5%. hover value--percentage. no bottom.</span></div>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('11901737725d5ca9088d72b')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "11901737725d5ca9088d72b",
+        "isChartjs": true,
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "col-md-6 margin-top-24",
+        "blockClassSub": "col-md-12 block-box-shadow padding-left-0 padding-right-0",
+        "blockContent": [
+          {
+            "chartjsPluginsOptions": {
+              "calculateTooltip": false,
+              "calculateLabel": false
+            },
+            "tabData": {
+              "bottom": {
+                "styleClass": "col-sm-12 col-md-5 margin-top-12",
+                "value": "<div style=\"margin-top:110px;\" class=\"legend-square-wrapper margin-left-12 font-size-12 width-pt-100\"><div class=\"clear-both height-32 text-center\"><span class=\"legend-square bg-0093d0\"></span><span class=\"float-left legend-text\">Immunology(10)</span></div><div class=\"clear-both height-32 text-center\"><span class=\"legend-square bg-002596\"></span><span class=\"float-left legend-text\">Oncology(2)</span></div><div class=\"clear-both height-32 text-center\"><span class=\"legend-square bg-c6c6c6\"></span><span class=\"float-left legend-text\">Specialty(10)</span></div></div>"
+
+              },
+              "class": "padding-left-0 padding-right-0",
+              "middle": {
+                "class": "min-height-340",
+                "middleLeft": {
+                  "value": "<div style=\"margin-top:110px;\" class=\"legend-square-wrapper margin-left-12 font-size-12 width-pt-100\"><div class=\"clear-both height-32 text-center\"><span class=\"legend-square bg-0093d0\"></span><span class=\"float-left legend-text\">Immunology(10)</span></div><div class=\"clear-both height-32 text-center\"><span class=\"legend-square bg-002596\"></span><span class=\"float-left legend-text\">Oncology(2)</span></div><div class=\"clear-both height-32 text-center\"><span class=\"legend-square bg-c6c6c6\"></span><span class=\"float-left legend-text\">Specialty(10)</span></div></div>"
+                },
+                "middleMiddle": {
+                  "value": "",
+                  "renderLabel": "percentage",
+                  "type": "doughnut",
+                  "styleClass": "col-md-6 margin-top-24",
+                  "data": {
+                    "labels": ["OLA", "Head Office"],
+                    "datasets": [{
+                      "label": "",
+                      "data": [4, 138, 10],
+                      "backgroundColor": [
+                        "#0093d0",
+                        "#75d1e0",
+                        "#c6c6c6"
+                      ]
+                    }]
+                  },
+                  "options": {
+                    "legend": {
+                      "display": false
+                    },
+                    "plugins": {
+                      "labels": {
+                        "render": "value",
+                        "fontColor": "#000",
+                        "fontSize": 10
+                      }
+                    }
+                  }
+                },
+                "middleRight": {
+                  "styleClass": "col-sm-12 col-md-5 margin-top-12",
+                  "value": ""
+                }
+              },
+              "top": {
+                "styleClass": "color-fff height-60 padding-15 padding-left-14 bg-009ddf",
+                "value": ""
+              },
+              "type": "chart"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<div class=\"bg-009ddf color-fff padding-15 height-60\"><span class=\"margin-top-6 line-height-1-2 margin-left-14 display-block\">doughnut chart. show number, hover number. display legends at bottom.</span></div>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('11901737725d5ca9088d72b')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "11901737725d5ca9088d72b",
+        "isChartjs": true,
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "block-html-clear-both-wrapper",
+        "blockClassSub": null,
+        "blockContent": [
+          {
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "",
+              "top": {
+                "value": ""
+              },
+              "type": "htmlSnippt"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<span style=\"height:1px;\"></span>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('3468003585d5ca9095346e')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "3468003585d5ca9095346e",
         "tabShow": "hide"
       },
       {
@@ -314,7 +962,7 @@
             },
             "tabData": {
               "bottom": {
-                "value": "<div class=\"text-center bottom-n-1 padding-0 block-box-shadow\"><div class=\"display-inline-block width-pt-50 height-66 border-1-eee border-bottom-none\"><div class=\"font-bold height-32 padding-top-6\">598</div><div class=\"font-size-10 text-center\">RESPONSES</div></div><div class=\"display-inline-block width-pt-50 height-66 border-1-eee border-bottom-none\"><div class=\"font-bold height-32 padding-top-6\">8.7</div><div class=\"font-size-10 text-center\">Average</div></div></div>"
+                "value": "<div class=\"text-center padding-0 block-box-shadow\"><div class=\"display-inline-block height-66 border-bottom-none\"><div class=\"font-size-18 text-center\">Bar chart. NO Header. Show number. Hover legend + color + number--percentage.</div></div></div>"
               },
               "class": "padding-left-0 padding-right-0",
               "middle": {
@@ -444,29 +1092,6 @@
         "tabShow": "hide"
       },
       {
-        "blockClass": "block-html-clear-both-wrapper",
-        "blockClassSub": null,
-        "blockContent": [
-          {
-            "tabData": {
-              "bottom": {
-                "value": ""
-              },
-              "class": "",
-              "top": {
-                "value": ""
-              },
-              "type": "htmlSnippt"
-            },
-            "tabTitle": ""
-          }
-        ],
-        "blockHeader": "<span style=\"height:1px;\"></span>",
-        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('2364649865d5ca9092430b')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
-        "blockId": "2364649865d5ca9092430b",
-        "tabShow": "hide"
-      },
-      {
         "blockClass": "col-md-6 margin-top-24",
         "blockClassSub": "col-md-12 block-box-shadow padding-left-0 padding-right-0",
         "blockContent": [
@@ -587,7 +1212,256 @@
             "tabTitle": ""
           }
         ],
-        "blockHeader": "<div class=\"bg-009ddf color-fff padding-15 height-60\"><span class=\"margin-top-6 line-height-1-2 margin-left-14 display-block\">Total Events By Type</span></div>",
+        "blockHeader": "<div class=\"bg-009ddf color-fff padding-15 height-60\"><span class=\"margin-top-6 line-height-1-2 margin-left-14 display-block\">Bar chart. display number. hover color + legend + number.</span></div>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('28552345d5ca90924319')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "28552345d5ca90924319",
+        "isChartjs": true,
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "block-html-clear-both-wrapper",
+        "blockClassSub": null,
+        "blockContent": [
+          {
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "",
+              "top": {
+                "value": ""
+              },
+              "type": "htmlSnippt"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<span style=\"height:1px;\"></span>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('3468003585d5ca9095346e')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "3468003585d5ca9095346e",
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "col-md-6 margin-top-24",
+        "blockClassSub": "col-md-12 block-box-shadow padding-left-0 padding-right-0",
+        "blockContent": [
+          {
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "padding-left-0 padding-right-0",
+              "middle": {
+                "class": "min-height-340",
+                "middleLeft": {
+                  "value": ""
+                },
+                "middleMiddle": {
+                  "renderLabel": "percentage",
+                  "value": "<div class=\"height-400\"><p-chart type=\"bar\" [data]=\"primeData\"></p-chart>hello this is bar chart</div>",
+                  "type": "line",
+                  "styleClass": "col-md-12 margin-top-24",
+                  "data": {
+                    "labels": [
+                      "OLA",
+                      "Accredited",
+                      "Speaker Tour",
+                      "Symposiums",
+                      "Preceptorships",
+                      "Nurse Educator"
+                    ],
+                    "datasets": [
+                      {
+                        "label": "",
+                        "lineTension": 0,
+                        "data": [
+                          138,
+                          4,
+                          9,
+                          1,
+                          1,
+                          11
+                        ],
+                        "borderColor": "#0093d0",
+                        "fill": false,
+                        "borderWidth": 2
+                      },
+                      {
+                        "label": "",
+                        "lineTension": 0,
+                        "data": [
+                          38,
+                          24,
+                          93,
+                          12,
+                          31,
+                          11
+                        ],
+                        "borderColor": "#00134b",
+                        "fill": false,
+                        "borderWidth": 2
+                      }
+                    ]
+                  },
+                  "options": {
+                    "legend": {
+                      "display": false
+                    },
+                    "plugins": {
+                      "labels": {
+                        "render": "percentage",
+                        "fontColor": "#000",
+                        "fontSize": 10
+                      }
+                    },
+                    "scales": {
+                      "xAxes": [{
+                        "gridLines": {
+                          "color": "#f5f5f5"
+                        },
+                        "ticks": {
+                          "fontSize": 14
+                        }
+                      }],
+                      "yAxes": [{
+                        "gridLines": {
+                          "color": "#f5f5f5"
+                        },
+                        "ticks": {
+                          "fontSize": 14,
+                          "max": 160
+                        }
+                      }]
+                    }
+                  }
+                },
+                "middleRight": {
+                  "styleClass": "col-md-6",
+                  "value": ""
+                }
+              },
+              "top": {
+                "styleClass": "color-fff height-60 padding-15 padding-left-14 bg-009ddf",
+                "value": ""
+              },
+              "type": "chart"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<div class=\"bg-009ddf color-fff padding-15 height-60\"><span class=\"margin-top-6 line-height-1-2 margin-left-14 display-block\">line chart. with straigt linves(lineTension: 0,). hover color + legend + number.</span></div>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('28552345d5ca90924319')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "28552345d5ca90924319",
+        "isChartjs": true,
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "col-md-6 margin-top-24",
+        "blockClassSub": "col-md-12 block-box-shadow padding-left-0 padding-right-0",
+        "blockContent": [
+          {
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "padding-left-0 padding-right-0",
+              "middle": {
+                "class": "min-height-340",
+                "middleLeft": {
+                  "value": ""
+                },
+                "middleMiddle": {
+                  "renderLabel": "percentage",
+                  "value": "<div class=\"height-400\"><p-chart type=\"bar\" [data]=\"primeData\"></p-chart>hello this is bar chart</div>",
+                  "type": "line",
+                  "styleClass": "col-md-12 margin-top-24",
+                  "data": {
+                    "labels": [
+                      "OLA",
+                      "Accredited",
+                      "Speaker Tour",
+                      "Symposiums",
+                      "Preceptorships",
+                      "Nurse Educator"
+                    ],
+                    "datasets": [
+                      {
+                        "label": "",
+                        "data": [
+                          138,
+                          4,
+                          9,
+                          1,
+                          1,
+                          11
+                        ],
+                        "borderColor": "#0093d0",
+                        "fill": false,
+                        "borderWidth": 2
+                      },
+                      {
+                        "label": "",
+                        "data": [
+                          38,
+                          24,
+                          93,
+                          12,
+                          31,
+                          11
+                        ],
+                        "borderColor": "#00134b",
+                        "fill": false,
+                        "borderWidth": 2
+                      }
+                    ]
+                  },
+                  "options": {
+                    "legend": {
+                      "display": false
+                    },
+                    "plugins": {
+                      "labels": {
+                        "render": "percentage",
+                        "fontColor": "#000",
+                        "fontSize": 10
+                      }
+                    },
+                    "scales": {
+                      "xAxes": [{
+                        "gridLines": {
+                          "color": "#f5f5f5"
+                        },
+                        "ticks": {
+                          "fontSize": 14
+                        }
+                      }],
+                      "yAxes": [{
+                        "gridLines": {
+                          "color": "#f5f5f5"
+                        },
+                        "ticks": {
+                          "fontSize": 14,
+                          "max": 160
+                        }
+                      }]
+                    }
+                  }
+                },
+                "middleRight": {
+                  "styleClass": "col-md-6",
+                  "value": ""
+                }
+              },
+              "top": {
+                "styleClass": "color-fff height-60 padding-15 padding-left-14 bg-009ddf",
+                "value": ""
+              },
+              "type": "chart"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<div class=\"bg-009ddf color-fff padding-15 height-60\"><span class=\"margin-top-6 line-height-1-2 margin-left-14 display-block\">line chart. with curve line. hover color + legend + number.</span></div>",
         "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('28552345d5ca90924319')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
         "blockId": "28552345d5ca90924319",
         "isChartjs": true,
@@ -973,7 +1847,7 @@
             "tabTitle": "QUARTER"
           }
         ],
-        "blockHeader": "<div class=\"bg-d6006e color-fff padding-15 height-60\"><span class=\"margin-top-6 line-height-1-2 margin-left-14 display-block\">Event Implementation</span></div>",
+        "blockHeader": "<div class=\"bg-d6006e color-fff padding-15 height-60\"><span class=\"margin-top-6 line-height-1-2 margin-left-14 display-block\">multi tab. vertical stacked bar charts. single hover legend + color + number.</span></div>",
         "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('4198839255d5ca90953481')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
         "blockId": "4198839255d5ca90953481",
         "isChartjs": true,
@@ -995,136 +1869,76 @@
                   "value": ""
                 },
                 "middleMiddle": {
+                  "value": "",
+                  "chartjsPluginsOptions": {
+                    "calculateTooltip": true,
+                    "calculateLabel": true
+                  },
+                  "type": "horizontalBar",
+                  "styleClass": "col-md-8 margin-top-24",
                   "data": {
-                    "datasets": [
-                      {
-                        "backgroundColor": "#00134b",
-                        "borderColor": "#00134b",
-                        "data": [
-                          0,
-                          0,
-                          12,
-                          16,
-                          0,
-                          0,
-                          0,
-                          0,
-                          0,
-                          0,
-                          0,
-                          0
-                        ],
-                        "pointColor": "#00134b"
-                      },
-                      {
-                        "backgroundColor": "#0093d0",
-                        "borderColor": "#0093d0",
-                        "data": [
-                          0,
-                          0,
-                          0,
-                          0,
-                          0,
-                          0,
-                          0,
-                          0,
-                          0,
-                          0,
-                          0,
-                          0
-                        ],
-                        "pointColor": "#0093d0"
-                      },
-                      {
-                        "backgroundColor": "#00aeef",
-                        "borderColor": "#00aeef",
-                        "data": [
-                          0,
-                          0,
-                          0,
-                          0,
-                          0,
-                          0,
-                          0,
-                          0,
-                          0,
-                          0,
-                          0,
-                          0
-                        ],
-                        "pointColor": "#00aeef"
-                      },
-                      {
-                        "backgroundColor": "#c6c6c6",
-                        "borderColor": "#c6c6c6",
-                        "data": [
-                          0,
-                          0,
-                          0,
-                          0,
-                          0,
-                          0,
-                          0,
-                          0,
-                          0,
-                          0,
-                          0,
-                          0
-                        ],
-                        "pointColor": "#c6c6c6"
-                      },
-                      {
-                        "backgroundColor": "#7dba00",
-                        "borderColor": "#7dba00",
-                        "data": [
-                          0,
-                          187,
-                          0,
-                          0,
-                          25,
-                          0,
-                          0,
-                          0,
-                          0,
-                          0,
-                          0,
-                          0
-                        ],
-                        "pointColor": "#7dba00"
-                      },
-                      {
-                        "backgroundColor": "#20ba00",
-                        "borderColor": "#20ba00",
-                        "data": [
-                          100,
-                          150,
-                          0,
-                          1735,
-                          810,
-                          570,
-                          0,
-                          0,
-                          0,
-                          0,
-                          0,
-                          0
-                        ],
-                        "pointColor": "#20ba00"
-                      }
-                    ],
                     "labels": [
                       "JAN",
                       "FEB",
                       "MAR",
-                      "APR",
-                      "MAY",
-                      "JUN",
-                      "JUL",
-                      "AUG",
-                      "SEP",
-                      "OCT",
-                      "NOV",
-                      "DEC"
+                      "APR"
+                    ],
+                    "datasets": [
+                      {
+                        "backgroundColor": "#00134b",
+                        "borderColor": "#00134b",
+                        "pointColor": "#00134b",
+                        "data": [
+                          10,
+                          20,
+                          10,
+                          28
+                        ]
+                      },
+                      {
+                        "backgroundColor": "#0093d0",
+                        "borderColor": "#0093d0",
+                        "pointColor": "#0093d0",
+                        "data": [
+                          1,
+                          3,
+                          5,
+                          0
+                        ]
+                      },
+                      {
+                        "backgroundColor": "#00aeef",
+                        "borderColor": "#00aeef",
+                        "pointColor": "#00aeef",
+                        "data": [
+                          19,
+                          60,
+                          50,
+                          40
+                        ]
+                      },
+                      {
+                        "backgroundColor": "#7dba00",
+                        "borderColor": "#7dba00",
+                        "pointColor": "#7dba00",
+                        "data": [
+                          30,
+                          10,
+                          15,
+                          12
+                        ]
+                      },
+                      {
+                        "backgroundColor": "#c6c6c6",
+                        "borderColor": "#c6c6c6",
+                        "pointColor": "#c6c6c6",
+                        "data": [
+                          10,
+                          20,
+                          10,
+                          1
+                        ]
+                      }
                     ]
                   },
                   "options": {
@@ -1164,19 +1978,16 @@
                           "stacked": true,
                           "ticks": {
                             "fontSize": 14,
-                            "max": 2000
+                            "max": 30
                           }
                         }
                       ]
                     }
-                  },
-                  "styleClass": "col-md-8 margin-top-24 margin-bottom-20",
-                  "type": "bar",
-                  "value": ""
+                  }
                 },
                 "middleRight": {
-                  "styleClass": "col-sm-12 col-md-4 margin-top-12",
-                  "value": "<div class=\"legends-square-wrapper padding-top-24 margin-top-24 margin-left-12 width-pt-100 font-size-14\"><div class=\"clear-both height-32 text-center\"><span class=\"legend-square \"></span><span class=\"float-left legend-text\">Ad Board(28)</span></div><div class=\"clear-both height-32 text-center\"><span class=\"legend-square bg-0093d0\"></span><span class=\"float-left legend-text\">Digital(0)</span></div><div class=\"clear-both height-32 text-center\"><span class=\"legend-square bg-00aeef\"></span><span class=\"float-left legend-text\">MSL Lead(0)</span></div><div class=\"clear-both height-32 text-center\"><span class=\"legend-square bg-c6c6c6\"></span><span class=\"float-left legend-text\">Preceptorship(0)</span></div><div class=\"clear-both height-32 text-center\"><span class=\"legend-square bg-7dba00\"></span><span class=\"float-left legend-text\">Stand Alone(212)</span></div><div class=\"clear-both height-32 text-center\"><span class=\"legend-square bg-20ba00\"></span><span class=\"float-left legend-text\">Symposium(3365)</span></div></div>"
+                  "styleClass": "col-md-6",
+                  "value": ""
                 }
               },
               "top": {
@@ -1185,161 +1996,301 @@
               },
               "type": "chart"
             },
-            "tabTitle": "MONTH"
-          },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<div class=\"bg-009ddf color-fff padding-15 height-60\"><span class=\"margin-top-6 line-height-1-2 margin-left-14 display-block\">horizontal stacked bar chart. group hover color + legend + number.</span></div>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('28552345d5ca90924319')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "28552345d5ca90924319",
+        "isChartjs": true,
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "block-html-clear-both-wrapper",
+        "blockClassSub": null,
+        "blockContent": [
           {
             "tabData": {
               "bottom": {
                 "value": ""
               },
               "class": "",
+              "top": {
+                "value": ""
+              },
+              "type": "htmlSnippt"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<span style=\"height:1px;\"></span>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('3468003585d5ca9095346e')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "3468003585d5ca9095346e",
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "col-md-6 margin-top-24",
+        "blockClassSub": "col-md-12 block-box-shadow padding-left-0 padding-right-0",
+        "blockContent": [
+          {
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "padding-left-0 padding-right-0",
               "middle": {
                 "class": "min-height-340",
                 "middleLeft": {
                   "value": ""
                 },
                 "middleMiddle": {
+                  "value": "",
+                  "chartjsPluginsOptions": {
+                    "calculateTooltip": true,
+                    "calculateLabel": true
+                  },
+                  "type": "horizontalBar",
+                  "styleClass": "col-md-8 margin-top-24",
                   "data": {
+                    "labels": [
+                      "JAN",
+                      "FEB",
+                      "MAR",
+                      "APR"
+                    ],
                     "datasets": [
                       {
                         "backgroundColor": "#00134b",
                         "borderColor": "#00134b",
+                        "pointColor": "#00134b",
                         "data": [
-                          12,
-                          16,
-                          0,
-                          0
-                        ],
-                        "pointColor": "#00134b"
+                          10,
+                          20,
+                          10,
+                          28
+                        ]
                       },
                       {
                         "backgroundColor": "#0093d0",
                         "borderColor": "#0093d0",
+                        "pointColor": "#0093d0",
                         "data": [
-                          0,
-                          0,
-                          0,
+                          1,
+                          3,
+                          5,
                           0
-                        ],
-                        "pointColor": "#0093d0"
+                        ]
                       },
                       {
                         "backgroundColor": "#00aeef",
                         "borderColor": "#00aeef",
+                        "pointColor": "#00aeef",
                         "data": [
-                          0,
-                          0,
-                          0,
-                          0
-                        ],
-                        "pointColor": "#00aeef"
-                      },
-                      {
-                        "backgroundColor": "#c6c6c6",
-                        "borderColor": "#c6c6c6",
-                        "data": [
-                          0,
-                          0,
-                          0,
-                          0
-                        ],
-                        "pointColor": "#c6c6c6"
+                          19,
+                          60,
+                          50,
+                          40
+                        ]
                       },
                       {
                         "backgroundColor": "#7dba00",
                         "borderColor": "#7dba00",
+                        "pointColor": "#7dba00",
                         "data": [
-                          187,
-                          25,
-                          0,
-                          0
-                        ],
-                        "pointColor": "#7dba00"
+                          30,
+                          10,
+                          15,
+                          12
+                        ]
                       },
                       {
-                        "backgroundColor": "#20ba00",
-                        "borderColor": "#20ba00",
+                        "backgroundColor": "#c6c6c6",
+                        "borderColor": "#c6c6c6",
+                        "pointColor": "#c6c6c6",
                         "data": [
-                          250,
-                          3115,
-                          0,
-                          0
-                        ],
-                        "pointColor": "#20ba00"
+                          10,
+                          20,
+                          10,
+                          1
+                        ]
                       }
-                    ],
-                    "labels": [
-                      "Q1",
-                      "Q2",
-                      "Q3",
-                      "Q4"
                     ]
                   },
                   "options": {
-                    "layout": {
-                      "padding": {
-                        "top": 30
-                      }
-                    },
                     "legend": {
                       "display": false
                     },
-                    "maintainAspectRatio": false,
                     "plugins": {
+                      "stacked100": {
+                        "enable": true
+                      },
                       "labels": {
-                        "fontColor": "#ffffff",
-                        "fontSize": 0
+                        "fontSize": 0,
+                        "fontColor": "#000"
                       }
                     },
-                    "responsive": false,
                     "scales": {
-                      "xAxes": [
-                        {
-                          "gridLines": {
-                            "color": "#f1f1f1"
-                          },
-                          "stacked": true,
-                          "ticks": {
-                            "fontSize": 14
-                          }
-                        }
-                      ],
-                      "yAxes": [
-                        {
-                          "gridLines": {
-                            "color": "#f1f1f1"
-                          },
-                          "stacked": true,
-                          "ticks": {
-                            "fontSize": 14,
-                            "max": 3400
-                          }
-                        }
-                      ]
+                      "xAxes": [{
+                       "stacked": true
+                      }],
+                      "yAxes": [{
+                        "barPercentage": 0.4,
+                        "stacked": true
+                      }]
                     }
-                  },
-                  "styleClass": "col-md-8 margin-top-24 margin-bottom-20",
-                  "type": "bar",
-                  "value": ""
+                  }
                 },
                 "middleRight": {
-                  "styleClass": "col-sm-12 col-md-4 margin-top-12",
-                  "value": "<div class=\"legends-square-wrapper padding-top-24 margin-top-24 margin-left-12 width-pt-100 font-size-14\"><div class=\"clear-both height-32 text-center\"><span class=\"legend-square \"></span><span class=\"float-left legend-text\">Ad Board(28)</span></div><div class=\"clear-both height-32 text-center\"><span class=\"legend-square bg-0093d0\"></span><span class=\"float-left legend-text\">Digital(0)</span></div><div class=\"clear-both height-32 text-center\"><span class=\"legend-square bg-00aeef\"></span><span class=\"float-left legend-text\">MSL Lead(0)</span></div><div class=\"clear-both height-32 text-center\"><span class=\"legend-square bg-c6c6c6\"></span><span class=\"float-left legend-text\">Preceptorship(0)</span></div><div class=\"clear-both height-32 text-center\"><span class=\"legend-square bg-7dba00\"></span><span class=\"float-left legend-text\">Stand Alone(212)</span></div><div class=\"clear-both height-32 text-center\"><span class=\"legend-square bg-20ba00\"></span><span class=\"float-left legend-text\">Symposium(3365)</span></div></div>"
+                  "styleClass": "col-md-6",
+                  "value": ""
                 }
               },
               "top": {
+                "styleClass": "color-fff height-60 padding-15 padding-left-14 bg-009ddf",
                 "value": ""
               },
               "type": "chart"
             },
-            "tabTitle": "QUARTER"
+            "tabTitle": ""
           }
         ],
-        "blockHeader": "<div class=\"bg-7dba00 color-fff padding-15 height-60\"><span class=\"margin-top-6 line-height-1-2 margin-left-14 display-block\">HCP Reach By Event Type</span></div>",
-        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('1594003885d5ca90962fc7')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
-        "blockId": "1594003885d5ca90962fc7",
+        "blockHeader": "<div class=\"bg-009ddf color-fff padding-15 height-60\"><span class=\"margin-top-6 line-height-1-2 margin-left-14 display-block\">horizontal 100% stacked bar chart. default hover color + legend + number + percentage.</span></div>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('28552345d5ca90924319')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "28552345d5ca90924319",
         "isChartjs": true,
-        "tabShow": "show"
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "col-md-6 margin-top-24",
+        "blockClassSub": "col-md-12 block-box-shadow padding-left-0 padding-right-0",
+        "blockContent": [
+          {
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "padding-left-0 padding-right-0",
+              "middle": {
+                "class": "min-height-340",
+                "middleLeft": {
+                  "value": ""
+                },
+                "middleMiddle": {
+                  "value": "",
+                  "chartjsPluginsOptions": {
+                    "calculateTooltip": true,
+                    "calculateLabel": true
+                  },
+                  "type": "bar",
+                  "styleClass": "col-md-8 margin-top-24",
+                  "data": {
+                    "labels": [
+                      "JAN",
+                      "FEB",
+                      "MAR",
+                      "APR"
+                    ],
+                    "datasets": [
+                      {
+                        "backgroundColor": "#00134b",
+                        "borderColor": "#00134b",
+                        "pointColor": "#00134b",
+                        "data": [
+                          10,
+                          20,
+                          10,
+                          28
+                        ]
+                      },
+                      {
+                        "backgroundColor": "#0093d0",
+                        "borderColor": "#0093d0",
+                        "pointColor": "#0093d0",
+                        "data": [
+                          1,
+                          3,
+                          5,
+                          0
+                        ]
+                      },
+                      {
+                        "backgroundColor": "#00aeef",
+                        "borderColor": "#00aeef",
+                        "pointColor": "#00aeef",
+                        "data": [
+                          19,
+                          60,
+                          50,
+                          40
+                        ]
+                      },
+                      {
+                        "backgroundColor": "#7dba00",
+                        "borderColor": "#7dba00",
+                        "pointColor": "#7dba00",
+                        "data": [
+                          30,
+                          10,
+                          15,
+                          12
+                        ]
+                      },
+                      {
+                        "backgroundColor": "#c6c6c6",
+                        "borderColor": "#c6c6c6",
+                        "pointColor": "#c6c6c6",
+                        "data": [
+                          10,
+                          20,
+                          10,
+                          1
+                        ]
+                      }
+                    ]
+                  },
+                  "options": {
+                    "legend": {
+                      "display": false
+                    },
+                    "plugins": {
+                      "stacked100": {
+                        "enable": true
+                      },
+                      "labels": {
+                        "fontSize": 0,
+                        "fontColor": "#000"
+                      }
+                    },
+                    "scales": {
+                      "xAxes": [{
+                       "stacked": true,
+                       "barPercentage": 0.4
+                      }],
+                      "yAxes": [{
+                        "stacked": true
+                      }]
+                    }
+                  }
+                },
+                "middleRight": {
+                  "styleClass": "col-md-6",
+                  "value": ""
+                }
+              },
+              "top": {
+                "styleClass": "color-fff height-60 padding-15 padding-left-14 bg-009ddf",
+                "value": ""
+              },
+              "type": "chart"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<div class=\"bg-009ddf color-fff padding-15 min-height-42\"><span class=\"margin-top-6 line-height-1-2 margin-left-14 display-block\">vertical 100% stacked bar chart. default hover color + legend + number + percentage.</span></div>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('28552345d5ca90924319')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "28552345d5ca90924319",
+        "isChartjs": true,
+        "tabShow": "hide"
       },
       {
         "blockClass": "block-html-clear-both-wrapper",
@@ -1406,6 +2357,75 @@
           }
         ],
         "blockHeader": "<div class=\"bg-009ddf color-fff padding-15 height-60\"><span class=\"margin-top-6 line-height-1-2 margin-left-14 display-block\">Top Speakers</span></div><div class=\"html-basic-table-wrapper\"><table class=\"table\"><thead><tr><th>Speaker</th><th>Events</th><th>Reach</th><th>Rating</th></tr></thead><tbody><tr><td><span id=\"modalPageAnchor\" class=\"text-primary speaker-modal-link\" data-useruid=\"56\"><a>Kristian Reich</a></span><div class=\"modal fade html-modal-speaker-56\" id=\"speakerModalTab\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"speakerModalTabLabel\" aria-hidden=\"true\"><div class=\"modal-dialog\" role=\"document\"><div class=\"modal-content\"><div class=\"modal-header\"><div class=\"row bg-673ab7 margin-top-n-24 padding-top-20\"><h4 class=\"modal-title color-fff text-align-center modal-title-speaker-name\">Kristian Reich</h4></div><div class=\"row bg-673ab7\"><ul class=\"nav nav-tabs\"><li class=\"color-fff\"><a class=\"color-fff\" data-toggle=\"tab\" href=\"#tab-speaker-header-ytd-56\">YTD</a></li><li class=\"color-fff\"><a class=\"color-fff\" data-toggle=\"tab\" href=\"#tab-speaker-header-all-56\">ALL TIME</a></li></ul></div><div class=\"tab-content margin-top-n-4 width-570\"><div id=\"tab-speaker-header-ytd-56\" class=\"tab-pane fade in active tab-header-html-content-ytd\"></div><div id=\"tab-speaker-header-all-56\" class=\"tab-pane fade tab-header-html-content-all\"></div></div></div></div></div></div></td><td>1</td><td>400</td><td>4.2</td></tr><tr><td><span id=\"modalPageAnchor\" class=\"text-primary speaker-modal-link\" data-useruid=\"75\"><a>Jean Michel Pawlotsky</a></span><div class=\"modal fade html-modal-speaker-75\" id=\"speakerModalTab\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"speakerModalTabLabel\" aria-hidden=\"true\"><div class=\"modal-dialog\" role=\"document\"><div class=\"modal-content\"><div class=\"modal-header\"><div class=\"row bg-673ab7 margin-top-n-24 padding-top-20\"><h4 class=\"modal-title color-fff text-align-center modal-title-speaker-name\">Jean Michel Pawlotsky</h4></div><div class=\"row bg-673ab7\"><ul class=\"nav nav-tabs\"><li class=\"color-fff\"><a class=\"color-fff\" data-toggle=\"tab\" href=\"#tab-speaker-header-ytd-75\">YTD</a></li><li class=\"color-fff\"><a class=\"color-fff\" data-toggle=\"tab\" href=\"#tab-speaker-header-all-75\">ALL TIME</a></li></ul></div><div class=\"tab-content margin-top-n-4 width-570\"><div id=\"tab-speaker-header-ytd-75\" class=\"tab-pane fade in active tab-header-html-content-ytd\"></div><div id=\"tab-speaker-header-all-75\" class=\"tab-pane fade tab-header-html-content-all\"></div></div></div></div></div></div></td><td>1</td><td>100</td><td>4.6</td></tr><tr><td><span id=\"modalPageAnchor\" class=\"text-primary speaker-modal-link\" data-useruid=\"76\"><a>Stan Pol</a></span><div class=\"modal fade html-modal-speaker-76\" id=\"speakerModalTab\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"speakerModalTabLabel\" aria-hidden=\"true\"><div class=\"modal-dialog\" role=\"document\"><div class=\"modal-content\"><div class=\"modal-header\"><div class=\"row bg-673ab7 margin-top-n-24 padding-top-20\"><h4 class=\"modal-title color-fff text-align-center modal-title-speaker-name\">Stan Pol</h4></div><div class=\"row bg-673ab7\"><ul class=\"nav nav-tabs\"><li class=\"color-fff\"><a class=\"color-fff\" data-toggle=\"tab\" href=\"#tab-speaker-header-ytd-76\">YTD</a></li><li class=\"color-fff\"><a class=\"color-fff\" data-toggle=\"tab\" href=\"#tab-speaker-header-all-76\">ALL TIME</a></li></ul></div><div class=\"tab-content margin-top-n-4 width-570\"><div id=\"tab-speaker-header-ytd-76\" class=\"tab-pane fade in active tab-header-html-content-ytd\"></div><div id=\"tab-speaker-header-all-76\" class=\"tab-pane fade tab-header-html-content-all\"></div></div></div></div></div></div></td><td>1</td><td>100</td><td>4.6</td></tr><tr><td><span id=\"modalPageAnchor\" class=\"text-primary speaker-modal-link\" data-useruid=\"77\"><a>Dimitri Semizarov</a></span><div class=\"modal fade html-modal-speaker-77\" id=\"speakerModalTab\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"speakerModalTabLabel\" aria-hidden=\"true\"><div class=\"modal-dialog\" role=\"document\"><div class=\"modal-content\"><div class=\"modal-header\"><div class=\"row bg-673ab7 margin-top-n-24 padding-top-20\"><h4 class=\"modal-title color-fff text-align-center modal-title-speaker-name\">Dimitri Semizarov</h4></div><div class=\"row bg-673ab7\"><ul class=\"nav nav-tabs\"><li class=\"color-fff\"><a class=\"color-fff\" data-toggle=\"tab\" href=\"#tab-speaker-header-ytd-77\">YTD</a></li><li class=\"color-fff\"><a class=\"color-fff\" data-toggle=\"tab\" href=\"#tab-speaker-header-all-77\">ALL TIME</a></li></ul></div><div class=\"tab-content margin-top-n-4 width-570\"><div id=\"tab-speaker-header-ytd-77\" class=\"tab-pane fade in active tab-header-html-content-ytd\"></div><div id=\"tab-speaker-header-all-77\" class=\"tab-pane fade tab-header-html-content-all\"></div></div></div></div></div></div></td><td>1</td><td>100</td><td>4.6</td></tr><tr><td><span id=\"modalPageAnchor\" class=\"text-primary speaker-modal-link\" data-useruid=\"78\"><a>Uwe Platzbecker</a></span><div class=\"modal fade html-modal-speaker-78\" id=\"speakerModalTab\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"speakerModalTabLabel\" aria-hidden=\"true\"><div class=\"modal-dialog\" role=\"document\"><div class=\"modal-content\"><div class=\"modal-header\"><div class=\"row bg-673ab7 margin-top-n-24 padding-top-20\"><h4 class=\"modal-title color-fff text-align-center modal-title-speaker-name\">Uwe Platzbecker</h4></div><div class=\"row bg-673ab7\"><ul class=\"nav nav-tabs\"><li class=\"color-fff\"><a class=\"color-fff\" data-toggle=\"tab\" href=\"#tab-speaker-header-ytd-78\">YTD</a></li><li class=\"color-fff\"><a class=\"color-fff\" data-toggle=\"tab\" href=\"#tab-speaker-header-all-78\">ALL TIME</a></li></ul></div><div class=\"tab-content margin-top-n-4 width-570\"><div id=\"tab-speaker-header-ytd-78\" class=\"tab-pane fade in active tab-header-html-content-ytd\"></div><div id=\"tab-speaker-header-all-78\" class=\"tab-pane fade tab-header-html-content-all\"></div></div></div></div></div></div></td><td>1</td><td>150</td><td>4.8</td></tr><tr><td><span id=\"modalPageAnchor\" class=\"text-primary speaker-modal-link\" data-useruid=\"79\"><a>Marina Konopleva</a></span><div class=\"modal fade html-modal-speaker-79\" id=\"speakerModalTab\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"speakerModalTabLabel\" aria-hidden=\"true\"><div class=\"modal-dialog\" role=\"document\"><div class=\"modal-content\"><div class=\"modal-header\"><div class=\"row bg-673ab7 margin-top-n-24 padding-top-20\"><h4 class=\"modal-title color-fff text-align-center modal-title-speaker-name\">Marina Konopleva</h4></div><div class=\"row bg-673ab7\"><ul class=\"nav nav-tabs\"><li class=\"color-fff\"><a class=\"color-fff\" data-toggle=\"tab\" href=\"#tab-speaker-header-ytd-79\">YTD</a></li><li class=\"color-fff\"><a class=\"color-fff\" data-toggle=\"tab\" href=\"#tab-speaker-header-all-79\">ALL TIME</a></li></ul></div><div class=\"tab-content margin-top-n-4 width-570\"><div id=\"tab-speaker-header-ytd-79\" class=\"tab-pane fade in active tab-header-html-content-ytd\"></div><div id=\"tab-speaker-header-all-79\" class=\"tab-pane fade tab-header-html-content-all\"></div></div></div></div></div></div></td><td>1</td><td>150</td><td>4.8</td></tr><tr><td><span id=\"modalPageAnchor\" class=\"text-primary speaker-modal-link\" data-useruid=\"84\"><a>Jennifer Scheuermann</a></span><div class=\"modal fade html-modal-speaker-84\" id=\"speakerModalTab\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"speakerModalTabLabel\" aria-hidden=\"true\"><div class=\"modal-dialog\" role=\"document\"><div class=\"modal-content\"><div class=\"modal-header\"><div class=\"row bg-673ab7 margin-top-n-24 padding-top-20\"><h4 class=\"modal-title color-fff text-align-center modal-title-speaker-name\">Jennifer Scheuermann</h4></div><div class=\"row bg-673ab7\"><ul class=\"nav nav-tabs\"><li class=\"color-fff\"><a class=\"color-fff\" data-toggle=\"tab\" href=\"#tab-speaker-header-ytd-84\">YTD</a></li><li class=\"color-fff\"><a class=\"color-fff\" data-toggle=\"tab\" href=\"#tab-speaker-header-all-84\">ALL TIME</a></li></ul></div><div class=\"tab-content margin-top-n-4 width-570\"><div id=\"tab-speaker-header-ytd-84\" class=\"tab-pane fade in active tab-header-html-content-ytd\"></div><div id=\"tab-speaker-header-all-84\" class=\"tab-pane fade tab-header-html-content-all\"></div></div></div></div></div></div></td><td>1</td><td>39</td><td>4.6</td></tr><tr><td><span id=\"modalPageAnchor\" class=\"text-primary speaker-modal-link\" data-useruid=\"85\"><a>Stefan Zeuzem</a></span><div class=\"modal fade html-modal-speaker-85\" id=\"speakerModalTab\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"speakerModalTabLabel\" aria-hidden=\"true\"><div class=\"modal-dialog\" role=\"document\"><div class=\"modal-content\"><div class=\"modal-header\"><div class=\"row bg-673ab7 margin-top-n-24 padding-top-20\"><h4 class=\"modal-title color-fff text-align-center modal-title-speaker-name\">Stefan Zeuzem</h4></div><div class=\"row bg-673ab7\"><ul class=\"nav nav-tabs\"><li class=\"color-fff\"><a class=\"color-fff\" data-toggle=\"tab\" href=\"#tab-speaker-header-ytd-85\">YTD</a></li><li class=\"color-fff\"><a class=\"color-fff\" data-toggle=\"tab\" href=\"#tab-speaker-header-all-85\">ALL TIME</a></li></ul></div><div class=\"tab-content margin-top-n-4 width-570\"><div id=\"tab-speaker-header-ytd-85\" class=\"tab-pane fade in active tab-header-html-content-ytd\"></div><div id=\"tab-speaker-header-all-85\" class=\"tab-pane fade tab-header-html-content-all\"></div></div></div></div></div></div></td><td>1</td><td>1400</td><td>4.4</td></tr><tr><td><span id=\"modalPageAnchor\" class=\"text-primary speaker-modal-link\" data-useruid=\"86\"><a>Ashley Brown</a></span><div class=\"modal fade html-modal-speaker-86\" id=\"speakerModalTab\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"speakerModalTabLabel\" aria-hidden=\"true\"><div class=\"modal-dialog\" role=\"document\"><div class=\"modal-content\"><div class=\"modal-header\"><div class=\"row bg-673ab7 margin-top-n-24 padding-top-20\"><h4 class=\"modal-title color-fff text-align-center modal-title-speaker-name\">Ashley Brown</h4></div><div class=\"row bg-673ab7\"><ul class=\"nav nav-tabs\"><li class=\"color-fff\"><a class=\"color-fff\" data-toggle=\"tab\" href=\"#tab-speaker-header-ytd-86\">YTD</a></li><li class=\"color-fff\"><a class=\"color-fff\" data-toggle=\"tab\" href=\"#tab-speaker-header-all-86\">ALL TIME</a></li></ul></div><div class=\"tab-content margin-top-n-4 width-570\"><div id=\"tab-speaker-header-ytd-86\" class=\"tab-pane fade in active tab-header-html-content-ytd\"></div><div id=\"tab-speaker-header-all-86\" class=\"tab-pane fade tab-header-html-content-all\"></div></div></div></div></div></div></td><td>1</td><td>1400</td><td>4.4</td></tr><tr><td><span id=\"modalPageAnchor\" class=\"text-primary speaker-modal-link\" data-useruid=\"87\"><a>Greg Dore</a></span><div class=\"modal fade html-modal-speaker-87\" id=\"speakerModalTab\" tabindex=\"-1\" role=\"dialog\" aria-labelledby=\"speakerModalTabLabel\" aria-hidden=\"true\"><div class=\"modal-dialog\" role=\"document\"><div class=\"modal-content\"><div class=\"modal-header\"><div class=\"row bg-673ab7 margin-top-n-24 padding-top-20\"><h4 class=\"modal-title color-fff text-align-center modal-title-speaker-name\">Greg Dore</h4></div><div class=\"row bg-673ab7\"><ul class=\"nav nav-tabs\"><li class=\"color-fff\"><a class=\"color-fff\" data-toggle=\"tab\" href=\"#tab-speaker-header-ytd-87\">YTD</a></li><li class=\"color-fff\"><a class=\"color-fff\" data-toggle=\"tab\" href=\"#tab-speaker-header-all-87\">ALL TIME</a></li></ul></div><div class=\"tab-content margin-top-n-4 width-570\"><div id=\"tab-speaker-header-ytd-87\" class=\"tab-pane fade in active tab-header-html-content-ytd\"></div><div id=\"tab-speaker-header-all-87\" class=\"tab-pane fade tab-header-html-content-all\"></div></div></div></div></div></div></td><td>1</td><td>1400</td><td>4.4</td></tr></tbody></table></div>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('2687472445d5ca90985bb8')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "2687472445d5ca90985bb8",
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "col-xs-12 col-sm-12 col-md-12 margin-top-24",
+        "blockClassSub": null,
+        "blockContent": [
+          {
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "",
+              "top": {
+                "value": ""
+              },
+              "type": "htmlSnippt"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<div class=\"bg-009ddf color-fff padding-15 height-60\"><span class=\"margin-top-6 line-height-1-2 margin-left-14 display-block\">sample view event table</span></div><div class=\"html-basic-table-wrapper\"><table class=\"table\"><thead><tr><th>Name</th><th>Total</th><th>5</th><th>4</th><th>3</th><th>2</th><th>1</th></tr></thead><tbody><tr><td><div class=\"html-tooltip-wrapper\"><span class=\"html-tooltip-text-wrapper\">Marla Dubinsky</span></div></td><td>39</td><td> 30 (77%)</td><td>5 (13%)</td><td>2 (5%)</td><td>1 (3%)</td><td>1 (3%)</td></tr><tr><td><div class=\"html-tooltip-wrapper\"><span class=\"html-tooltip-text-wrapper\">Marla Dubinsky</span></div></td><td>39</td><td> 30 (77%)</td><td>5 (13%)</td><td>2 (5%)</td><td>1 (3%)</td><td>1 (3%)</td></tr><tr><td><div class=\"html-tooltip-wrapper\"><span class=\"html-tooltip-text-wrapper\">Marla Dubinsky</span></div></td><td>39</td><td> 30 (77%)</td><td>5 (13%)</td><td>2 (5%)</td><td>1 (3%)</td><td>1 (3%)</td></tr></tbody></table></div>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('14042123165d5ca9096d8bd')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "14042123165d5ca9096d8bd",
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "col-xs-12 col-sm-12 col-md-12 margin-top-24",
+        "blockClassSub": null,
+        "blockContent": [
+          {
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "",
+              "top": {
+                "value": ""
+              },
+              "type": "htmlSnippt"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<div class=\"bg-009ddf color-fff padding-15 height-60\"><span class=\"margin-top-6 line-height-1-2 margin-left-14 display-block\">Comments Sample without order</span></div><div class=\"html-basic-table-wrapper\"><ul><li>More aggressive management of Thrombosis prevention.</li><li>Will use Thrombo Canada tool to inquire when anticoag. should be held prior to procedure.</li><li>Better understanding of duration of treatment. Use of HERDOO-2 algorithm.</li></ul></div>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('2687472445d5ca90985bb8')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "2687472445d5ca90985bb8",
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "col-xs-12 col-sm-12 col-md-12 margin-top-24",
+        "blockClassSub": null,
+        "blockContent": [
+          {
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "",
+              "top": {
+                "value": ""
+              },
+              "type": "htmlSnippt"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<div class=\"bg-009ddf color-fff padding-15 height-60\"><span class=\"margin-top-6 line-height-1-2 margin-left-14 display-block\">Comments Sample with order</span></div><div class=\"html-basic-table-wrapper\"><ol><li>More aggressive management of Thrombosis prevention.</li><li>Will use Thrombo Canada tool to inquire when anticoag. should be held prior to procedure.</li><li>Better understanding of duration of treatment. Use of HERDOO-2 algorithm.</li></ol></div>",
         "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('2687472445d5ca90985bb8')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
         "blockId": "2687472445d5ca90985bb8",
         "tabShow": "hide"
