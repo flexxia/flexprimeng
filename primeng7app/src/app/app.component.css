@@ -111,8 +111,13 @@ body .primengapp-dev-wrapper .ui-tabview.ui-tabview-right .ui-tabview-nav li a {
   border-radius: 4px;
 }
 
-.primengapp-dev-wrapper .ui-widget-header .primengapp-button-excel button {
+.primengapp-dev-wrapper .ui-widget-header .table-copy-excel-button .primengapp-button-excel button {
   margin-left: 8px;
+  background-color: #339966;
+}
+
+.primengapp-dev-wrapper .ui-widget-header .primengapp-button-excel button .ui-button-text{
+  color: #fff;
 }
 
 .primengapp-dev-wrapper .primengapp-button-copy button:hover,
