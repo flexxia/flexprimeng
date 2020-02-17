@@ -176,3 +176,12 @@ body .primengapp-dev-wrapper .ui-tabview.ui-tabview-right .ui-tabview-nav li a {
 .ui-tabview .primengapp-tab-panel-wrapper > .ui-tabview-panel {
   padding: 0;
 }
+
+/**
+ *
+ */
+.primeng-ptable .ui-paginator-bottom .ng-pristine.ui-inputwrapper-filled::after {
+  content: "Results Displayed";
+  font-weight: 500;
+  margin-left: 6px;
+}
