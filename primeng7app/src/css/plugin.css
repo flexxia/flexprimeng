@@ -1785,7 +1785,6 @@
   }
 }
 
-
 /*disable hyperlink <a></a>*/
 .disable-hyperlink {
   pointer-events: none;
@@ -1794,5 +1793,3 @@
   color: grey;
   opacity: 0.5;
 }
-
-
