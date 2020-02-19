@@ -103,11 +103,11 @@
  *
  */
 .primengapp-dev-wrapper .primeng-ptable .ui-table .ui-sortable-column.ui-state-highlight {
-  /*background: #fff;*/
+  background: #fff;
   color: #333333;
 }
 .primengapp-dev-wrapper .primeng-ptable .ui-table .ui-sortable-column.ui-state-highlight .pi-sort:before {
-  color: blue;
+  /*color: blue;*/
 }
 
 .primengapp-dev-wrapper .primeng-ptable .ui-table .ui-paginator-bottom {
