@@ -122,7 +122,7 @@
  *
  */
 .primeng-ptable .ui-paginator-bottom .ng-pristine.ui-inputwrapper-filled::after {
-  content: "Results Displayed";
+  content: "Rows Per Page";
   font-weight: 500;
   margin-left: 6px;
 }
