@@ -121,7 +121,8 @@
 /**
  *
  */
-.primeng-ptable .ui-paginator-bottom .ng-pristine.ui-inputwrapper-filled::after {
+.primeng-ptable .ui-paginator-bottom .ng-pristine.ui-inputwrapper-filled::after,
+.primeng-ptable .ui-paginator-bottom .ng-valid.ui-inputwrapper-filled::after {
   content: "Rows Per Page";
   font-weight: 500;
   margin-left: 6px;
