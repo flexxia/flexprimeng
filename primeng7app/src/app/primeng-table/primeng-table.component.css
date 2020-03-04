@@ -127,3 +127,14 @@
   font-weight: 500;
   margin-left: 6px;
 }
+
+/**
+ *
+ */
+.primeng-ptable .ui-paginator-bottom .ui-paginator-element.ui-paginator-first .pi.pi-step-backward:before{
+  content: "\f048";
+  color: inherit;
+  font-size: 0.8em;
+  vertical-align: top;
+  padding-top: 2px;
+}
