@@ -21,6 +21,9 @@
 
                         <div class="primeng-ptable clear-both">
                           <p-table #dt [columns]="eachtabcontent.tabData.middle.thead" [value]="eachtabcontent.tabData.middle.tabledata" [paginator]="true" [rows]="10" [rowsPerPageOptions]="[10,20,30,300]" sortField="{{eachtabcontent.tabData.middle.tSortField}}" sortOrder="-1">
+                            <ng-template pTemplate="paginatorleft" let-state>
+                              ( Total Results {{state.totalRecords}} )
+                            </ng-template>
                             <ng-template pTemplate="caption" class="primengapp-table-border">
                               <div class="row primengapp-table-features-wrapper">
                                 <div class="col-sm-12 col-md-6 col-lg-6 primengapp-table-keyword-search">
