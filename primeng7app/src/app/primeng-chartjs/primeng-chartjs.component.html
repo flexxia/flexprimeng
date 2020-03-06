@@ -3,47 +3,61 @@
 <div class="primengapp-dev-wrapper">
 
   <!-- chart -->
-  <div class="row" for="primengDataGeneral">
-    <div *ngFor="let blockData of primengDataGeneral.primengcontentdata" class="primengapp-block-wrapper">
-      <div for="blockData.blockContent">
-        <div class="{{blockData.blockClass}} primengapp-block-class-wrapper" >
-          <div class="{{blockData.blockClassSub}} block-sub-class-wrapper">
-            <div class="primengapp-block-save-pg-icon-wrapper" [innerHTML]="blockData.blockIcon | safeHtml"></div>
-            <div id="{{blockData.blockId}}" class="primengapp-block-first-wrapper">
-              <div class="primengapp-block-header-wrapper" [innerHTML]="blockData.blockHeader | safeHtml"></div>
-              <p-tabView class="primengapp-tab-view-wrapper-{{blockData.tabShow}}">
-                <div *ngFor="let eachtabcontent of blockData.blockContent; let i = index">
-                  <p-tabPanel header="{{eachtabcontent.tabTitle}}" class="primengapp-tab-panel-wrapper" [selected]="i == 0">
-                    <div class="{{eachtabcontent.tabData.class}} primengapp-tab-panel-content-wrapper">
-                      <div class="primengapp-block-top-wrapper" [innerHTML]="eachtabcontent.tabData.top.value | safeHtml">
-                      </div>
+  <div *ngIf="primengDataGeneral != null; else emptyObject">
+    <div class="row" for="primengDataGeneral">
+       <div *ngIf="primengDataGeneral.primengcontentdata.length > 0; else emptyObject">
+        <div *ngFor="let blockData of primengDataGeneral.primengcontentdata" class="primengapp-block-wrapper">
+          <div for="blockData.blockContent">
+            <div class="{{blockData.blockClass}} primengapp-block-class-wrapper" >
+              <div class="{{blockData.blockClassSub}} block-sub-class-wrapper">
+                <div class="primengapp-block-save-pg-icon-wrapper" [innerHTML]="blockData.blockIcon | safeHtml"></div>
+                <div id="{{blockData.blockId}}" class="primengapp-block-first-wrapper">
+                  <div class="primengapp-block-header-wrapper" [innerHTML]="blockData.blockHeader | safeHtml"></div>
+                  <p-tabView class="primengapp-tab-view-wrapper-{{blockData.tabShow}}">
+                    <div *ngIf="blockData.blockContent.length > 0; else emptyObject">
+                      <div *ngFor="let eachtabcontent of blockData.blockContent; let i = index">
+                        <p-tabPanel header="{{eachtabcontent.tabTitle}}" class="primengapp-tab-panel-wrapper" [selected]="i == 0">
+                          <div class="{{eachtabcontent.tabData.class}} primengapp-tab-panel-content-wrapper">
+                            <div class="primengapp-block-top-wrapper" [innerHTML]="eachtabcontent.tabData.top.value | safeHtml">
+                            </div>
 
-                      <!-- chartjs -->
-                      <div *ngIf="eachtabcontent.tabData.type == 'chart'; else elseBlock">
+                            <!-- chartjs -->
+                            <div *ngIf="eachtabcontent.tabData.type == 'chart'; else elseBlock">
 
-                        <div class="{{eachtabcontent.tabData.middle.class}} primengapp-chart-block-class-wrapper">
-                          <div class="{{eachtabcontent.tabData.middle.middleMiddle.styleClass}} primengapp-chart-style-class-wrapper">
-                            <p-chart type="{{eachtabcontent.tabData.middle.middleMiddle.type}}" height="300px" [data]="eachtabcontent.tabData.middle.middleMiddle.data" [options]="eachtabcontent.tabData.middle.middleMiddle.options">
-                            </p-chart>
+                              <div class="{{eachtabcontent.tabData.middle.class}} primengapp-chart-block-class-wrapper">
+                                <div class="{{eachtabcontent.tabData.middle.middleMiddle.styleClass}} primengapp-chart-style-class-wrapper">
+                                  <p-chart type="{{eachtabcontent.tabData.middle.middleMiddle.type}}" height="300px" [data]="eachtabcontent.tabData.middle.middleMiddle.data" [options]="eachtabcontent.tabData.middle.middleMiddle.options">
+                                  </p-chart>
+                                </div>
+                                <div class="{{eachtabcontent.tabData.middle.middleRight.styleClass}} primengapp-chart-middleright-class-wrapper">
+                                  <div [innerHTML]="eachtabcontent.tabData.middle.middleRight.value | safeHtml"></div>
+                                </div>
+                              </div>
+
+                            </div>
+
+                            <div class="primengapp-block-bottom-wrapper clear-both" [innerHTML]="eachtabcontent.tabData.bottom.value">
+                            </div>
                           </div>
-                          <div class="{{eachtabcontent.tabData.middle.middleRight.styleClass}} primengapp-chart-middleright-class-wrapper">
-                            <div [innerHTML]="eachtabcontent.tabData.middle.middleRight.value | safeHtml"></div>
-                          </div>
-                        </div>
-
-                      </div>
-
-                      <div class="primengapp-block-bottom-wrapper clear-both" [innerHTML]="eachtabcontent.tabData.bottom.value">
+                        </p-tabPanel>
                       </div>
                     </div>
-                  </p-tabPanel>
+                  </p-tabView>
                 </div>
-              </p-tabView>
+              </div>
             </div>
           </div>
         </div>
       </div>
+
     </div>
   </div>
+
+  <ng-template #emptyObject>
+    <p>
+      No data available!
+    </p>
+  </ng-template>
+
 </div>
 
