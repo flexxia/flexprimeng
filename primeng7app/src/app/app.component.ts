@@ -20,7 +20,7 @@ interface DropDownDataFormat {
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css', '../css/plugin.css', '../css/customstyle.css'],
+  styleUrls: ['./app.component.css', '../css/customstyle.css'],
   encapsulation: ViewEncapsulation.None
 })
 
