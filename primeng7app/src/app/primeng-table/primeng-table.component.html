@@ -49,7 +49,7 @@
                               <div *ngIf="eachtabcontent.tabData.middle.thead.length > 0; else emptyObject">
                                 <ng-template class="primengapp-table-header-wrapper" pTemplate="header" let-columns>
                                     <tr>
-                                      <th *ngFor="let col of eachtabcontent.tabData.middle.thead" [pSortableColumn]="col.field" [ngStyle]="{'width': col.width; 'text-align': col.textalign;}">
+                                      <th *ngFor="let col of eachtabcontent.tabData.middle.thead" [pSortableColumn]="col.field" [ngStyle]="{'width': col.width, 'text-align': col.textalign}">
                                         {{col.header}}
                                         <p-sortIcon [field]="col.field" ariaLabel="Activate to sort" ariaLabelDesc="Activate to sort in descending order" ariaLabelAsc="Activate to sort in ascending order"></p-sortIcon>
                                       </th>
@@ -59,7 +59,7 @@
                               <div *ngIf="eachtabcontent.tabData.middle.thead.length > 0; else emptyObject">
                                 <ng-template class="primengapp-table-data-wrapper" pTemplate="body" let-car let-columns="eachtabcontent.tabData.middle.thead">
                                     <tr>
-                                      <td *ngFor="let col of eachtabcontent.tabData.middle.thead" [ngStyle]="{'text-align': col.textalign;}" [innerHTML]="car[col.field] | safeHtml">
+                                      <td *ngFor="let col of eachtabcontent.tabData.middle.thead" [ngStyle]="{'text-align': col.textalign}" [innerHTML]="car[col.field] | safeHtml">
                                       </td>
                                     </tr>
                                 </ng-template>
