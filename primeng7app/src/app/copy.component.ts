@@ -9,13 +9,33 @@ export class CopyComponent {
     this.clipBoardArrayContent = [];
     this.clipBoardStringContent = '';
 
-    for (var i= copyContent.length - 1; i >= 0; i--) {
-      // copyContent[i] = copyContent[i].replace(/<(.|\n)*?>/g, '');
-      this.clipBoardArrayContent = Object.values(copyContent[i]);
-      this.clipBoardArrayContent[0] = this.clipBoardArrayContent[0].replace(/<(.|\n)*?>/g, '');
-      console.log(this.clipBoardArrayContent);
-      this.clipBoardStringContent += this.clipBoardArrayContent.join('\t');
-      this.clipBoardStringContent += '\n';
+    if (copyContent.length > 0) {
+      for (var i= 0; i < copyContent.length; i++) {
+        if (i == 0) {
+          if (copyContent[i].exportData == undefined) {
+            this.clipBoardArrayContent = Object.keys(copyContent[i]);
+          }
+          else {
+            this.clipBoardArrayContent = Object.keys(copyContent[i].exportData);
+          }
+
+          this.clipBoardStringContent += this.clipBoardArrayContent.join('\t');
+          this.clipBoardStringContent += '\n';
+        }
+        // copyContent[i] = copyContent[i].replace(/<(.|\n)*?>/g, '');
+        // this.clipBoardArrayContent = Object.values(copyContent[i]);
+        // this.clipBoardArrayContent = Object.values(copyContent[i].exportData);
+
+        if (copyContent[i].exportData == undefined) {
+          this.clipBoardArrayContent = Object.values(copyContent[i]);
+        }
+        else {
+          this.clipBoardArrayContent = Object.values(copyContent[i].exportData);
+        }
+
+        this.clipBoardStringContent += this.clipBoardArrayContent.join('\t');
+        this.clipBoardStringContent += '\n';
+      }
     }
 
     return this.clipBoardStringContent;

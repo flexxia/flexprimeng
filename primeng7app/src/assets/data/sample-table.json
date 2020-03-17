@@ -17,7 +17,7 @@
               "tableId": 1,
               "class": "col-md-12 margin-top-24 block-box-shadow padding-left-0 padding-right-0",
               "top":{
-                "value": "<div class=\"col-sm-12 col-md-12 font-size-14 padding-left-24 padding-15 bg-009ddf block-box-shadow color-fff height-60\">View Programs</div>"
+                "value": "<div class=\"col-sm-12 col-md-12 font-size-14 padding-left-24 padding-15 bg-009ddf block-box-shadow color-fff height-60\">table with exportData field</div>"
               },
               "middle":{
                 "tSortField": "province",
@@ -38,25 +38,46 @@
                 ],
                 "tabledata":[
                   {
-                    "province": "US Medical Affairs HCV Advisory Board",
+                    "province": "USssss Medical Affairs HCV Advisory Board",
                     "OLA": "HCV",
                     "Accredited": 1,
                     "Speaker Tour": 9,
-                    "Symposiums": 9
+                    "Symposiums": 9,
+                    "exportData": {
+                      "province": "USssss Medical",
+                      "OLA": "HCV",
+                      "Accredited": 1,
+                      "Speaker Tour": 9,
+                      "Symposiums": 9
+                    }
                   },
                   {
                     "province": "US HCV TGCPAA Symposium",
                     "OLA": "HCV",
                     "Accredited": 1,
                     "Speaker Tour": 39,
-                    "Symposiums": 35
+                    "Symposiums": 35,
+                    "exportData": {
+                      "province": "US HCV",
+                      "OLA": "HCV",
+                      "Accredited": 1,
+                      "Speaker Tour": 39,
+                      "Symposiums": 35
+                    }
                   },
                   {
                     "province": "Understanding the Clinical Impact: Addressing Evidence Gaps in Adenomyosis, Endometriosis, and Uterine Fibroids - SEUD Symposium",
                     "OLA": "Mature Products",
                     "Accredited": 1,
                     "Speaker Tour": 240,
-                    "Symposiums": 23
+                    "Symposiums": 23,
+                    "exportData": {
+                      "province": "Understanding the Clinical",
+                      "OLA": "HCV",
+                      "Accredited": 1,
+                      "Speaker Tour": 240,
+                      "Symposiums": 23
+                    }
                   },
                   {
                     "province": "PCH Symposium",
@@ -178,11 +199,18 @@
                     "Symposiums": 95
                   },
                   {
-                    "province": "AUA ICU Theater",
+                    "province": "AUAaaaa ICU Theater",
                     "OLA": "Mature Products",
                     "Accredited": 1,
                     "Speaker Tour": 242,
-                    "Symposiums": 37
+                    "Symposiums": 37,
+                    "exportData": {
+                      "province": "AUAaaa ICU Theater",
+                      "OLA": "Mature Products",
+                      "Accredited": 1,
+                      "Speaker Tour": 242,
+                      "Symposiums": 37
+                    }
                   },
                   {
                     "province": "What Do Your Patients With MDD Really Want? Strategies to Help Them Re-Engage in Life",
@@ -215,7 +243,7 @@
               "tableId": 1,
               "class": "col-md-12 margin-top-24 block-box-shadow padding-left-0 padding-right-0",
               "top":{
-                "value": "<div class=\"col-sm-12 col-md-12 font-size-14 padding-left-24 padding-15 bg-009ddf block-box-shadow color-fff height-60\">Brief overview of current treatments</div>"
+                "value": "<div class=\"col-sm-12 col-md-12 font-size-14 padding-left-24 padding-15 bg-009ddf block-box-shadow color-fff height-60\">table without exportData field</div>"
               },
               "middle":{
                 "tSortField": "province",

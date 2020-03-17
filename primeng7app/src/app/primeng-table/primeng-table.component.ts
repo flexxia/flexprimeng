@@ -10,12 +10,23 @@ import { CopyComponent } from '../copy.component';
 })
 export class PrimengTableComponent implements OnInit, AfterViewInit {
 
-	@Input('tableInputData') primengDataGeneral: any;
+  @Input('tableInputData') primengDataGeneral: any;
 
   constructor() {
   }
 
   ngOnInit() {
+  }
+
+  downloadTable(text, filename) {
+    var copyButton = new CopyComponent();
+    let element = document.createElement('a');
+    element.setAttribute('href', 'data:text/csv;charset=utf-8,' + encodeURIComponent(copyButton.copyClipboard(text)));
+    element.setAttribute('download', filename);
+    element.style.display = 'none';
+    document.body.appendChild(element);
+    element.click();
+    document.body.removeChild(element);
   }
 
   ngAfterViewInit() {
@@ -24,8 +35,8 @@ export class PrimengTableComponent implements OnInit, AfterViewInit {
   }
 
   copyMessage(val: any) {
-	  var copyButton = new CopyComponent();
-	  copyButton.copyMessage(val);
-	}
+    var copyButton = new CopyComponent();
+    copyButton.copyMessage(val);
+  }
 
 }
