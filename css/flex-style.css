@@ -1,1 +1,93 @@
 /**/
+
+/**
+ * tooltip
+ * @see https://www.w3schools.com/css/css_tooltip.asp
+ */
+
+.html-tooltip-wrapper,
+.right-sidebar-html-tooltip-wrapper  {
+  position: relative;
+  display: inline-block;
+}
+
+.html-tooltip-wrapper .html-tooltip-hover-bottom-wrapper {
+  visibility: hidden;
+  display: inline-block;
+  min-width: 280px;
+  width: 100%;
+  background-color: #e6e6e6;
+  color: #000;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  left: 50%;
+  margin-left: -128px;
+}
+
+.left-sidebar-html-tooltip-wrapper  {
+  position: relative;
+  display: inline-block;
+  width: 230px;
+}
+
+.left-sidebar-html-tooltip-wrapper .html-tooltip-hover-wrapper {
+  border:2px solid #e6e6e6;
+  top: -12px;
+  left: 102%;
+  padding-left: 20px;
+  line-height: 2em;
+}
+
+.right-sidebar-html-tooltip-wrapper .html-tooltip-hover-wrapper {
+  border:2px solid #e6e6e6;
+  top: 8px;
+  right: 102%;
+  padding-left: 20px;
+  line-height: 2em;
+}
+
+.right-sidebar-html-tooltip-wrapper .data-selector-tooltip-hover-wrapper {
+  border:2px solid #e6e6e6;
+  /*padding-left: 20px;*/
+  line-height: 2em;
+  top: 100%;
+  left: 50%;
+  margin-left: -100px;
+}
+
+.html-tooltip-wrapper:hover .html-tooltip-hover-wrapper,
+.left-sidebar-html-tooltip-wrapper:hover .html-tooltip-hover-wrapper,
+.right-sidebar-html-tooltip-wrapper:hover .data-selector-tooltip-hover-wrapper,
+.right-sidebar-html-tooltip-wrapper:hover .html-tooltip-hover-wrapper {
+  visibility: visible;
+}
+
+.html-tooltip-wrapper .data-selector-tooltip-hover-wrapper::after,
+.html-tooltip-wrapper .html-tooltip-hover-wrapper::after {
+  content: " ";
+  position: absolute;
+  bottom: 100%;  /* At the top of the tooltip */
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent transparent #e6e6e6 transparent;
+}
+
+/*.left-sidebar-html-tooltip-wrapper .html-tooltip-hover-wrapper::after,
+.right-sidebar-html-tooltip-wrapper .html-tooltip-hover-wrapper::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 100%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #e6e6e6 transparent transparent transparent;
+}*/
