@@ -151,3 +151,14 @@
   color: grey;
   opacity: 0.5;
 }
+
+/**
+ *
+ */
+.vertical-divider-line-1-fff {
+  width: 1px;
+  height: 100%;
+  background-color: #fff;
+  margin: 0;
+  padding: 0;  border: none;
+}
