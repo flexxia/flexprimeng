@@ -19,7 +19,11 @@ export class CopyComponent {
             this.clipBoardArrayContent = Object.keys(copyContent[i].exportData);
           }
 
-          this.clipBoardStringContent += this.clipBoardArrayContent.join('\t');
+          this.clipBoardArrayContent.forEach(eachResult => {
+            this.clipBoardStringContent += eachResult;
+            this.clipBoardStringContent += ",";
+          });
+
           this.clipBoardStringContent += '\n';
         }
         // copyContent[i] = copyContent[i].replace(/<(.|\n)*?>/g, '');
@@ -33,7 +37,11 @@ export class CopyComponent {
           this.clipBoardArrayContent = Object.values(copyContent[i].exportData);
         }
 
-        this.clipBoardStringContent += this.clipBoardArrayContent.join('\t');
+        this.clipBoardArrayContent.forEach(eachResult => {
+          this.clipBoardStringContent += eachResult;
+          this.clipBoardStringContent += ",";
+        });
+
         this.clipBoardStringContent += '\n';
       }
     }
