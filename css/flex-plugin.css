@@ -175,141 +175,65 @@
 /**
  * color font color
  */
-.color-000 {
-  color: #000;
-}
-.color-0082ba {
-  color: #0082ba;
-}
-.color-009ddf {
-  color: #009ddf;
-}
-.color-00a9e0 {
-  color: #00a9e0;
-}
-.color-05d23e {
-  color: #05d23e;
-}
-.color-1458af {
-  color: #1458af;
-}
-.color-19283d {
-  color: #19283d;
-}
-.color-282828 {
-  color: #282828;
-}
-.color-292d30 {
-  color: #292d30;
-}
-.color-2a2d2f {
-  color: #2a2d2f;
-}
-.color-2c9be5 {
-  color: #2c9be5;
-}
-.color-2d4155 {
-  color: #2d4155;
-}
-.color-2fa9e0 {
-  color: #2fa9e0;
-}
-.color-333 {
-  color: 333;
-}
-.color-344a5f {
-  color: #344a5f;
-}
-.color-3dbfd9 {
-  color: #3dbfd9;
-}
-.color-3e3e3e {
-  color: #3e3e3e;
-}
-.color-404040 {
-  color: #404040;
-}
-.color-428bca {
-  color: #428bca;
-}
-.color-5577fd {
-  color: #5577fd;
-}
-.color-56bfb5 {
-  color: #56bfb5;
-}
-.color-5cb1cc {
-  color: #5cb1cc;
-}
-.color-767676 {
-  color: #767676;
-}
-.color-7b7f81 {
-  color: #7b7f81;
-}
-.color-949697 {
-  color: #949697;
-}
-.color-97c121 {
-  color: #97c121;
-}
-.color-999 {
-  color: #999;
-}
-.color-989898 {
-  color: #989898;
-}
-.color-99db3b {
-  color: #99db3b;
-}
-.color-99dc3b {
-  color: #99dc3b;
-}
-.color-a5b7bf {
-  color: #a5b7bf;
-}
-.color-a5d23e {
-  color: #a5d23e;
-}
-.color-b5b5b5 {
-  color: #b5b5b5;
-}
-.color-bfbfbf {
-  color: #bfbfbf;
-}
-.color-D04C4C {
-  color: #D04C4C;
-}
-.color-e3e3e3 {
-  color: #e3e3e3;
-}
-.color-e6e6e6 {
-  color: #e6e6e6;
-}
-.color-e72682 {
-  color: #e72682;
-}
-.color-e93a8d {
-  color: #e93a8d;
-}
-.color-ec247f {
-  color: #ec247f;
-}
-.color-f00000 {
-  color: #f00000;
-}
-.color-f24b99 {
-  color: #f24b99;
-}
-.color-f34b99 {
-  color: #f34b99;
-}
-.color-f9f7f7 {
-  color: #f9f7f7;
-}
-.color-fff {
-  color: #fff;
-}
+.color-000 { color: #000; }
+.color-00134b { color: #00134b; }
+.color-002596 { color: #002596; }
+.color-0082ba { color: #0082ba; }
+.color-009ddf { color: #009ddf; }
+.color-00a9e0 { color: #00a9e0; }
+.color-00aeef { color: #00aeef; }
+.color-05d23e { color: #05d23e; }
+.color-1458af { color: #1458af; }
+.color-19283d { color: #19283d; }
+.color-199ed5 { color: #199ed5; }
+.color-282828 { color: #282828; }
+.color-292d30 { color: #292d30; }
+.color-2a2d2f { color: #2a2d2f; }
+.color-2c9be5 { color: #2c9be5; }
+.color-2d4155 { color: #2d4155; }
+.color-2fa9e0 { color: #2fa9e0; }
+.color-333 { color: 333; }
+.color-336699 { color: #336699; }
+.color-344a5f { color: #344a5f; }
+.color-3dbfd9 { color: #3dbfd9; }
+.color-3e3e3e { color: #3e3e3e; }
+.color-404040 { color: #404040; }
+.color-428bca { color: #428bca; }
+.color-5577fd { color: #5577fd; }
+.color-56bfb5 { color: #56bfb5; }
+.color-5cb1cc { color: #5cb1cc; }
+.color-616365 { color: #616365; }
+.color-75d1e0 { color: #75d1e0; }
+.color-767676 { color: #767676; }
+.color-7b7f81 { color: #7b7f81; }
+.color-7dba00 { color: #7dba00; }
+.color-949697 { color: #949697; }
+.color-97c121 { color: #97c121; }
+.color-989898 { color: #989898; }
+.color-999 { color: #999; }
+.color-99db3b { color: #99db3b; }
+.color-99dc3b { color: #99dc3b; }
+.color-a5b7bf { color: #a5b7bf; }
+.color-a5d13f { color: #a5d13f; }
+.color-a5d23e { color: #a5d23e; }
+.color-b5b5b5 { color: #b5b5b5; }
+.color-bfbfbf { color: #bfbfbf; }
+.color-c0c0c0 { color: #c0c0c0; }
+.color-c6c6c6 { color: #c6c6c6; }
+.color-d04c4c { color: #d04c4c; }
+.color-d04c4c { color: #d04c4c; }
+.color-d6006e { color: #d6006e; }
+.color-e3e3e3 { color: #e3e3e3; }
+.color-e6e6e6 { color: #e6e6e6; }
+.color-e72682 { color: #e72682; }
+.color-e93a8d { color: #e93a8d; }
+.color-ec247f { color: #ec247f; }
+.color-f00000 { color: #f00000; }
+.color-f24b99 { color: #f24b99; }
+.color-f34b99 { color: #f34b99; }
+.color-f9f7f7 { color: #f9f7f7; }
+.color-fff { color: #fff; }
+.color-fff > .color-fff { color: #fff; }
 
 /**
  * custom bootstrap column width by percent
