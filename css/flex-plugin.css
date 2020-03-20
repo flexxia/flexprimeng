@@ -17,9 +17,7 @@
  *
  *
  */
-[v-cloak] {
-  display: none;
-}
+
 /**
  * background
  */
@@ -102,14 +100,26 @@
  .bg-ffffff { background-color: #ffffff; }
 
 
+/**
+ * bottom
+ */
+.bottom-0 {
+  bottom: 0;
+}
+.bottom-3 {
+  bottom: 3px;
+}
+.bottom-n-1 {
+  bottom: -1px;
+}
 
 /**
- * button
+ *
  */
-.btn-f24b99 {
-  color: #fff;
-  background-color: #f24b99;
+.clear-both {
+  clear: both;
 }
+
 
 /**
  * box shadow
@@ -184,26 +194,6 @@
   border-style: dotted;
 }
 
-/**
- * bottom
- */
-.bottom-0 {
-  bottom: 0;
-}
-.bottom-3 {
-  bottom: 3px;
-}
-.bottom-n-1 {
-  bottom: -1px;
-}
-
-
-/**
- *
- */
-.clear-both {
-  clear: both;
-}
 
 /**
  * color font color
