@@ -235,17 +235,6 @@
 .color-fff { color: #fff; }
 .color-fff > .color-fff { color: #fff; }
 
-/**
- * custom bootstrap column width by percent
- */
-.col-md-custom-20-p {
-  width: 20%;
-  float: left;
-  position: relative;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
-}
 
 /**
  * custom bootstrap cursorType
@@ -257,18 +246,10 @@
 /**
  * display: block;
  */
-.display-block {
-  display: block;
-}
-.display-grid {
-  display: grid;
-}
-.display-inline-block {
-  display: inline-block;
-}
-.display-none {
-  display: none;
-}
+.display-block { display: block; }
+.display-grid { display: grid; }
+.display-inline-block { display: inline-block; }
+.display-none { display: none; }
 
 /**
  * font

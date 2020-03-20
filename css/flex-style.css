@@ -98,3 +98,15 @@
 [v-cloak] {
   display: none;
 }
+
+/**
+ * custom bootstrap column width by percent
+ */
+.col-md-custom-20-p {
+  width: 20%;
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
