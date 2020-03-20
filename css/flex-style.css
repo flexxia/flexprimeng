@@ -91,3 +91,10 @@
   border-style: solid;
   border-color: #e6e6e6 transparent transparent transparent;
 }*/
+
+/**
+ *
+ */
+[v-cloak] {
+  display: none;
+}
