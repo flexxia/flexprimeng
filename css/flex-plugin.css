@@ -254,43 +254,21 @@
 /**
  * font
  */
-.font-bold {
-  font-weight: bold;
-}
-.font-lighter {
-  font-weight: lighter;
-}
-.font-weight-100 {
-  font-weight: 100;
-}
-.font-weight-200 {
-  font-weight: 200;
-}
-.font-weight-300 {
-  font-weight: 300;
-}
-.font-weight-400 {
-  font-weight: 400;
-}
-.font-weight-500 {
-  font-weight: 500;
-}
-.font-weight-600 {
-  font-weight: 600;
-}
-.font-weight-700 {
-  font-weight: 700;
-}
-.font-weight-normal {
-  font-weight: normal;
-}
-.font-family-open-sans {
-  font-family: 'Open Sans';
-}
+.font-family-Arial { font-family: 'Arial'; }
+.font-family-open-sans { font-family: 'Open Sans'; }
 
-.font-family-Arial {
-  font-family: 'Arial';
-}
+.font-bold { font-weight: bold; }
+.font-lighter { font-weight: lighter; }
+.font-weight-100 { font-weight: 100; }
+.font-weight-200 { font-weight: 200; }
+.font-weight-300 { font-weight: 300; }
+.font-weight-400 { font-weight: 400; }
+.font-weight-460 { font-weight: 460; }
+.font-weight-500 { font-weight: 500; }
+.font-weight-600 { font-weight: 600; }
+.font-weight-700 { font-weight: 700; }
+.font-weight-normal { font-weight: normal; }
+
 
 /**
  * font-style
