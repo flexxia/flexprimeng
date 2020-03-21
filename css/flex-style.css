@@ -30,12 +30,6 @@
   margin-left: -128px;
 }
 
-.left-sidebar-html-tooltip-wrapper  {
-  position: relative;
-  display: inline-block;
-  width: 230px;
-}
-
 .left-sidebar-html-tooltip-wrapper .html-tooltip-hover-wrapper {
   border:2px solid #e6e6e6;
   top: -12px;
@@ -162,3 +156,10 @@
   margin: 0;
   padding: 0;  border: none;
 }
+
+/*
+.left-sidebar-html-tooltip-wrapper  {
+  position: relative;
+  display: inline-block;
+  width: 230px;
+}*/
