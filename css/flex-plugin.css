@@ -118,31 +118,11 @@
 /**
  * border radius
  */
-.border-radius-0 {
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  border-radius: 0px;
-}
-.border-radius-3 {
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  border-radius: 3px;
-}
-.border-radius-6 {
-  -webkit-border-radius: 6px;
-  -moz-border-radius: 6px;
-  border-radius: 6px;
-}
-.border-radius-8 {
-  -webkit-border-radius: 8px;
-  -moz-border-radius: 8px;
-  border-radius: 8px;
-}
-.border-radius-20 {
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-}
+.border-radius-0 { border-radius: 0px; }
+.border-radius-3 { border-radius: 3px; }
+.border-radius-6 { border-radius: 6px; }
+.border-radius-8 { border-radius: 8px; }
+.border-radius-20 { border-radius: 20px; }
 
 /**
  * border solid color
@@ -163,16 +143,12 @@
 /**
  *
  */
-.border-style-dotted {
-  border-style: dotted;
-}
+.border-style-dotted { border-style: dotted; }
 
 /**
  *
  */
-.clear-both {
-  clear: both;
-}
+.clear-both { clear: both; }
 
 /**
  * color font color
@@ -241,9 +217,7 @@
 /**
  * custom bootstrap cursorType
  */
-.cursor-pointer {
-  cursor: pointer;
-}
+.cursor-pointer { cursor: pointer; }
 
 /**
  * display: block;
@@ -256,15 +230,9 @@
 /**
  * float left
  */
-.float-left {
-  float: left;
-}
-.float-right {
-  float: right;
-}
-.float-none {
-  float: none;
-}
+.float-left { float: left; }
+.float-right { float: right; }
+.float-none { float: none; }
 
 /**
  * font
@@ -310,9 +278,7 @@
 /**
  * font-style
  */
-.font-style-normal {
-  font-style: normal;
-}
+.font-style-normal { font-style: normal; }
 
 
 /**
@@ -796,6 +762,3 @@
 .z-index-800 { z-index: 800; }
 .z-index-900 { z-index: 900; }
 .z-index-999 { z-index: 999; }
-
-
-
