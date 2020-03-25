@@ -529,6 +529,28 @@
     .width-$i { width: $(i)px; }
 }
 
+.width-auto { width: auto; }
+.width-inherit { width: inherit; }
+.width-pt-10 { width: 9%; }
+.width-pt-100 { width: 100%; }
+.width-pt-16 { width: 16%; }
+.width-pt-20 { width: 20%; }
+.width-pt-25 { width: 25%; }
+.width-pt-30 { width: 30%; }
+.width-pt-46 { width: 45%; }
+.width-pt-50 { width: 50%; }
+.width-pt-6 { width: 6%; }
+.width-pt-60 { width: 60%; }
+.width-pt-65 { width: 65%; }
+.width-pt-70 { width: 70%; }
+.width-pt-80 { width: 80%; }
+.width-pt-85 { width: 85%; }
+.width-pt-9 { width: 9%; }
+.width-pt-90 { width: 90%; }
+.width-pt-92 { width: 92%; }
+.width-pt-94 { width: 94%; }
+.width-pt-96 { width: 96%; }
+
 /**
  *
  */
