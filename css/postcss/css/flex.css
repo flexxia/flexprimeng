@@ -294,7 +294,7 @@
 .line-height-180 { line-height: 180px; }
 
 /**
- *
+ * line-height-px
  */
 @for $i from 20 to 50 by 2 {
     .line-height-px-$i { line-height: $(i)px; }
