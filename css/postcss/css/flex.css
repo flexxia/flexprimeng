@@ -274,18 +274,34 @@
 /**
  * line-height
  */
-@for $i from 1 to 10 {
-    .line-height-$i { line-height: $(i)px; }
-}
-@for $i from 12 to 50 by 2 {
-    .line-height-$i { line-height: $(i)px; }
-}
-
-.line-height-112 { line-height: 112px; }
-.line-height-180 { line-height: 180px; }
+.line-height-1 { line-height: 1; }
 .line-height-1-2 { line-height: 1.2; }
 .line-height-1-5 { line-height: 1.5; }
+.line-height-2 { line-height: 2; }
 .line-height-2-5 { line-height: 2.5; }
+.line-height-3 { line-height: 3; }
+
+/**
+ * @deprecated
+ */
+.line-height-24 { line-height: 24px; }
+.line-height-32 { line-height: 32px; }
+.line-height-36 { line-height: 36px; }
+.line-height-42 { line-height: 42px; }
+.line-height-44 { line-height: 44px; }
+.line-height-48 { line-height: 48px; }
+.line-height-112 { line-height: 112px; }
+.line-height-180 { line-height: 180px; }
+
+/**
+ *
+ */
+@for $i from 20 to 50 by 2 {
+    .line-height-px-$i { line-height: $(i)px; }
+}
+
+.line-height-px-112 { line-height: 112px; }
+.line-height-px-180 { line-height: 180px; }
 
 /**
  *
@@ -348,10 +364,12 @@
 .margin-right-pt-13 { margin-right: 13%; }
 .margin-right-pt-4 { margin-right: 4%; }
 
-@for $i from 0 to 200 by 2 {
+@for $i from 0 to 20 by 1 {
     .margin-top-$i { margin-top: $(i)px; }
 }
-.margin-top-9 { margin-top: 9px; }
+@for $i from 20 to 200 by 2 {
+    .margin-top-$i { margin-top: $(i)px; }
+}
 
 .margin-top-n-14 { margin-top: -14px; }
 .margin-top-n-16 { margin-top: -16px; }
