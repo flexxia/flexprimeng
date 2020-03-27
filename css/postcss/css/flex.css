@@ -540,12 +540,14 @@
 /**
  * width
  */
-@for $i from 1 to 100 by 2 {
+@for $i from 1 to 100 by 1 {
     .width-$i { width: $(i)px; }
 }
 @for $i from 110 to 1000 by 10 {
     .width-$i { width: $(i)px; }
 }
+
+.width-256 { width: 256px; }
 
 .width-auto { width: auto; }
 .width-inherit { width: inherit; }
