@@ -114,9 +114,9 @@
   height: 60px;
   padding-top: 10px;
 }
-.primengapp-dev-wrapper .primeng-ptable .ui-paginator .ui-paginator-page.ui-state-active {
+/*.primengapp-dev-wrapper .primeng-ptable .ui-paginator .ui-paginator-page.ui-state-active {
   background-color: #fff;
-}
+}*/
 
 /**
  *
@@ -132,9 +132,7 @@
  *
  */
 .primeng-ptable .ui-paginator-bottom .ui-paginator-element.ui-paginator-first .pi.pi-step-backward:before{
-  content: "\f048";
+  font-family: unset !important;
+  font: unset !important;
   color: inherit;
-  font-size: 0.8em;
-  vertical-align: top;
-  padding-top: 2px;
 }
