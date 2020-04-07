@@ -1495,3 +1495,14 @@
 .z-index-800 { z-index: 800; }
 .z-index-900 { z-index: 900; }
 .z-index-999 { z-index: 999; }
+
+/**
+ *
+ */
+ .top-pt-50 {top:50%;}
+ .left-pt-50 {left:50%;}
+
+/**
+ *
+ */
+.transform-pt-n-50-n-50 {transform: translate(-50%, -50%);}
