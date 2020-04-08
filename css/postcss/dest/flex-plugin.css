@@ -470,6 +470,11 @@
 .height-pt-90 { height: 90%; }
 
 /**
+ *
+ */
+ .left-pt-50 { left: 50%; }
+
+/**
  * line-height
  */
 .line-height-1 { line-height: 1; }
@@ -1248,7 +1253,17 @@
 /**
  *
  */
+.top-pt-50 { top: 50%; }
+
+/**
+ *
+ */
 .transform-scale-2-2 { transform: scale(2, 2); }
+
+/**
+ *
+ */
+.transform-pt-n-50-n-50 { transform: translate(-50%, -50%); }
 
 /**
  * vertical-divider-line
@@ -1495,14 +1510,3 @@
 .z-index-800 { z-index: 800; }
 .z-index-900 { z-index: 900; }
 .z-index-999 { z-index: 999; }
-
-/**
- *
- */
- .top-pt-50 {top:50%;}
- .left-pt-50 {left:50%;}
-
-/**
- *
- */
-.transform-pt-n-50-n-50 {transform: translate(-50%, -50%);}
