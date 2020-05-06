@@ -30,7 +30,14 @@
                                   </p-chart>
                                 </div>
                                 <div class="{{eachtabcontent.tabData.middle.middleRight.styleClass}} primengapp-chart-middleright-class-wrapper">
-                                  <div [innerHTML]="eachtabcontent.tabData.middle.middleRight.value | safeHtml"></div>
+                                  <div *ngIf="eachtabcontent.tabData.middle.middleRight.showChart; else showHtml">
+                                    <p-chart type="{{eachtabcontent.tabData.middle.middleRight.type}}" height="300px" [data]="eachtabcontent.tabData.middle.middleRight.data" [options]="eachtabcontent.tabData.middle.middleRight.options">
+                                    </p-chart>
+                                  </div>
+
+                                  <ng-template #showHtml>
+                                    <div [innerHTML]="eachtabcontent.tabData.middle.middleRight.value | safeHtml"></div>
+                                  </ng-template>
                                 </div>
                               </div>
 
