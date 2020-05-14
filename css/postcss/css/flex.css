@@ -349,7 +349,10 @@
 /**
  *
  */
-@for $i from 0 to 256 by 2 {
+@for $i from 0 to 19 {
+    .margin-left-$i { margin-left: $(i)px; }
+}
+@for $i from 20 to 256 by 2 {
     .margin-left-$i { margin-left: $(i)px; }
 }
 
@@ -372,7 +375,10 @@
 /**
  *
  */
-@for $i from 0 to 60 by 2 {
+@for $i from 0 to 19 {
+    .margin-right-$i { margin-right: $(i)px; }
+}
+@for $i from 20 to 60 by 2 {
     .margin-right-$i { margin-right: $(i)px; }
 }
 
