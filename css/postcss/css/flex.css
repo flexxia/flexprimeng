@@ -534,6 +534,9 @@
 .text-align-left { text-align: left; }
 .text-align-right { text-align: right; }
 .text-align-justify { text-align: justify; }
+.display-flex { display: flex; }
+.justify-content-center { justify-content: center; }
+.align-items-center { align-items: center; }
 
 /**
  * Typography more
