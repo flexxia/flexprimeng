@@ -6,6 +6,11 @@
 }
 
 /**
+ *
+ */
+.align-items-center { align-items: center; }
+
+/**
  * background
  */
 .bg-00134b { background-color: #00134b; }
@@ -215,6 +220,7 @@
  * display: block;
  */
 .display-block { display: block; }
+.display-flex { display: flex; }
 .display-grid { display: grid; }
 .display-inline-block { display: inline-block; }
 .display-none { display: none; }
