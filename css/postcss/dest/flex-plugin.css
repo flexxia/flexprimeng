@@ -12,6 +12,11 @@
 }
 
 /**
+ *
+ */
+.align-items-center { align-items: center; }
+
+/**
  * background
  */
 .bg-00134b { background-color: #00134b; }
@@ -239,6 +244,7 @@
  * display: block;
  */
 .display-block { display: block; }
+.display-flex { display: flex; }
 .display-grid { display: grid; }
 .display-inline-block { display: inline-block; }
 .display-none { display: none; }
@@ -480,7 +486,12 @@
 /**
  *
  */
- .left-pt-50 { left: 50%; }
+.justify-content-center { justify-content: center; }
+
+/**
+ *
+ */
+.left-pt-50 { left: 50%; }
 
 /**
  * line-height
@@ -1271,9 +1282,6 @@
 .text-align-left { text-align: left; }
 .text-align-right { text-align: right; }
 .text-align-justify { text-align: justify; }
-.display-flex { display: flex; }
-.justify-content-center { justify-content: center; }
-.align-items-center { align-items: center; }
 
 /**
  * Typography more
