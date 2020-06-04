@@ -17,7 +17,7 @@
               "tableId": 1,
               "class": "col-md-12 margin-top-24 block-box-shadow padding-left-0 padding-right-0",
               "top":{
-                "value": "<div class=\"col-sm-12 col-md-12 font-size-14 padding-left-24 padding-15 bg-009ddf block-box-shadow color-fff height-60\">table with exportData field</div>"
+                "value": "<div class=\"col-sm-12 col-md-12 font-size-14 padding-left-24 padding-15 bg-009ddf block-box-shadow color-fff height-60\">table, export all data</div>"
               },
               "middle":{
                 "tSortField": "province",
@@ -243,102 +243,333 @@
               "tableId": 1,
               "class": "col-md-12 margin-top-24 block-box-shadow padding-left-0 padding-right-0",
               "top":{
-                "value": "<div class=\"col-sm-12 col-md-12 font-size-14 padding-left-24 padding-15 bg-009ddf block-box-shadow color-fff height-60\">table without exportData field</div>"
+                "value": "<div class=\"col-sm-12 col-md-12 font-size-14 padding-left-24 padding-15 bg-009ddf block-box-shadow color-fff height-60\">table, export search / sort data</div>"
               },
               "middle":{
                 "tSortField": "province",
                 "tfields":[
-                  { "field": "province", "header": "Province" },
-                  { "field": "OLA", "header": "OLA" },
-                  { "field": "Accredited", "header": "Accredited" },
-                  { "field": "Speaker Tour", "header": "Speaker Tour" },
-                  { "field": "Symposiums", "header": "Symposiums" }
+                  { "field": "province", "header": "Program Name" },
+                  { "field": "OLA", "header": "BU" },
+                  { "field": "Accredited", "header": "#Events" },
+                  { "field": "Speaker Tour", "header": "HCP Reach" },
+                  { "field": "Symposiums", "header": "Responses" }
 
                 ],
                 "thead":[
-                  { "field": "province", "header": "Province", "width": "50%" },
-                  { "field": "OLA", "header": "OLA", "width": "10%" },
-                  { "field": "Accredited", "header": "Accredited", "width": "10%" },
-                  { "field": "Speaker Tour", "header": "Speaker Tour", "width": "10%" },
-                  { "field": "Symposiums", "header": "Symposiums", "width": "20%" }
+                  { "field": "province", "header": "Program Name", "width": "20%" },
+                  { "field": "OLA", "header": "BU", "width": "20%" },
+                  { "field": "Accredited", "header": "#Events", "width": "20%" },
+                  { "field": "Speaker Tour", "header": "HCP Reach", "width": "20%" },
+                  { "field": "Symposiums", "header": "Responses", "width": "20%" }
                 ],
                 "tabledata":[
                   {
-                    "province": "Alberta",
-                    "OLA": 36,
-                    "Accredited": 0,
-                    "Speaker Tour": 0,
-                    "Symposiums": 0
+                    "province": "UShhhh Medical Affairs HCV Advisory Board",
+                    "OLA": "HCV",
+                    "Accredited": 1,
+                    "Speaker Tour": 9,
+                    "Symposiums": 9,
+                    "tableBodyData": {
+                      "province": "UShhhh Medical Affairs HCV Advisory Board",
+                      "OLA": "<h1>HCV</h1>",
+                      "Accredited": "<h1>1</h1>",
+                      "Speaker Tour": "<h1>9</h1>",
+                      "Symposiums": "<h1>9</h1>"
+                    }
                   },
                   {
-                    "province": "Alberta",
-                    "OLA": 36,
-                    "Accredited": 0,
-                    "Speaker Tour": 0,
-                    "Symposiums": 0
+                    "province": "US HCV TGCPAA Symposium",
+                    "OLA": "HCV",
+                    "Accredited": 1,
+                    "Speaker Tour": 39,
+                    "Symposiums": 35,
+                    "tableBodyData": {
+                      "province": "<a>USssss Medical Affairs HCV Advisory Board</a>",
+                      "OLA": "<h1>HCV</h1>",
+                      "Accredited": "<h1>1</h1>",
+                      "Speaker Tour": "<h1>39</h1>",
+                      "Symposiums": "<h1>35</h1>"
+                    }
                   },
                   {
-                    "province": "British Columbia",
-                    "OLA": 82,
-                    "Accredited": 0,
-                    "Speaker Tour": 0,
-                    "Symposiums": 73
+                    "province": "Understanding the Clinical Impact: Addressing Evidence Gaps in Adenomyosis, Endometriosis, and Uterine Fibroids - SEUD Symposium",
+                    "OLA": "Mature Products",
+                    "Accredited": 1,
+                    "Speaker Tour": 240,
+                    "Symposiums": 23,
+                    "tableBodyData": {
+                      "province": "<a>USssss Medical Affairs HCV Advisory Board</a>",
+                      "OLA": "<h1>HCV</h1>",
+                      "Accredited": "<h1>1</h1>",
+                      "Speaker Tour": "<h1>240</h1>",
+                      "Symposiums": "<h1>23</h1>"
+                    }
                   },
                   {
-                    "province": "Manitoba",
-                    "OLA": 25,
-                    "Accredited": 0,
-                    "Speaker Tour": 0,
-                    "Symposiums": 0
+                    "province": "PCH Symposium",
+                    "OLA": "HCV",
+                    "Accredited": 1,
+                    "Speaker Tour": 100,
+                    "Symposiums": 12,
+                    "tableBodyData": {
+                      "province": "<a>USssss Medical Affairs HCV Advisory Board</a>",
+                      "OLA": "<h1>HCV</h1>",
+                      "Accredited": "<h1>1</h1>",
+                      "Speaker Tour": "<h1>100</h1>",
+                      "Symposiums": "<h1>12</h1>"
+                    }
                   },
                   {
-                    "province": "New Brunswick",
-                    "OLA": 57,
-                    "Accredited": 0,
-                    "Speaker Tour": 4,
-                    "Symposiums": 0
+                    "province": "USssss Medical Affairs HCV Advisory Board",
+                    "OLA": "HCV",
+                    "Accredited": 1,
+                    "Speaker Tour": 30,
+                    "Symposiums": 13,
+                    "tableBodyData": {
+                      "province": "<a>USssss Medical Affairs HCV Advisory Board</a>",
+                      "OLA": "<h1>HCV</h1>",
+                      "Accredited": "<h1>1</h1>",
+                      "Speaker Tour": "<h1>30</h1>",
+                      "Symposiums": "<h1>13</h1>"
+                    }
                   },
                   {
-                    "province": "Newfoundland and Labrador",
-                    "OLA": 0,
-                    "Accredited": 0,
-                    "Speaker Tour": 0,
-                    "Symposiums": 0
+                    "province": "IOTOD Conference 2019 Industry Satellite Symposium: HCV and Addiction: A Multidisciplinary Approach",
+                    "OLA": "HCV",
+                    "Accredited": 1,
+                    "Speaker Tour": 90,
+                    "Symposiums": 32,
+                    "tableBodyData": {
+                      "province": "<a>USssss Medical Affairs HCV Advisory Board</a>",
+                      "OLA": "<h1>HCV</h1>",
+                      "Accredited": "<h1>1</h1>",
+                      "Speaker Tour": "<h1>90</h1>",
+                      "Symposiums": "<h1>32</h1>"
+                    }
                   },
                   {
-                    "province": "Nova Scotia",
-                    "OLA": 25,
-                    "Accredited": 0,
-                    "Speaker Tour": 0,
-                    "Symposiums": 0
+                    "province": "Exocrine Pancreatic Insufficiency Post Pancreatic Surgery SOAP Symposium",
+                    "OLA": "Mature Products",
+                    "Accredited": 1,
+                    "Speaker Tour": 102,
+                    "Symposiums": 39,
+                    "tableBodyData": {
+                      "province": "<a>USssss Medical Affairs HCV Advisory Board</a>",
+                      "OLA": "<h1>HCV</h1>",
+                      "Accredited": "<h1>1</h1>",
+                      "Speaker Tour": "<h1>102</h1>",
+                      "Symposiums": "<h1>139</h1>"
+                    }
                   },
                   {
-                    "province": "Ontario",
-                    "OLA": 50,
-                    "Accredited": 0,
+                    "province": "EPI Medical Affairs Advisory Board Meeting",
+                    "OLA": "Mature Products",
+                    "Accredited": 1,
                     "Speaker Tour": 7,
-                    "Symposiums": 0
+                    "Symposiums": 7,
+                    "tableBodyData": {
+                      "province": "<a>USssss Medical Affairs HCV Advisory Board</a>",
+                      "OLA": "<h1>HCV</h1>",
+                      "Accredited": "<h1>1</h1>",
+                      "Speaker Tour": "<h1>7</h1>",
+                      "Symposiums": "<h1>7</h1>"
+                    }
                   },
                   {
-                    "province": "Prince Edward Island",
-                    "OLA": 3,
-                    "Accredited": 0,
-                    "Speaker Tour": 0,
-                    "Symposiums": 0
+                    "province": "EASL 2019 Symposium: Transforming the HCV Care Cascade: Making HCV Elimination a Reality",
+                    "OLA": "HCV",
+                    "Accredited": 1,
+                    "Speaker Tour": 1400,
+                    "Symposiums": 95,
+                    "tableBodyData": {
+                      "province": "<a>USssss Medical Affairs HCV Advisory Board</a>",
+                      "OLA": "<h1>HCV</h1>",
+                      "Accredited": "<h1>1</h1>",
+                      "Speaker Tour": "<h1>1400</h1>",
+                      "Symposiums": "<h1>95</h1>"
+                    }
                   },
                   {
-                    "province": "Quebec",
-                    "OLA": 68,
-                    "Accredited": 65,
-                    "Speaker Tour": 110,
-                    "Symposiums": 0
+                    "province": "AUA ICU Theater",
+                    "OLA": "Mature Products",
+                    "Accredited": 1,
+                    "Speaker Tour": 242,
+                    "Symposiums": 37,
+                    "tableBodyData": {
+                      "province": "<a>USssss Medical Affairs HCV Advisory Board</a>",
+                      "OLA": "<h1>HCV</h1>",
+                      "Accredited": "<h1>1</h1>",
+                      "Speaker Tour": "<h1>242</h1>",
+                      "Symposiums": "<h1>13</h1>"
+                    }
                   },
                   {
-                    "province": "Saskatchewan",
-                    "OLA": 87,
-                    "Accredited": 0,
-                    "Speaker Tour": 0,
-                    "Symposiums": 0
+                    "province": "What Do Your Patients With MDD Really Want? Strategies to Help Them Re-Engage in Life",
+                    "OLA": "Lundbeck",
+                    "Accredited": 11,
+                    "Speaker Tour": 143,
+                    "Symposiums": 0,
+                    "tableBodyData": {
+                      "province": "<a>USssss Medical Affairs HCV Advisory Board</a>",
+                      "OLA": "<h1>HCV</h1>",
+                      "Accredited": "<h1>1</h1>",
+                      "Speaker Tour": "<h1>143</h1>",
+                      "Symposiums": "<h1>0</h1>"
+                    }
+                  },
+                  {
+                    "province": "US Medical Affairs HCV Advisory Board",
+                    "OLA": "HCV",
+                    "Accredited": 1,
+                    "Speaker Tour": 9,
+                    "Symposiums": 9,
+                    "tableBodyData": {
+                      "province": "<a>USssss Medical Affairs HCV Advisory Board</a>",
+                      "OLA": "<h1>HCV</h1>",
+                      "Accredited": "<h1>1</h1>",
+                      "Speaker Tour": "<h1>9</h1>",
+                      "Symposiums": "<h1>9</h1>"
+                    }
+                  },
+                  {
+                    "province": "US HCV TGCPAA Symposium",
+                    "OLA": "HCV",
+                    "Accredited": 1,
+                    "Speaker Tour": 39,
+                    "Symposiums": 35,
+                    "tableBodyData": {
+                      "province": "<a>USssss Medical Affairs HCV Advisory Board</a>",
+                      "OLA": "<h1>HCV</h1>",
+                      "Accredited": "<h1>1</h1>",
+                      "Speaker Tour": "<h1>39</h1>",
+                      "Symposiums": "<h1>35</h1>"
+                    }
+                  },
+                  {
+                    "province": "Understanding the Clinical Impact: Addressing Evidence Gaps in Adenomyosis, Endometriosis, and Uterine Fibroids - SEUD Symposium",
+                    "OLA": "Mature Products",
+                    "Accredited": 1,
+                    "Speaker Tour": 240,
+                    "Symposiums": 23,
+                    "tableBodyData": {
+                      "province": "<a>USssss Medical Affairs HCV Advisory Board</a>",
+                      "OLA": "<h1>HCV</h1>",
+                      "Accredited": "<h1>1</h1>",
+                      "Speaker Tour": "<h1>240</h1>",
+                      "Symposiums": "<h1>23</h1>"
+                    }
+                  },
+                  {
+                    "province": "PCH Symposium",
+                    "OLA": "HCV",
+                    "Accredited": 1,
+                    "Speaker Tour": 100,
+                    "Symposiums": 12,
+                    "tableBodyData": {
+                      "province": "<a>USssss Medical Affairs HCV Advisory Board</a>",
+                      "OLA": "<h1>HCV</h1>",
+                      "Accredited": "<h1>1</h1>",
+                      "Speaker Tour": "<h1>100</h1>",
+                      "Symposiums": "<h1>12</h1>"
+                    }
+                  },
+                  {
+                    "province": "IOTOD Conference 2019 Meet the Experts Workshop: Success through Outreach: Managing HCV in the Addiction Setting",
+                    "OLA": "HCV",
+                    "Accredited": 1,
+                    "Speaker Tour": 30,
+                    "Symposiums": 13,
+                    "tableBodyData": {
+                      "province": "<a>USssss Medical Affairs HCV Advisory Board</a>",
+                      "OLA": "<h1>HCV</h1>",
+                      "Accredited": "<h1>1</h1>",
+                      "Speaker Tour": "<h1>30</h1>",
+                      "Symposiums": "<h1>13</h1>"
+                    }
+                  },
+                  {
+                    "province": "IOTOD Conference 2019 Industry Satellite Symposium: HCV and Addiction: A Multidisciplinary Approach",
+                    "OLA": "HCV",
+                    "Accredited": 1,
+                    "Speaker Tour": 90,
+                    "Symposiums": 32,
+                    "tableBodyData": {
+                      "province": "<a>USssss Medical Affairs HCV Advisory Board</a>",
+                      "OLA": "<h1>HCV</h1>",
+                      "Accredited": "<h1>1</h1>",
+                      "Speaker Tour": "<h1>90</h1>",
+                      "Symposiums": "<h1>32</h1>"
+                    }
+                  },
+                  {
+                    "province": "Exocrine Pancreatic Insufficiency Post Pancreatic Surgery SOAP Symposium",
+                    "OLA": "Mature Products",
+                    "Accredited": 1,
+                    "Speaker Tour": 102,
+                    "Symposiums": 39,
+                    "tableBodyData": {
+                      "province": "<a>USssss Medical Affairs HCV Advisory Board</a>",
+                      "OLA": "<h1>HCV</h1>",
+                      "Accredited": "<h1>1</h1>",
+                      "Speaker Tour": "<h1>100</h1>",
+                      "Symposiums": "<h1>39</h1>"
+                    }
+                  },
+                  {
+                    "province": "EPI Medical Affairs Advisory Board Meeting",
+                    "OLA": "Mature Products",
+                    "Accredited": 1,
+                    "Speaker Tour": 7,
+                    "Symposiums": 7,
+                    "tableBodyData": {
+                      "province": "<a>USssss Medical Affairs HCV Advisory Board</a>",
+                      "OLA": "<h1>HCV</h1>",
+                      "Accredited": "<h1>1</h1>",
+                      "Speaker Tour": "<h1>7</h1>",
+                      "Symposiums": "<h1>7</h1>"
+                    }
+                  },
+                  {
+                    "province": "EASL 2019 Symposium: Transforming the HCV Care Cascade: Making HCV Elimination a Reality",
+                    "OLA": "HCV",
+                    "Accredited": 1,
+                    "Speaker Tour": 1400,
+                    "Symposiums": 95,
+                    "tableBodyData": {
+                      "province": "<a>USssss Medical Affairs HCV Advisory Board</a>",
+                      "OLA": "<h1>HCV</h1>",
+                      "Accredited": "<h1>1</h1>",
+                      "Speaker Tour": "<h1>1400</h1>",
+                      "Symposiums": "<h1>95</h1>"
+                    }
+                  },
+                  {
+                    "province": "AUAaaaa ICU Theater",
+                    "OLA": "Mature Products",
+                    "Accredited": 1,
+                    "Speaker Tour": 242,
+                    "Symposiums": 37,
+                    "tableBodyData": {
+                      "province": "<a>USssss Medical Affairs HCV Advisory Board</a>",
+                      "OLA": "<h1>HCV</h1>",
+                      "Accredited": "<h1>1</h1>",
+                      "Speaker Tour": "<h1>242</h1>",
+                      "Symposiums": "<h1>37</h1>"
+                    }
+                  },
+                  {
+                    "province": "What Do Your Patients With MDD Really Want? Strategies to Help Them Re-Engage in Life",
+                    "OLA": "Lundbeck",
+                    "Accredited": 11,
+                    "Speaker Tour": 143,
+                    "Symposiums": 0,
+                    "tableBodyData": {
+                      "province": "<a>USssss Medical Affairs HCV Advisory Board</a>",
+                      "OLA": "<h1>HCV</h1>",
+                      "Accredited": "<h1>1</h1>",
+                      "Speaker Tour": "<h1>143</h1>",
+                      "Symposiums": "<h1>0</h1>"
+                    }
                   }
                 ]
               },
