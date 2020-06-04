@@ -17,3 +17,6 @@ composer show flexxia/flexprimeng
 sudo git rm -f --cached web/libraries/flexprimeng
 
 sudo git add -f web/libraries/flexprimeng/*
+
+Run `ng build` to build the project.
+/usr/local/Cellar/node/11.12.0/bin/ng build
