@@ -60,7 +60,7 @@
                               <div *ngIf="eachtabcontent.tabData.middle.thead.length > 0; else emptyObject">
                                 <ng-template class="primengapp-table-data-wrapper" pTemplate="body" let-eachTableRowData let-columns="eachtabcontent.tabData.middle.thead">
                                     <tr>
-                                      <td *ngFor="let col of eachtabcontent.tabData.middle.thead" [ngStyle]="{'text-align': col.textalign}" [innerHTML]="eachTableRowData.tableBodyData ? eachTableRowData.tableBodyData[col.field] : eachTableRowData[col.field] | safeHtml">
+                                      <td *ngFor="let col of eachtabcontent.tabData.middle.thead" [ngStyle]="{'text-align': col.textalign}" [innerHTML]="(eachTableRowData.tableBodyData ? eachTableRowData.tableBodyData[col.field] : eachTableRowData[col.field]) | safeHtml">
                                       </td>
                                     </tr>
                                 </ng-template>

@@ -3,45 +3,40 @@ import { Table } from 'primeng/components/table/table';
 export class CopyComponent {
 
   clipBoardArrayContent: any[];
+  clipBoardArrayKey: any[];
   clipBoardStringContent: '';
 
   copyClipboard(copyContent) {
     this.clipBoardArrayContent = [];
+    this.clipBoardArrayKey = [];
     this.clipBoardStringContent = '';
 
     if (copyContent.length > 0) {
       for (var i= 0; i < copyContent.length; i++) {
-        if (i == 0) {
-          if (copyContent[i].exportData == undefined) {
-            this.clipBoardArrayContent = Object.keys(copyContent[i]);
-          }
-          else {
-            this.clipBoardArrayContent = Object.keys(copyContent[i].exportData);
-          }
 
-          this.clipBoardArrayContent.forEach(eachResult => {
-            this.clipBoardStringContent += eachResult;
-            this.clipBoardStringContent += ",";
-          });
-
-          this.clipBoardStringContent += '\n';
-        }
         // copyContent[i] = copyContent[i].replace(/<(.|\n)*?>/g, '');
         // this.clipBoardArrayContent = Object.values(copyContent[i]);
         // this.clipBoardArrayContent = Object.values(copyContent[i].exportData);
 
-        if (copyContent[i].exportData == undefined) {
-          this.clipBoardArrayContent = Object.values(copyContent[i]);
-        }
-        else {
-          this.clipBoardArrayContent = Object.values(copyContent[i].exportData);
+        this.clipBoardArrayKey = Object.keys(copyContent[i]);
+        this.clipBoardArrayContent = Object.values(copyContent[i]);
+
+        if (i == 0) {
+          for (var j = 0; j < this.clipBoardArrayKey.length; j++) {
+            if (this.clipBoardArrayKey[j] != 'tableBodyData') {
+              this.clipBoardStringContent += this.clipBoardArrayKey[j];
+              this.clipBoardStringContent += ",";
+            }
+          }
+          this.clipBoardStringContent += '\n';
         }
 
-        this.clipBoardArrayContent.forEach(eachResult => {
-          this.clipBoardStringContent += eachResult;
-          this.clipBoardStringContent += ",";
-        });
-
+        for (var j = 0; j < this.clipBoardArrayContent.length; j++) {
+          if (this.clipBoardArrayKey[j] != 'tableBodyData') {
+            this.clipBoardStringContent += this.clipBoardArrayContent[j];
+            this.clipBoardStringContent += ",";
+          }
+        }
         this.clipBoardStringContent += '\n';
       }
     }
