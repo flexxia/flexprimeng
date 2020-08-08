@@ -482,45 +482,47 @@ var AppComponent = /** @class */ (function () {
                 if (eachComponent.componentname == 'primengchartjs') {
                     _this.primengDataGeneral = eachComponent.primengcontentdata;
                     _this.primengDataGeneral.forEach(function (eachBlockData) {
-                        eachBlockData.blockContent.forEach(function (eachTabData) {
-                            if (eachBlockData.isChartjs) {
-                                if (typeof eachTabData.chartjsPluginsOptions !== 'undefined') {
-                                    if (typeof eachTabData.chartjsPluginsOptions.calculateLabel !== 'undefined') {
-                                        if (eachTabData.chartjsPluginsOptions.calculateLabel) {
-                                            if (eachTabData['tabData'].middle.middleMiddle.renderLabel == "value") {
-                                                eachTabData['tabData'].middle.middleMiddle.options.plugins.labels.render = "value";
+                        if (eachBlockData.blockContent[0]) {
+                            eachBlockData.blockContent.forEach(function (eachTabData) {
+                                if (eachBlockData.isChartjs) {
+                                    if (typeof eachTabData.chartjsPluginsOptions !== 'undefined') {
+                                        if (typeof eachTabData.chartjsPluginsOptions.calculateLabel !== 'undefined') {
+                                            if (eachTabData.chartjsPluginsOptions.calculateLabel) {
+                                                if (eachTabData['tabData'].middle.middleMiddle.renderLabel == "value") {
+                                                    eachTabData['tabData'].middle.middleMiddle.options.plugins.labels.render = "value";
+                                                }
+                                                else {
+                                                    eachTabData['tabData'].middle.middleMiddle.options.plugins.labels.render = function (args) {
+                                                        var result = '';
+                                                        if (args.percentage > 5) {
+                                                            result = args.percentage + " %";
+                                                        }
+                                                        return result;
+                                                    };
+                                                }
                                             }
-                                            else {
-                                                eachTabData['tabData'].middle.middleMiddle.options.plugins.labels.render = function (args) {
-                                                    var result = '';
-                                                    if (args.percentage > 5) {
-                                                        result = args.percentage + " %";
+                                        }
+                                        if (typeof eachTabData.chartjsPluginsOptions.calculateLabel !== 'undefined') {
+                                            if (eachTabData.chartjsPluginsOptions.calculateTooltip) {
+                                                eachTabData['tabData'].middle.middleMiddle.options.tooltips = {
+                                                    callbacks: {
+                                                        label: function (tooltipItem, data) {
+                                                            var dataset = data.datasets[tooltipItem.datasetIndex];
+                                                            var total = dataset.data.reduce(function (previousValue, currentValue, currentIndex, array) {
+                                                                return previousValue + currentValue;
+                                                            });
+                                                            var currentValue = dataset.data[tooltipItem.index];
+                                                            var percentage = Math.floor(((currentValue / total) * 100) + 0.5);
+                                                            return currentValue + ' - - ' + percentage + "%";
+                                                        }
                                                     }
-                                                    return result;
                                                 };
                                             }
                                         }
                                     }
-                                    if (typeof eachTabData.chartjsPluginsOptions.calculateLabel !== 'undefined') {
-                                        if (eachTabData.chartjsPluginsOptions.calculateTooltip) {
-                                            eachTabData['tabData'].middle.middleMiddle.options.tooltips = {
-                                                callbacks: {
-                                                    label: function (tooltipItem, data) {
-                                                        var dataset = data.datasets[tooltipItem.datasetIndex];
-                                                        var total = dataset.data.reduce(function (previousValue, currentValue, currentIndex, array) {
-                                                            return previousValue + currentValue;
-                                                        });
-                                                        var currentValue = dataset.data[tooltipItem.index];
-                                                        var percentage = Math.floor(((currentValue / total) * 100) + 0.5);
-                                                        return currentValue + ' - - ' + percentage + "%";
-                                                    }
-                                                }
-                                            };
-                                        }
-                                    }
                                 }
-                            }
-                        });
+                            });
+                        }
                     });
                 }
             });
