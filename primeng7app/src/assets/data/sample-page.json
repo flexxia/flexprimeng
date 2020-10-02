@@ -1763,7 +1763,7 @@
             "tabTitle": ""
           }
         ],
-        "blockHeader": "<div class=\"bg-009ddf color-fff padding-15 height-60\"><span class=\"margin-top-6 line-height-1-2 margin-left-14 display-block\">second scatter chart. hover color + label + value.</span></div>",
+        "blockHeader": "<div class=\"bg-009ddf color-fff padding-15 height-60\"><span class=\"margin-top-6 line-height-1-2 margin-left-14 display-block\">second scatter chart. Show Y Axis titles. hover color + label + value.</span></div>",
         "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('28552345d5ca90924319')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
         "blockId": "28552345d5ca90924319",
         "isChartjs": true,
