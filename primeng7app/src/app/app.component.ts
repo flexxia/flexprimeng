@@ -39,12 +39,12 @@ export class AppComponent implements OnInit {
 
   hcpData: any[];
 
-	businessUnit: any[];
-	therapArea: any[];
-	programArea: any[];
-	selectedRoles: string[] = [];
-	display: boolean = false;
-	userRoles: any[];
+  businessUnit: any[];
+  therapArea: any[];
+  programArea: any[];
+  selectedRoles: string[] = [];
+  display: boolean = false;
+  userRoles: any[];
 
   // evaluation form
   enteredMeetingName: string;
@@ -235,6 +235,20 @@ export class AppComponent implements OnInit {
                               var currentValue = dataset.data[tooltipItem.index];
                               var percentage = Math.floor(((currentValue/total) * 100)+0.5);
                               return currentValue + ' - - ' + percentage + "%";
+                            }
+                          }
+                        };
+                      }
+                    }
+                    if (typeof eachTabData.chartjsPluginsOptions.dispalyTooltipLabelValue !== 'undefined') {
+                      if (eachTabData.chartjsPluginsOptions.dispalyTooltipLabelValue) {
+                        eachTabData['tabData'].middle.middleMiddle.options.tooltips = {
+                          callbacks: {
+                            label: function(tooltipItem, data) {
+                              var dataset = data.datasets[tooltipItem.datasetIndex];
+                              var currentValue = dataset.data[tooltipItem.index]['y'];
+                              var currentLabel = dataset.label;
+                              return currentLabel + ' ( ' + currentValue + " ) ";
                             }
                           }
                         };

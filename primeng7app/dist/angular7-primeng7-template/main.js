@@ -519,6 +519,20 @@ var AppComponent = /** @class */ (function () {
                                                 };
                                             }
                                         }
+                                        if (typeof eachTabData.chartjsPluginsOptions.dispalyTooltipLabelValue !== 'undefined') {
+                                            if (eachTabData.chartjsPluginsOptions.dispalyTooltipLabelValue) {
+                                                eachTabData['tabData'].middle.middleMiddle.options.tooltips = {
+                                                    callbacks: {
+                                                        label: function (tooltipItem, data) {
+                                                            var dataset = data.datasets[tooltipItem.datasetIndex];
+                                                            var currentValue = dataset.data[tooltipItem.index]['y'];
+                                                            var currentLabel = dataset.label;
+                                                            return currentLabel + ' ( ' + currentValue + " ) ";
+                                                        }
+                                                    }
+                                                };
+                                            }
+                                        }
                                     }
                                 }
                             });

@@ -1468,6 +1468,331 @@
         "tabShow": "hide"
       },
       {
+        "blockClass": "col-md-6 margin-top-24",
+        "blockClassSub": "col-md-12 block-box-shadow padding-left-0 padding-right-0",
+        "blockContent": [
+          {
+            "chartjsPluginsOptions": {
+              "calculateLabel": false,
+              "calculateTooltip": false,
+              "dispalyTooltipLabelValue": true
+            },
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "padding-left-0 padding-right-0",
+              "middle": {
+                "class": "min-height-340",
+                "middleLeft": {
+                  "value": ""
+                },
+                "middleMiddle": {
+                  "renderLabel": "percentage",
+                  "value": "<div class=\"height-400\"><p-chart type=\"bar\" [data]=\"primeData\"></p-chart>hello this is scatter chart</div>",
+                  "type": "scatter",
+                  "styleClass": "col-md-12 margin-top-24",
+                  "data": {
+                    "datasets": [
+                      {
+                        "label": "sample1",
+                        "pointBackgroundColor": "#009ddf",
+                        "borderColor": "#009ddf",
+                        "data": [{
+                          "x": "2020-01-12",
+                          "y": 8
+                        },
+                        {
+                          "x": "2020-02-13",
+                          "y": 6
+                        },
+                        {
+                          "x": "2020-03-14",
+                          "y": 4
+                        },
+                        {
+                          "x": "2020-04",
+                          "y": 5
+                        }]
+                      },
+                      {
+                        "label": "sample2",
+                        "pointBackgroundColor": "#7dba00",
+                        "borderColor": "#7dba00",
+                        "data": [{
+                          "x": "2020-01",
+                          "y": 8
+                        },
+                        {
+                          "x": "2020-02",
+                          "y": 3
+                        },
+                        {
+                          "x": "2020-03",
+                          "y": 5
+                        },
+                        {
+                          "x": "2020-05-10",
+                          "y": 5
+                        },
+                        {
+                          "x": "2020-04",
+                          "y": 4
+                        }]
+                      },
+                      {
+                        "label": "sample3",
+                        "pointBackgroundColor": "#c6c6c6",
+                        "borderColor": "#c6c6c6",
+                        "data": [{
+                          "x": "2020-01-18",
+                          "y": 7
+                        },
+                        {
+                          "x": "2020-02-23",
+                          "y": 3
+                        },
+                        {
+                          "x": "2020-03-20",
+                          "y": 3
+                        },
+                        {
+                          "x": "2020-04",
+                          "y": 4
+                        },
+                        {
+                          "x": "2020-05",
+                          "y": 5
+                        }
+                      ]
+                      }
+                    ]
+                  },
+                  "options": {
+                    "legend": {
+                      "display": false
+                    },
+                    "scaleShowValues": true,
+                    "scales": {
+                      "xAxes": [{
+                        "type": "time",
+                        "time": {
+                          "unit": "month",
+                          "displayFormat": {
+                            "month": "MM YYYY"
+                          }
+                        },
+                        "ticks": {
+                          "autoSkip": false
+                        },
+                        "position": "bottom"
+                      }],
+                      "yAxes": [{
+                        "type": "linear",
+                        "ticks": {
+                          "beginAtZero": true
+                        }
+                      }]
+                    }
+                  }
+                },
+                "middleRight": {
+                  "styleClass": "col-md-6",
+                  "value": ""
+                }
+              },
+              "top": {
+                "styleClass": "color-fff height-60 padding-15 padding-left-14 bg-009ddf",
+                "value": "<div class=\"legend-square-wrapper margin-left-12 margin-top-24 font-size-12 width-pt-100\"><div class=\"height-32 margin-4 text-center float-left\"><span class=\"legend-square bg-7dba00\"></span><span class=\"float-left legend-text\">Sample 1</span></div><div class=\"height-32 margin-4 text-center float-left\"><span class=\"legend-square bg-0093d0\"></span><span class=\"float-left legend-text\">Sample 2</span></div><div class=\"height-32 text-center margin-4 float-left\"><span class=\"legend-square bg-c6c6c6\"></span><span class=\"float-left legend-text\">Sample 3</span></div></div>"
+              },
+              "type": "chart"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<div class=\"bg-009ddf color-fff padding-15 height-60\"><span class=\"margin-top-6 line-height-1-2 margin-left-14 display-block\">first scatter chart. hover color + label + value.</span></div>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('28552345d5ca90924319')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "28552345d5ca90924319",
+        "isChartjs": true,
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "col-md-6 margin-top-24",
+        "blockClassSub": "col-md-12 block-box-shadow padding-left-0 padding-right-0",
+        "blockContent": [
+          {
+            "chartjsPluginsOptions": {
+              "calculateLabel": false,
+              "calculateTooltip": false,
+              "dispalyTooltipLabelValue": true
+            },
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "padding-left-0 padding-right-0",
+              "middle": {
+                "class": "min-height-340",
+                "middleLeft": {
+                  "value": ""
+                },
+                "middleMiddle": {
+                  "renderLabel": "percentage",
+                  "value": "<div class=\"height-400\"><p-chart type=\"bar\" [data]=\"primeData\"></p-chart>hello this is scatter chart</div>",
+                  "type": "scatter",
+                  "styleClass": "col-md-12 margin-top-24",
+                  "data": {
+                    "datasets": [
+                      {
+                        "label": "sample1",
+                        "pointBackgroundColor": "#009ddf",
+                        "borderColor": "#009ddf",
+                        "data": [{
+                          "x": "2020-01",
+                          "y": 18
+                        },
+                        {
+                          "x": "2020-02",
+                          "y": 26
+                        },
+                        {
+                          "x": "2020-03",
+                          "y": 44
+                        },
+                        {
+                          "x": "2020-04",
+                          "y": 65
+                        }]
+                      },
+                      {
+                        "label": "sample2",
+                        "pointBackgroundColor": "#7dba00",
+                        "borderColor": "#7dba00",
+                        "data": [{
+                          "x": "2020-01",
+                          "y": 28
+                        },
+                        {
+                          "x": "2020-02",
+                          "y": 34
+                        },
+                        {
+                          "x": "2020-03",
+                          "y": 55
+                        },
+                        {
+                          "x": "2020-05",
+                          "y": 35
+                        },
+                        {
+                          "x": "2020-04",
+                          "y": 45
+                        }]
+                      },
+                      {
+                        "label": "sample3",
+                        "pointBackgroundColor": "#c6c6c6",
+                        "borderColor": "#c6c6c6",
+                        "data": [{
+                          "x": "2020-01",
+                          "y": 17
+                        },
+                        {
+                          "x": "2020-02",
+                          "y": 23
+                        },
+                        {
+                          "x": "2020-03",
+                          "y": 34
+                        },
+                        {
+                          "x": "2020-04",
+                          "y": 44
+                        },
+                        {
+                          "x": "2020-05",
+                          "y": 53
+                        }
+                      ]
+                      }
+                    ]
+                  },
+                  "options": {
+                    "legend": {
+                      "display": false
+                    },
+                    "scaleShowValues": true,
+                    "scales": {
+                      "xAxes": [{
+                        "type": "time",
+                        "time": {
+                          "unit": "month",
+                          "displayFormat": {
+                            "month": "MM YYYY"
+                          }
+                        },
+                        "ticks": {
+                          "autoSkip": false
+                        },
+                        "position": "bottom"
+                      }],
+                      "yAxes": [{
+                        "type": "linear",
+                        "scaleLabel": {
+                          "display": true,
+                          "labelString": "NPS SCORE"
+                        },
+                        "ticks": {
+                          "beginAtZero": true
+                        }
+                      }]
+                    }
+                  }
+                },
+                "middleRight": {
+                  "styleClass": "col-md-6",
+                  "value": ""
+                }
+              },
+              "top": {
+                "styleClass": "color-fff height-60 padding-15 padding-left-14 bg-009ddf",
+                "value": "<div class=\"legend-square-wrapper margin-left-12 margin-top-24 font-size-12 width-pt-100\"><div class=\"height-32 margin-4 text-center float-left\"><span class=\"legend-square bg-7dba00\"></span><span class=\"float-left legend-text\">Sample 1</span></div><div class=\"height-32 margin-4 text-center float-left\"><span class=\"legend-square bg-0093d0\"></span><span class=\"float-left legend-text\">Sample 2</span></div><div class=\"height-32 text-center margin-4 float-left\"><span class=\"legend-square bg-c6c6c6\"></span><span class=\"float-left legend-text\">Sample 3</span></div></div>"
+              },
+              "type": "chart"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<div class=\"bg-009ddf color-fff padding-15 height-60\"><span class=\"margin-top-6 line-height-1-2 margin-left-14 display-block\">second scatter chart. hover color + label + value.</span></div>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('28552345d5ca90924319')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "28552345d5ca90924319",
+        "isChartjs": true,
+        "tabShow": "hide"
+      },
+      {
+        "blockClass": "block-html-clear-both-wrapper",
+        "blockClassSub": null,
+        "blockContent": [
+          {
+            "tabData": {
+              "bottom": {
+                "value": ""
+              },
+              "class": "",
+              "top": {
+                "value": ""
+              },
+              "type": "htmlSnippt"
+            },
+            "tabTitle": ""
+          }
+        ],
+        "blockHeader": "<span style=\"height:1px;\"></span>",
+        "blockIcon": "<div class=\"drop-down-icon-wrapper dropdown show float-right margin-top-12 margin-right-16\"><a class=\"drop-down-icon-toggle dropdown-toggle\" href=\"#\" role=\"button\" id=\"dropdownMenuLink\" data-toggle=\"dropdown\" aria-haspopup=\"true\" aria-expanded=\"false\"><i class=\"fa fa-angle-down color-fff\"></i></a><div class=\"drop-down-icon-menu dropdown-menu padding-20 margin-left-n-86 text-align-center\" aria-labelledby=\"dropdownMenuLink\"><a onclick=\"saveHtmlToPng('3468003585d5ca9095346e')\" class=\"dropdown-item color-000 font-size-14\" href=\"javascript:void(0);\">SAVE PNG</a></div></div>",
+        "blockId": "3468003585d5ca9095346e",
+        "tabShow": "hide"
+      },
+      {
         "blockClass": "block-html-clear-both-wrapper",
         "blockClassSub": null,
         "blockContent": [
