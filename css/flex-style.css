@@ -124,6 +124,15 @@
 
 /* Medium devices (desktops, 992px and up), @screen-md-min */
 @media (min-width:992px) {
+  .col-md-20-p {
+    width: 20%;
+    float: left;
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
   .md-margin-left-n-24 {
     margin-left: -24px;
   }
@@ -155,13 +164,4 @@
   background-color: #fff;
   margin: 0;
   padding: 0;  border: none;
-}
-
-.col-md-20-p {
-  width: 20%;
-  float: left;
-  position: relative;
-  min-height: 1px;
-  padding-right: 15px;
-  padding-left: 15px;
 }
