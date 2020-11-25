@@ -182,15 +182,12 @@ export class AppComponent implements OnInit {
       }
 
       this.finishLoadLastJsonFile = true;
-      console.log(this.sectionContent);
-      console.log(this.finishLoadLastJsonFile);
     }, // Bind to view
     err => {
       // Log errors if any
       console.log('error: ', err);
     });
   }
-
 
   ngOnInit() {
     setTimeout(() => {
@@ -209,7 +206,8 @@ export class AppComponent implements OnInit {
         this.temp = true;
 
         if(this.countOnScroll < 4) {
-          this.getChartJSONAndDisplay(this.section);
+          // this.getChartJSONAndDisplay(this.section);
+          this.getChartJSONAndDisplay('lazy' + this.countOnScroll);
           this.countOnScroll++;
         }
       }

@@ -460,8 +460,6 @@ var AppComponent = /** @class */ (function () {
                 });
             }
             _this.finishLoadLastJsonFile = true;
-            console.log(_this.sectionContent);
-            console.log(_this.finishLoadLastJsonFile);
         }, // Bind to view
         function (// Bind to view
         err) {
@@ -482,7 +480,8 @@ var AppComponent = /** @class */ (function () {
             if (this.section == 'lazy1' || this.section == 'BU1') {
                 this.temp = true;
                 if (this.countOnScroll < 4) {
-                    this.getChartJSONAndDisplay(this.section);
+                    // this.getChartJSONAndDisplay(this.section);
+                    this.getChartJSONAndDisplay('lazy' + this.countOnScroll);
                     this.countOnScroll++;
                 }
             }
