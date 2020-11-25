@@ -19,7 +19,7 @@ export class AppService {
   /**
    *
    */
-  getJsonFile() {
+  getJsonFile(section) {
     // return this.http.get('./assets/data/testData.json');
     // return this.http.get('http://localhost:8888/emd/web/libraries/primeng7app/dist/angular7-primeng7-template/assets/data/test2.json');
 
@@ -30,7 +30,7 @@ export class AppService {
     var ngDrupalSettings = new NgDrupalSettings();
     var pathArg = ngDrupalSettings.drupalSettings.path.currentPath.split('/');
 
-    var section = pathArg.slice(-5)[0].toLowerCase();
+    // var section = pathArg.slice(-5)[0].toLowerCase();
     // $type is 'page' or 'form'
     var type = pathArg.slice(-4)[0].toLowerCase();
     var entityId = pathArg.slice(-3)[0].toLowerCase();
@@ -51,7 +51,9 @@ export class AppService {
     }
 
     return this.http.get(ngDrupalSettings.drupalSettings.path.baseUrl + 'ngjson/' + section + '/' + type + '/'  + entityId + '/start/end');
+
   }
+
 
   /**
    *

@@ -70,122 +70,21 @@ export class AppComponent implements OnInit {
 
   meetingEventData: string;
 
+  countOnScroll = 2;
+
+  newLoadedData: any[];
+  newLoadedSectionContent: any;
+
+  finishLoadLastJsonFile: boolean;
+
+  section: string;
+  temp: boolean;
+
   constructor(private myService: AppService) {
-
-    // this.programTypes = [
-    //   {"name": "None"},
-    //   {"name": "Accredited"},
-    //   {"name": "OLAs"},
-    //   {"name": "Symposia"},
-    //   {"name": "Non Accredited"}
-    // ];
-
-    // this.selectedProgram = {
-    //   "name": "2018 Diabetes Canada Clinical Practice Guidelines: Chapter 23: Cardiovascular Protection"
-    // };
-
-    // this.programs = [
-    //   {"name": "None"},
-    //   {"name": "2017 COPD & Asthma Update: Hot Topics"},
-    //   {"name": "2017 COPD Review with Graeme McCauley"},
-    //   {"name": "2017 Let\'s Have a Heart to Heart: CV Considerations in Type 2 DM"},
-    //   {"name": "2017: The Changing Landscape in the Treatment of COPD"},
-    //   {"name": "2018 Diabetes Canada Clinical Practice Guidelines: Chapter 23: Cardiovascular Protection"}
-    // ];
-
-    // this.enteredMeetingName = "Meeting - 2018 Diabetes Canada Clinical Practice Guidelines: Chapter 23: Cardiovascular Protection";
-
-    // this.modules = [
-    //   {
-    //     "label": "MODULE 5: MANAGING SPECIAL SITUATIONS AND PATIENT POPULATIONS: HIV, TUBERCULOSIS (TB), HEPATITIS B & C, CHRONIC PERIODONTITIS AND THE USE OF BIOLOGICS IN PREGNANCY",
-    //     "value": "MODULE 5: MANAGING SPECIAL SITUATIONS AND PATIENT POPULATIONS: HIV, TUBERCULOSIS (TB), HEPATITIS B & C, CHRONIC PERIODONTITIS AND THE USE OF BIOLOGICS IN PREGNANCY"
-    //   },
-    //   {
-    //     "label": "Chronic Kidney Disease",
-    //     "value": "Chronic Kidney Disease"
-    //   },
-    //   {
-    //     "label": "Complex Patients: Therapies that Can Reduce Mortality",
-    //     "value": "Complex Patients: Therapies that Can Reduce Mortality",
-    //   },
-    //   {
-    //     "label": "Diabetes in Aboriginal Populations",
-    //     "value": "Diabetes in Aboriginal Populations"
-    //   },
-    //   {
-    //     "label": "Diabetes Management in the Presence of Glucocorticoids",
-    //     "value": "Diabetes Management in the Presence of Glucocorticoids"
-    //   },
-    //   {
-    //     "label": "Early Use of Insulin Therapy in T2D",
-    //     "value": "Early Use of Insulin Therapy in T2D"
-    //   },
-    //   {
-    //     "label": "Eating Disorders in Diabetes",
-    //     "value": "Eating Disorders in Diabetes"
-    //   }
-    // ];
-
-    // this.speakers = [
-    //   {
-    //     "label": "Marie-Claude Racine",
-    //     "value": "Marie-Claude Racine"
-    //   },
-    //   {
-    //     "label": "Larry Dian",
-    //     "value": "Larry Dian",
-    //   },
-    //   {
-    //     "label": "Shereen Metias",
-    //     "value": "Shereen Metias"
-    //   },
-    //   {
-    //     "label": "Marie-Hélène Robert",
-    //     "value": "Marie-Hélène Robert"
-    //   },
-    //   {
-    //     "label": "Patrice Gosselin",
-    //     "value": "Patrice Gosselin"
-    //   },
-    //   {
-    //     "label": "Danielle Houde",
-    //     "value": "Danielle Houde"
-    //   }
-    // ];
-
-    // this.evaluationForms = [
-    //   {"name": "None"},
-    //   {"name": "If you hear hoofbeats, think..."},
-    //   {"name": "(New Advances in the Management of Respiratory Disorders) Shifting Paradigms in COPD Management & Navigating COPD Devices"},
-    //   {"name": "2017 Lets have a Heart to Heart: CV Considerations in T2DM"},
-    //   {"name": "2018 Diabetes Canada Clinical Practice Guidelines: Chapter 23: Cardiovascular Protection"},
-    //   {"name": "A Change Of Heart: Emerging Strategies In The Management Of CV Risk In Type 2 Diabetes Overview"},
-    //   {"name": "Acides gras oméga-3 alimentaires d’origine marine et rétinopathie menaçant la vue chez les personnes d’âge mûr et âgées atteintes de diabète de type 2"}
-    // ];
-
-    // this.selectedEvaluationForms = {
-    //   "name": "2018 Diabetes Canada Clinical Practice Guidelines: Chapter 23: Cardiovascular Protection"
-    // };
-
-    // this.meetingFormats = [
-    //   {"name": "None"},
-    //   {"name": "HCP Scholarships"},
-    //   {"name": "Hybrid (Live/virtual)"},
-    //   {"name": "Independent Sponsor Materials"},
-    //   {"name": "Live"},
-    //   {"name": "Webinar"}
-    // ];
-
-    // this.meetingTimes = [
-    //   {"name": "12:00 AM"},
-    //   {"name": "3:00 AM"},
-    //   {"name": "6:00 AM"},
-    //   {"name": "9:00 AM"},
-    //   {"name": "12:00 PM"},
-    //   {"name": "3:00 PM"},
-    //   {"name": "6:00 PM"},
-    //   {"name": "9:00 PM"},
-    // ];
+    var ngDrupalSettings = new NgDrupalSettings();
+    var pathArg = ngDrupalSettings.drupalSettings.path.currentPath.split('/');
+    this.section = pathArg.slice(-5)[0].toLowerCase();
+    this.temp = false;
   }
 
   showDialog() {
@@ -193,12 +92,13 @@ export class AppComponent implements OnInit {
   }
 
   // get all data
-  getChartJSONAndDisplay() {
+  getChartJSONAndDisplay(jsonFileName) {
 
-    this.myService.getJsonFile().subscribe(data => {
-      this.sectionContent = data;
+    this.myService.getJsonFile(jsonFileName).subscribe(data => {
 
-      this.sectionContent.forEach(eachComponent => {
+      this.newLoadedSectionContent = data;
+
+      this.newLoadedSectionContent.forEach(eachComponent => {
         if (eachComponent.componentname == 'primengchartjs') {
           this.primengDataGeneral = eachComponent.primengcontentdata;
           this.primengDataGeneral.forEach(eachBlockData => {
@@ -262,6 +162,28 @@ export class AppComponent implements OnInit {
         }
 
       });
+
+      if (!this.temp) {
+        this.sectionContent = this.newLoadedSectionContent
+      }
+      else {
+        this.newLoadedSectionContent.forEach(eachComponentf => {
+          if (eachComponentf.componentname == 'primengchartjs') {
+            this.newLoadedData = eachComponentf.primengcontentdata;
+          }
+        });
+
+        this.sectionContent.forEach(eachComponents => {
+          if (eachComponents.componentname == 'primengchartjs') {
+           eachComponents.primengcontentdata.push(...this.newLoadedData);
+           // eachComponents.primengcontentdata = eachComponents.primengcontentdata.concat(this.newLoadedData);
+          }
+        });
+      }
+
+      this.finishLoadLastJsonFile = true;
+      console.log(this.sectionContent);
+      console.log(this.finishLoadLastJsonFile);
     }, // Bind to view
     err => {
       // Log errors if any
@@ -270,16 +192,29 @@ export class AppComponent implements OnInit {
   }
 
 
-  // @ViewChild('divClick') divClick: ElementRef;
-
   ngOnInit() {
-
     setTimeout(() => {
       // this.divClick.nativeElement.click();
     }, 200);
 
-    this.getChartJSONAndDisplay();
+    this.sectionContent = null;
+    this.temp = false;
 
+    this.getChartJSONAndDisplay(this.section);
+  }
+
+  ngDoCheck() {
+    if (this.finishLoadLastJsonFile) {
+      if (this.section == 'lazy1' || this.section == 'BU1' ) {
+        this.temp = true;
+
+        if(this.countOnScroll < 4) {
+          this.getChartJSONAndDisplay(this.section);
+          this.countOnScroll++;
+        }
+      }
+      this.finishLoadLastJsonFile = false;
+    }
   }
 }
 

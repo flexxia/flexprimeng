@@ -328,7 +328,7 @@ module.exports = "body .primengapp-dev-wrapper .ui-tabview .ui-tabview-panels {\
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n<!-- <router-outlet></router-outlet> -->\n\n<div class=\"primengapp-dev-wrapper\">\n  <!-- meeting event form -->\n  <div *ngFor=\"let eachcomponent of sectionContent\">\n    <div *ngIf=\"eachcomponent.componentname == 'primengforms'; else elseBlock\">\n      <app-ngform [name]=\"eachcomponent\"></app-ngform>\n    </div>\n\n    <div *ngIf=\"eachcomponent.componentname == 'primengchartjs'; else elseBlock\">\n      <app-primeng-chartjs [chartInputData]=\"eachcomponent\"></app-primeng-chartjs>\n    </div>\n\n    <div *ngIf=\"eachcomponent.componentname == 'primengtable'; else elseBlock\">\n      <app-primeng-table [tableInputData]=\"eachcomponent\"></app-primeng-table>\n    </div>\n\n    <div *ngIf=\"eachcomponent.componentname == 'customhtml'; else elseBlock\">\n      <app-custome-html [htmlInputData]=\"eachcomponent\"></app-custome-html>\n    </div>\n\n    <div *ngIf=\"eachcomponent.componentname == 'navbuttons'; else elseBlock\">\n      <app-nav-button [displayNavButton]=\"eachcomponent.componentcontent\"></app-nav-button>\n    </div>\n\n    <!-- <div *ngIf=\"eachcomponent.componentname == 'loadspinner'; else elseBlock\">\n      <app-load-spinner [displayloadspinner]=\"eachcomponent.componentcontent\"></app-load-spinner>\n    </div> -->\n  </div>\n\n  <app-load-spinner [displayloadspinner]=\"true\"></app-load-spinner>\n\n  <!-- <div *ngFor=\"let eachcomponent of sectionContent\">\n\n  </div>\n\n  <div *ngFor=\"let eachcomponent of sectionContent\">\n\n  </div> -->\n\n\n</div>\n\n\n\n\n\n\n"
+module.exports = "\n<!-- <router-outlet></router-outlet> -->\n\n<div class=\"primengapp-dev-wrapper\">\n  <!-- meeting event form -->\n  <div *ngFor=\"let eachcomponent of sectionContent\">\n    <div *ngIf=\"eachcomponent.componentname == 'primengforms'; else elseBlock\">\n      <app-ngform [name]=\"eachcomponent\"></app-ngform>\n    </div>\n\n    <div *ngIf=\"eachcomponent.componentname == 'primengchartjs'; else elseBlock\">\n\n      <app-primeng-chartjs [chartInputData]=\"eachcomponent\"></app-primeng-chartjs>\n    </div>\n\n    <div *ngIf=\"eachcomponent.componentname == 'primengtable'; else elseBlock\">\n      <app-primeng-table [tableInputData]=\"eachcomponent\"></app-primeng-table>\n    </div>\n\n    <div *ngIf=\"eachcomponent.componentname == 'customhtml'; else elseBlock\">\n      <app-custome-html [htmlInputData]=\"eachcomponent\"></app-custome-html>\n    </div>\n\n    <div *ngIf=\"eachcomponent.componentname == 'navbuttons'; else elseBlock\">\n      <app-nav-button [displayNavButton]=\"eachcomponent.componentcontent\"></app-nav-button>\n    </div>\n\n    <!-- <div *ngIf=\"eachcomponent.componentname == 'loadspinner'; else elseBlock\">\n      <app-load-spinner [displayloadspinner]=\"eachcomponent.componentcontent\"></app-load-spinner>\n    </div> -->\n  </div>\n\n  <app-load-spinner [displayloadspinner]=\"true\"></app-load-spinner>\n\n  <!-- <div *ngFor=\"let eachcomponent of sectionContent\">\n\n  </div>\n\n  <div *ngFor=\"let eachcomponent of sectionContent\">\n\n  </div> -->\n</div>\n\n"
 
 /***/ }),
 
@@ -351,6 +351,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var chartjs_plugin_labels__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(chartjs_plugin_labels__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var chartjs_plugin_stacked100__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! chartjs-plugin-stacked100 */ "./node_modules/chartjs-plugin-stacked100/src/index.js");
 /* harmony import */ var chartjs_plugin_stacked100__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(chartjs_plugin_stacked100__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _app_ngdrupalsettings__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./app.ngdrupalsettings */ "./src/app/app.ngdrupalsettings.js");
+
 
 
 
@@ -359,126 +361,26 @@ __webpack_require__.r(__webpack_exports__);
 
 var AppComponent = /** @class */ (function () {
     function AppComponent(myService) {
-        // this.programTypes = [
-        //   {"name": "None"},
-        //   {"name": "Accredited"},
-        //   {"name": "OLAs"},
-        //   {"name": "Symposia"},
-        //   {"name": "Non Accredited"}
-        // ];
         this.myService = myService;
         this.selectedRoles = [];
         this.display = false;
         // modules: SelectItem[];
         this.selectedModules = "";
-        // this.selectedProgram = {
-        //   "name": "2018 Diabetes Canada Clinical Practice Guidelines: Chapter 23: Cardiovascular Protection"
-        // };
-        // this.programs = [
-        //   {"name": "None"},
-        //   {"name": "2017 COPD & Asthma Update: Hot Topics"},
-        //   {"name": "2017 COPD Review with Graeme McCauley"},
-        //   {"name": "2017 Let\'s Have a Heart to Heart: CV Considerations in Type 2 DM"},
-        //   {"name": "2017: The Changing Landscape in the Treatment of COPD"},
-        //   {"name": "2018 Diabetes Canada Clinical Practice Guidelines: Chapter 23: Cardiovascular Protection"}
-        // ];
-        // this.enteredMeetingName = "Meeting - 2018 Diabetes Canada Clinical Practice Guidelines: Chapter 23: Cardiovascular Protection";
-        // this.modules = [
-        //   {
-        //     "label": "MODULE 5: MANAGING SPECIAL SITUATIONS AND PATIENT POPULATIONS: HIV, TUBERCULOSIS (TB), HEPATITIS B & C, CHRONIC PERIODONTITIS AND THE USE OF BIOLOGICS IN PREGNANCY",
-        //     "value": "MODULE 5: MANAGING SPECIAL SITUATIONS AND PATIENT POPULATIONS: HIV, TUBERCULOSIS (TB), HEPATITIS B & C, CHRONIC PERIODONTITIS AND THE USE OF BIOLOGICS IN PREGNANCY"
-        //   },
-        //   {
-        //     "label": "Chronic Kidney Disease",
-        //     "value": "Chronic Kidney Disease"
-        //   },
-        //   {
-        //     "label": "Complex Patients: Therapies that Can Reduce Mortality",
-        //     "value": "Complex Patients: Therapies that Can Reduce Mortality",
-        //   },
-        //   {
-        //     "label": "Diabetes in Aboriginal Populations",
-        //     "value": "Diabetes in Aboriginal Populations"
-        //   },
-        //   {
-        //     "label": "Diabetes Management in the Presence of Glucocorticoids",
-        //     "value": "Diabetes Management in the Presence of Glucocorticoids"
-        //   },
-        //   {
-        //     "label": "Early Use of Insulin Therapy in T2D",
-        //     "value": "Early Use of Insulin Therapy in T2D"
-        //   },
-        //   {
-        //     "label": "Eating Disorders in Diabetes",
-        //     "value": "Eating Disorders in Diabetes"
-        //   }
-        // ];
-        // this.speakers = [
-        //   {
-        //     "label": "Marie-Claude Racine",
-        //     "value": "Marie-Claude Racine"
-        //   },
-        //   {
-        //     "label": "Larry Dian",
-        //     "value": "Larry Dian",
-        //   },
-        //   {
-        //     "label": "Shereen Metias",
-        //     "value": "Shereen Metias"
-        //   },
-        //   {
-        //     "label": "Marie-Hélène Robert",
-        //     "value": "Marie-Hélène Robert"
-        //   },
-        //   {
-        //     "label": "Patrice Gosselin",
-        //     "value": "Patrice Gosselin"
-        //   },
-        //   {
-        //     "label": "Danielle Houde",
-        //     "value": "Danielle Houde"
-        //   }
-        // ];
-        // this.evaluationForms = [
-        //   {"name": "None"},
-        //   {"name": "If you hear hoofbeats, think..."},
-        //   {"name": "(New Advances in the Management of Respiratory Disorders) Shifting Paradigms in COPD Management & Navigating COPD Devices"},
-        //   {"name": "2017 Lets have a Heart to Heart: CV Considerations in T2DM"},
-        //   {"name": "2018 Diabetes Canada Clinical Practice Guidelines: Chapter 23: Cardiovascular Protection"},
-        //   {"name": "A Change Of Heart: Emerging Strategies In The Management Of CV Risk In Type 2 Diabetes Overview"},
-        //   {"name": "Acides gras oméga-3 alimentaires d’origine marine et rétinopathie menaçant la vue chez les personnes d’âge mûr et âgées atteintes de diabète de type 2"}
-        // ];
-        // this.selectedEvaluationForms = {
-        //   "name": "2018 Diabetes Canada Clinical Practice Guidelines: Chapter 23: Cardiovascular Protection"
-        // };
-        // this.meetingFormats = [
-        //   {"name": "None"},
-        //   {"name": "HCP Scholarships"},
-        //   {"name": "Hybrid (Live/virtual)"},
-        //   {"name": "Independent Sponsor Materials"},
-        //   {"name": "Live"},
-        //   {"name": "Webinar"}
-        // ];
-        // this.meetingTimes = [
-        //   {"name": "12:00 AM"},
-        //   {"name": "3:00 AM"},
-        //   {"name": "6:00 AM"},
-        //   {"name": "9:00 AM"},
-        //   {"name": "12:00 PM"},
-        //   {"name": "3:00 PM"},
-        //   {"name": "6:00 PM"},
-        //   {"name": "9:00 PM"},
-        // ];
+        this.countOnScroll = 2;
+        var ngDrupalSettings = new _app_ngdrupalsettings__WEBPACK_IMPORTED_MODULE_6__["NgDrupalSettings"]();
+        var pathArg = ngDrupalSettings.drupalSettings.path.currentPath.split('/');
+        this.section = pathArg.slice(-5)[0].toLowerCase();
+        this.temp = false;
     }
     AppComponent.prototype.showDialog = function () {
         this.display = true;
     };
     // get all data
-    AppComponent.prototype.getChartJSONAndDisplay = function () {
+    AppComponent.prototype.getChartJSONAndDisplay = function (jsonFileName) {
         var _this = this;
-        this.myService.getJsonFile().subscribe(function (data) {
-            _this.sectionContent = data;
-            _this.sectionContent.forEach(function (eachComponent) {
+        this.myService.getJsonFile(jsonFileName).subscribe(function (data) {
+            _this.newLoadedSectionContent = data;
+            _this.newLoadedSectionContent.forEach(function (eachComponent) {
                 if (eachComponent.componentname == 'primengchartjs') {
                     _this.primengDataGeneral = eachComponent.primengcontentdata;
                     _this.primengDataGeneral.forEach(function (eachBlockData) {
@@ -540,6 +442,26 @@ var AppComponent = /** @class */ (function () {
                     });
                 }
             });
+            if (!_this.temp) {
+                _this.sectionContent = _this.newLoadedSectionContent;
+            }
+            else {
+                _this.newLoadedSectionContent.forEach(function (eachComponentf) {
+                    if (eachComponentf.componentname == 'primengchartjs') {
+                        _this.newLoadedData = eachComponentf.primengcontentdata;
+                    }
+                });
+                _this.sectionContent.forEach(function (eachComponents) {
+                    var _a;
+                    if (eachComponents.componentname == 'primengchartjs') {
+                        (_a = eachComponents.primengcontentdata).push.apply(_a, _this.newLoadedData);
+                        // eachComponents.primengcontentdata = eachComponents.primengcontentdata.concat(this.newLoadedData);
+                    }
+                });
+            }
+            _this.finishLoadLastJsonFile = true;
+            console.log(_this.sectionContent);
+            console.log(_this.finishLoadLastJsonFile);
         }, // Bind to view
         function (// Bind to view
         err) {
@@ -547,12 +469,25 @@ var AppComponent = /** @class */ (function () {
             console.log('error: ', err);
         });
     };
-    // @ViewChild('divClick') divClick: ElementRef;
     AppComponent.prototype.ngOnInit = function () {
         setTimeout(function () {
             // this.divClick.nativeElement.click();
         }, 200);
-        this.getChartJSONAndDisplay();
+        this.sectionContent = null;
+        this.temp = false;
+        this.getChartJSONAndDisplay(this.section);
+    };
+    AppComponent.prototype.ngDoCheck = function () {
+        if (this.finishLoadLastJsonFile) {
+            if (this.section == 'lazy1' || this.section == 'BU1') {
+                this.temp = true;
+                if (this.countOnScroll < 4) {
+                    this.getChartJSONAndDisplay(this.section);
+                    this.countOnScroll++;
+                }
+            }
+            this.finishLoadLastJsonFile = false;
+        }
     };
     AppComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["Component"])({
@@ -762,7 +697,7 @@ var AppService = /** @class */ (function () {
     /**
      *
      */
-    AppService.prototype.getJsonFile = function () {
+    AppService.prototype.getJsonFile = function (section) {
         // return this.http.get('./assets/data/testData.json');
         // return this.http.get('http://localhost:8888/emd/web/libraries/primeng7app/dist/angular7-primeng7-template/assets/data/test2.json');
         // return this.http.get('../../libraries/primengapp/dist/my-angular6/assets/data/chartData.json');
@@ -770,7 +705,7 @@ var AppService = /** @class */ (function () {
         // return this.http.get('http://localhost/novartis8/web/ngjson/dashboard/page/1/2/3');
         var ngDrupalSettings = new _app_ngdrupalsettings__WEBPACK_IMPORTED_MODULE_3__["NgDrupalSettings"]();
         var pathArg = ngDrupalSettings.drupalSettings.path.currentPath.split('/');
-        var section = pathArg.slice(-5)[0].toLowerCase();
+        // var section = pathArg.slice(-5)[0].toLowerCase();
         // $type is 'page' or 'form'
         var type = pathArg.slice(-4)[0].toLowerCase();
         var entityId = pathArg.slice(-3)[0].toLowerCase();
