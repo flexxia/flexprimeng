@@ -477,11 +477,11 @@ var AppComponent = /** @class */ (function () {
     };
     AppComponent.prototype.ngDoCheck = function () {
         if (this.finishLoadLastJsonFile) {
-            if (this.section == 'lazy1' || this.section == 'BU1') {
+            if (this.section == 'dashboard' || this.section == 'BU1') {
                 this.temp = true;
                 if (this.countOnScroll < 4) {
                     // this.getChartJSONAndDisplay(this.section);
-                    this.getChartJSONAndDisplay('lazy' + this.countOnScroll);
+                    this.getChartJSONAndDisplay('dashboardlazy' + this.countOnScroll);
                     this.countOnScroll++;
                 }
             }
