@@ -32,3 +32,4 @@ ng build
 
 /usr/local/Cellar/node/11.12.0/bin/ng build
 
+ng build --prod
