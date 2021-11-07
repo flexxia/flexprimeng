@@ -47,6 +47,7 @@ npm -v
 <!--  -->
 ## Install the gulp package in your devDependencies and PostCSS with the Node Package Manager (NPM):
 
-> npm install gulp gulp-postcss --save-dev
+> npm install gulp --save-dev
+> npm install gulp-postcss --save-dev
 
 
