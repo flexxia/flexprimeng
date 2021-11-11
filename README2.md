@@ -3,6 +3,9 @@
 
 # composer
 sudo composer require --dev flexxia/flexprimeng:dev-master
+
+sudo php -d memory_limit=-1 /Users/Dong/Documents/app/composer/1.10.19/composer.phar require "flexxia/flexprimeng:dev-master"
+
 sudo php -d memory_limit=4096M /usr/local/bin/composer require "flexxia/flexprimeng:dev-master"
 sudo php -d memory_limit=4096M /usr/local/bin/composer require "flexxia/flexprimeng dev-master#b8a83d3"
 
