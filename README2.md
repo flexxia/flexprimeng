@@ -36,3 +36,12 @@ ng build
 /usr/local/Cellar/node/11.12.0/bin/ng build
 
 ng build --prod
+
+
+<!--  -->
+# .gitignore
+# Do not Ignore flexservice folder
+######################
+!web/modules/custom/flexservice/
+!web/modules/custom/flexservice**/*
+!web/modules/custom/flexservice/*
