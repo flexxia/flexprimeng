@@ -2,21 +2,21 @@
 
 
 # composer
+sudo php -d memory_limit=-1 `which composer` require "flexxia/flexprimeng:dev-master"
 sudo php -d memory_limit=-1 /Users/Dong/Documents/app/composer/1.10.19/composer.phar require "flexxia/flexprimeng:dev-master"
 
 ## 有时需要加 --dev
-sudo composer require --dev flexxia/flexprimeng:dev-master
+composer require --dev flexxia/flexprimeng:dev-master
 
 ## 指定版本
 sudo php -d memory_limit=4096M /usr/local/bin/composer require "flexxia/flexprimeng dev-master#b8a83d3"
 
 
 ###
-\\ Remove
-sudo composer remove flexxia/flexprimeng
-sudo php -d memory_limit=4096M /usr/local/bin/composer remove flexxia/flexprimeng
-
 composer show flexxia/flexprimeng
+
+# Remove
+sudo composer remove flexxia/flexprimeng
 
 sudo git rm -f --cached web/libraries/flexprimeng
 
